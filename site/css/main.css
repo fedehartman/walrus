@@ -17,12 +17,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 @import "main/aside.css";
 @import "main/store.css";
 @import "main/listados.css";
-
 @import "main/common.css";
+
+
 
 /*--| MAIN
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
-
 
 .main_wrapper {
 	width: 1065px;

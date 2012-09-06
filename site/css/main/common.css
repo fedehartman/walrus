@@ -39,14 +39,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| COMPRALO
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
-.test {
-	width: 900px;
-	height: auto;
-	min-height: 400px;
-	overflow: hidden;
-	margin: 50px 0px 0px 10px;
-	}
-
 .comprar {margin: 5px;}
 
 
