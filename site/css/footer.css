@@ -140,25 +140,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
 	}
 
-button.footer2-btn-empresa {
-	height: 19px;
-	padding: 1px 5px 0px 2px;
-	font: normal 1.1em/1.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #eaecec;
-	float: right;
-	margin-top: 8px;
-	}
+.boton .boton-chico a i.boton-mail {background: url(../../img/footer/footer.png) no-repeat -170px -845px;}
 
-i.footer2-btn-icon {
-	width: 20px;
-	height: 15px;
-	display: inline-block;
-	vertical-align: text-top;
-	margin: 0px 4px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	border-right: 1px solid #637d1a;
-	background: url(../img/footer/footer.png) no-repeat -170px -845px;	
-	}
+#footer2 .boton {margin: 6px 0px 0px 0px;}
 
 
 
@@ -320,14 +304,14 @@ footer {
 	background: url(../img/footer/footer.png) no-repeat -185px -860px;
 	}
 
-.footer_2-top dd {height: 25px; float: left; margin-top:}
-      .footer_2-top dd.visa {width: 55px; background: url(../img/footer/footer.png) no-repeat -185px -885px;}
-.footer_2-top dd.mastercard {width: 50px; background: url(../img/footer/footer.png) no-repeat -240px -885px;}
-   .footer_2-top dd.ocacard {width: 65px; background: url(../img/footer/footer.png) no-repeat -290px -885px;}
- .footer_2-top dd.santander {width: 90px; background: url(../img/footer/footer.png) no-repeat -355px -885px;}
-     .footer_2-top dd.ebrou {width: 65px; background: url(../img/footer/footer.png) no-repeat -445px -885px;}
-     .footer_2-top dd.cabal {width: 40px; background: url(../img/footer/footer.png) no-repeat -510px -885px;}
-    .footer_2-top dd.abitab {width: 80px; background: url(../img/footer/footer.png) no-repeat -550px -885px;}
+.footer_2-top dd {height: 25px; float: left;}
+      .footer_2-top dd.visa a {display: inline-block; width: 55px; height: 25px; background: url(../img/footer/footer.png) no-repeat -185px -885px;}
+.footer_2-top dd.mastercard a {display: inline-block; width: 50px; height: 25px; background: url(../img/footer/footer.png) no-repeat -240px -885px;}
+   .footer_2-top dd.ocacard a {display: inline-block; width: 65px; height: 25px; background: url(../img/footer/footer.png) no-repeat -290px -885px;}
+ .footer_2-top dd.santander a {display: inline-block; width: 90px; height: 25px; background: url(../img/footer/footer.png) no-repeat -355px -885px;}
+     .footer_2-top dd.ebrou a {display: inline-block; width: 65px; height: 25px; background: url(../img/footer/footer.png) no-repeat -445px -885px;}
+     .footer_2-top dd.cabal a {display: inline-block; width: 40px; height: 25px; background: url(../img/footer/footer.png) no-repeat -510px -885px;}
+    .footer_2-top dd.abitab a {display: inline-block; width: 80px; height: 25px; background: url(../img/footer/footer.png) no-repeat -550px -885px;}
 
 .footer_2-bot {
 	width: 445px;

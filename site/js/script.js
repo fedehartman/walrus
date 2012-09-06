@@ -7,7 +7,24 @@ $(document).ready(function () {
         completeAnimation: "grow"
     });*/
 
+
+/*--| TOOLTIP
+------------------------------------------------------------------------------------------------------------- |--*/
+
+$("[rel=tooltip]").tooltip();
+$("#example").tooltip({'placement':'top', 'trigger' : 'hover'});
+
+
+
+/*--| MODAL FOOTER YOUTUBE
+------------------------------------------------------------------------------------------------------------- |--*/
+
 $("#modal_footer_youtube").modal('hide');
+
+
+
+/*--| SLIDER STORE ASIDE
+------------------------------------------------------------------------------------------------------------- |--*/
 
 $('#home-aside-store .slider').easySlider({
 		auto: true,
@@ -16,10 +33,17 @@ $('#home-aside-store .slider').easySlider({
 		numeric: true
 	});
 
+
+
+/*--| SLIDER HOME
+------------------------------------------------------------------------------------------------------------- |--*/
+
 $('figure.detalles-img').cycle({ 
     fx:    'fade', 
     speed:  2500 
  });
+
+
 
 
 });

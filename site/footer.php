@@ -34,7 +34,7 @@
 					<h4>Sumá tu empresa a wóÒw</h4>
 					<canvas class="footer2_grafica"></canvas>
 					<p>wóÒw te puede llevar cientos de consumidores a tu puerta</p>
-					<button class="boton footer2-btn-empresa" href="#"><i class="footer2-btn-icon"></i>Contactanos aquí</button>
+					<div class="boton boton-chico right"><a href="#"><i class="boton-mail"></i>Contactanos aquí</a></div>
 				</div>
 
 				<canvas class="footer2_divider"></canvas>
@@ -49,7 +49,7 @@
 					<p><a href="mailto:info@woow.com.uy"><i class="footer2_3-mail"></i>info@woow.com.uy</a></p>
 					<p><i class="footer2_3-tel"></i>2 408 5555</p>
 					<p><i class="footer2_3-day"></i>Lunes a Viernes de 9 a 18hs</p>
-					<button class="boton footer2-btn-empresa" href="#"><i class="footer2-btn-icon"></i>Envianos tu consulta</button>
+					<div class="boton boton-chico right"><a href="#"><i class="boton-mail"></i>Envianos tu consulta</a></div>
 				</div>
 
 				<canvas class="footer2_divider"></canvas>
@@ -147,21 +147,21 @@
 		<div class="footer_2-top">
 			<dl>
 				<dt><i class="footer_2-top"></i>Tu Compra Segura con:</dt>
-					<dd class="visa"><span class="none">Visa</span></dd>
-					<dd class="mastercard"><span class="none">MasterCard</span></dd>
-					<dd class="ocacard"><span class="none">OcaCard</span></dd>
-					<dd class="santander"><span class="none">Santander</span></dd>
-					<dd class="ebrou"><span class="none">E-Brou</span></dd>
-					<dd class="cabal"><span class="none">Cabal</span></dd>
-					<dd class="abitab"><span class="none">Abitab</span></dd>
+					<dd class="visa"><a href="#" rel="tooltip" title="Visa"><span class="none">Visa</span></a></dd>
+					<dd class="mastercard"><a href="#" rel="tooltip" title="MasterCard"><span class="none">MasterCard</span></a></dd>
+					<dd class="ocacard"><a href="#" rel="tooltip" title="OcaCard"><span class="none">OcaCard</span></a></dd>
+					<dd class="santander"><a href="#" rel="tooltip" title="Santander"><span class="none">Santander</span></a></dd>
+					<dd class="ebrou"><a href="#" rel="tooltip" title="E-Brou"><span class="none">E-Brou</span></a></dd>
+					<dd class="cabal"><a href="#" rel="tooltip" title="Cabal"><span class="none">Cabal</span></a></dd>
+					<dd class="abitab"><a href="#" rel="tooltip" title="Abitab"><span class="none">Abitab</span></a></dd>
 			</dl>
 		</div>
 
 		<div class="footer_2-bot">
 			<div class="footer_2-bot-left">
-				<div class="footer_2-fb"><a href="http://www.facebook.com/woOw.MVD"><span class="none">Facebook</span></a></div>
-				<div class="footer_2-tw"><a href="http://twitter.com/woowuruguay"><span class="none">Twiiter</span></a></div>
-				<div class="footer_2-mail"><a href="mailto:info@woow.com.uy"><span class="none">Mail</span></a></div>
+				<div class="footer_2-fb"><a href="http://www.facebook.com/woOw.MVD" rel="tooltip" title="Facebook"><span class="none">Facebook</span></a></div>
+				<div class="footer_2-tw"><a href="http://twitter.com/woowuruguay" rel="tooltip" title="Twitter"><span class="none">Twiiter</span></a></div>
+				<div class="footer_2-mail"><a href="mailto:info@woow.com.uy" rel="tooltip" title="Correo"><span class="none">Mail</span></a></div>
 			</div>
 			<div class="footer_2-bot-right">
 				<div class="footer_2-woow"><a href="#"><span class="none">wóÒw</span></a></div>
@@ -172,6 +172,7 @@
 	</div>
 
 <!--| =================================================================================================================== |-->
+
 
 
 </div>

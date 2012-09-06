@@ -14,7 +14,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 @import "queryLoader.css";
-@import "modales.css";
+@import "plugins.css";
 @import "body.css";
 @import "header.css";
 @import "main.css";
@@ -25,11 +25,11 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 .test {
-	width: 900px;
+	float: left;
 	height: auto;
-	min-height: 200px;
+	min-height: 20px;
 	overflow: hidden;
-	margin: 30px auto 20px auto;
+	margin: 30px 15px 20px 15px;
 	padding: 20px;
 	border: 1px solid #CCC;
 	-webkit-border-radius: 15px;

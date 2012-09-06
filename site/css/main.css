@@ -49,7 +49,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .content {
 	width: 985px;
 	height: auto;
-	min-height: 120px;
+	min-height: 420px;
 	overflow: hidden;
 	margin: 10px auto 0px auto;
 	}

@@ -78,9 +78,14 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <div class="test">
 
-shdfh
+<div id="example"><a href="#" id="element" rel="tooltip" title="first tooltip">hover over me</a></div>
+
+</div>
 
 
+<div class="test">
+
+<div class="boton boton-chico"><a href="#"><i class="boton-mail"></i>Contactanos aquí</a></div>
 
 </div>
 
