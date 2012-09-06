@@ -13,6 +13,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| IMPORT
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+@import "main/popup.css";
 @import "main/home.css";
 @import "main/aside.css";
 @import "main/store.css";

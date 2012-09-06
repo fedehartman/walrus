@@ -1,0 +1,108 @@
+/*
+Theme Name: Woow | MAIN - POPUP
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| POPUP
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#popup {
+	width: 1920px;
+	height: 1200px;
+	position: absolute;
+	z-index: 30000;
+	margin: -600px 0px 0px -960px;
+	left: 50%;
+	top: 50%;
+	overflow: hidden;
+	}
+
+.popup-overlay {
+	width: 100%;
+	height: 100%;
+	background: #00a5e7 url(../../img/body/back.jpg) no-repeat fixed center 0px;
+	filter: alpha(opacity=89);
+	-khtml-opacity: 0.89;
+	-moz-opacity: 0.89;
+	opacity: 0.89;
+	}
+
+.popup-green {
+	width: 710px;
+	height: 450px;
+	position: absolute;
+	z-index: 10;
+	margin: -245px 0px 0px -355px;
+	left: 50%;
+	top: 50%;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+	-webkit-box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.35);
+	   -moz-box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.35);
+	        box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.35);
+	/*background-color: #94b929;
+	background-image: url(../../img/textures/raya.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #86a924), color-stop(1, #5a7512));
+	                                     background-image: -ms-linear-gradient(top, #86a924 0%,             #5a7512 100%);
+	                                    background-image: -moz-linear-gradient(top, #86a924 0%,             #5a7512 100%);   
+	                                      background-image: -o-linear-gradient(top, #86a924 0%,             #5a7512 100%);
+		                             background-image: -webkit-linear-gradient(top, #86a924 0%,             #5a7512 100%);
+	                                   background-image: linear-gradient(to bottom, #86a924 0%,             #5a7512 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #86a924), color-stop(1, #5a7512));
+	*/
+	
+	background: #86a924;
+	/*background: -moz-linear-gradient(top,  #86a924 0%, #8fb228 35%, #81a320 100%);*/
+	background-image: url(../../img/textures/raya.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#86a924), color-stop(35%,#8fb228), color-stop(100%,#81a320));
+	/*background: -webkit-linear-gradient(top,  #86a924 0%,#8fb228 35%,#81a320 100%);
+	background: -o-linear-gradient(top,  #86a924 0%,#8fb228 35%,#81a320 100%);
+	background: -ms-linear-gradient(top,  #86a924 0%,#8fb228 35%,#81a320 100%);
+	background: linear-gradient(to bottom,  #86a924 0%,#8fb228 35%,#81a320 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a924', endColorstr='#81a320',GradientType=0 );*/
+	}
+
+.popup-content {
+	width: 710px;
+	height: 450px;
+	background: url(../../img/textures/sunbeans.png) no-repeat 0px 0px;
+	}
+
+
+#popup h1 {
+	width: 250px;
+	height: 170px;
+	position: absolute;
+	z-index: 20;
+	margin: -1px 0px 0px 10px;
+	top: 0%;
+	background: url(../../img/main/popup/popup.png) no-repeat 0px 0px;
+	}
+
+#popup h2 {
+	font: 700 2.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	width: 405px;
+	height: 130px;
+	margin: 30px 0px 0px 255px;
+	text-shadow: 1px 1px 3px #435900;
+	}
+
+
+
+
+/*<div id="popup">
+
+<canvas class="popup-overlay"></canvas>
+
+<div class="popup-content">
+opa
+</div>
+
+</div>*/

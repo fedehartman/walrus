@@ -15,7 +15,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <!--[if IE 8]><html class="no-js lt-ie9" lang="es-UY"><![endif]-->
 
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="es-UY">
+<html class="no-js popup" lang="es-UY">
 <!--<![endif]-->
 
 
@@ -44,7 +44,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 </head>
 
 
-<body id="home">
+<body id="home" class="popup">
+
+<?php include("popup.php"); ?>
 
 <?php include("modales.php"); ?>
 
@@ -57,75 +59,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-<!--| OFERTA FINALIZADA - OTRAS OFERTAS
-========================================================================================================================= |-->
-
-	<div class="lista lista-home">
-
-		<div class="lista-item">
-			<canvas class="lista-item-top"></canvas>
-			<div class="lista-item-body">
-				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-				<div class="data-final">
-				</div>
-				<div class="comprar lista-comprar right">
-					<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-				</div>
-			</div>
-			<canvas class="lista-item-bot"></canvas>
-		</div>
-
-		<div class="lista-item">
-			<canvas class="lista-item-top"></canvas>
-			<div class="lista-item-body">
-				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-				<figure><img src="img/samples/sample02.jpg" width="205" height="102"></figure>
-				<div class="data-final">
-				</div>
-				<div class="comprar lista-comprar right">
-					<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-				</div>
-			</div>
-			<canvas class="lista-item-bot"></canvas>
-		</div>
-
-		<div class="lista-item">
-			<canvas class="lista-item-top"></canvas>
-			<div class="lista-item-body">
-				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-				<figure><img src="img/samples/sample03.jpg" width="205" height="102"></figure>
-				<div class="data-final">
-				</div>
-				<div class="comprar lista-comprar right">
-					<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-				</div>
-			</div>
-			<canvas class="lista-item-bot"></canvas>
-		</div>
-
-		<div class="lista-item">
-			<canvas class="lista-item-top"></canvas>
-			<div class="lista-item-body">
-				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-				<figure><img src="img/samples/sample05.jpg" width="205" height="102"></figure>
-				<div class="data-final">
-				</div>
-				<div class="comprar lista-comprar right">
-					<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-				</div>
-			</div>
-			<canvas class="lista-item-bot"></canvas>
-		</div>
-
-	</div>
-
-
-
 <!--| HOME
 ====================================================================================================================================================== |-->
 
@@ -133,26 +66,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <section class="home">
 
-
-
-<!--| OFERTA FINALIZADA - OFERTA SIMILAR
-========================================================================================================================= |-->
-
-	<section id="oferta-similar" class="paper">
-		<figure><img src="img/samples/sample.jpg" width="410" height="205"></figure>
-		<article>
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<div class="final-data">
-			</div>
-			<div class="txt">
-				<p class="similiar">Te avisaremos cuando esté disponible nuevamente esta oferta o una similar.</p>
-			</div>
-			<div class="comprar oferta-similar-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Notificarme</a></p></div>
-			</div>
-		</article>
-	</section>
 
 
 <!--| LA OFERTA
