@@ -1,0 +1,340 @@
+/*
+Theme Name: Woow | MAIN - COMMON
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| PAPER
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.paper {
+	background: #e3e4d2 url(../../img/textures/paper.jpg) repeat 0px 0px;
+	margin: 5px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+.sombra {
+	margin: 5px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+
+
+/*--| COMPRALO
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.test {
+	width: 900px;
+	height: auto;
+	min-height: 400px;
+	overflow: hidden;
+	margin: 50px 0px 0px 10px;
+	}
+
+.comprar {margin: 5px;}
+
+
+
+/*--| PRECIO
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.comprar-precio {
+	display: table-cell;
+	float: left;
+	border: 1px solid #055286;
+	background-color: #055286;
+	                                     background-image: -ms-linear-gradient(top, #055286 0%,             #003f6a 100%);
+	                                    background-image: -moz-linear-gradient(top, #055286 0%,             #003f6a 100%);   
+	                                      background-image: -o-linear-gradient(top, #055286 0%,             #003f6a 100%);
+		                             background-image: -webkit-linear-gradient(top, #055286 0%,             #003f6a 100%);
+	                                   background-image: linear-gradient(to bottom, #055286 0%,             #003f6a 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #055286), color-stop(1, #003f6a));
+	   -webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	       -moz-border-radius-topleft: 3px;
+	    -moz-border-radius-bottomleft: 3px;
+	           border-top-left-radius: 3px;
+	        border-bottom-left-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	}
+
+.comprar-precio p {
+	color: #e9ecef;
+	letter-spacing: -1px;
+	vertical-align: middle;
+	}
+
+.comprar-precio p b.moneda {
+	font-size: 0.666em;
+	vertical-align: middle;
+	}
+
+
+
+/*--| ACTION
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.comprar-action {
+	display: table-cell;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #6f8d17;
+	background-color: #6f8d17;
+	                                     background-image: -ms-linear-gradient(top, #81a31d 0%,             #5a7512 100%);
+	                                    background-image: -moz-linear-gradient(top, #81a31d 0%,             #5a7512 100%);   
+	                                      background-image: -o-linear-gradient(top, #81a31d 0%,             #5a7512 100%);
+		                             background-image: -webkit-linear-gradient(top, #81a31d 0%,             #5a7512 100%);
+	                                   background-image: linear-gradient(to bottom, #81a31d 0%,             #5a7512 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81a31d), color-stop(1, #5a7512));
+	   -webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	       -moz-border-radius-topright: 3px;
+	    -moz-border-radius-bottomright: 3px;
+	           border-top-right-radius: 3px;
+	        border-bottom-right-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	}
+
+
+.comprar-action p a {
+	color: #f3f4f3;
+	vertical-align: middle;
+	letter-spacing: -1px;
+	text-shadow: 1px 1px 2px #5d7812;
+	}
+
+
+
+/*--| ACTION HOVER
+----------------------------------------------------------------------------------------- |--*/
+
+.comprar-action:hover {
+	                                     background-image: -ms-linear-gradient(top, #81a31d 0%,             #4d660e 100%);
+	                                    background-image: -moz-linear-gradient(top, #81a31d 0%,             #4d660e 100%);   
+	                                      background-image: -o-linear-gradient(top, #81a31d 0%,             #4d660e 100%);
+		                             background-image: -webkit-linear-gradient(top, #81a31d 0%,             #4d660e 100%);
+	                                   background-image: linear-gradient(to bottom, #81a31d 0%,             #4d660e 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81a31d), color-stop(1, #4d660e));
+	}
+
+.comprar-action:hover p a {
+	color: #f8f9f9;
+	text-shadow: 1px 1px 2px #3d5207;
+	}
+
+
+
+/*--| ACTION ACTIVE
+----------------------------------------------------------------------------------------- |--*/
+
+.comprar-action:active {
+	background-color: #5b7312;
+	                                     background-image: -ms-linear-gradient(top, #5a7512 0%,             #799a1a 100%);
+	                                    background-image: -moz-linear-gradient(top, #5a7512 0%,             #799a1a 100%);   
+	                                      background-image: -o-linear-gradient(top, #5a7512 0%,             #799a1a 100%);
+		                             background-image: -webkit-linear-gradient(top, #5a7512 0%,             #799a1a 100%);
+	                                   background-image: linear-gradient(to bottom, #5a7512 0%,             #799a1a 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5a7512), color-stop(1, #799a1a));
+	}
+
+.comprar-action:active p a {text-shadow: none;}
+
+
+
+
+/*--| HOME
+----------------------------------------------------------------------------------------- |--*/
+
+.home-comprar,
+.home-comprar .comprar-precio,
+.home-comprar .comprar-action {height: 45px;}
+
+.home-comprar .comprar-precio,
+.home-comprar .comprar-action {padding: 0px 14px 0px 14px;}
+
+.home-comprar .comprar-precio p,
+.home-comprar .comprar-action p a {font: 700 3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+
+
+
+/*--| ASIDE
+----------------------------------------------------------------------------------------- |--*/
+
+.aside-comprar,
+.aside-comprar .comprar-precio,
+.aside-comprar .comprar-action {height: 25px;}
+
+.aside-comprar .comprar-precio,
+.aside-comprar .comprar-action {padding: 0px 9px 0px 9px;}
+
+.aside-comprar .comprar-precio p,
+.aside-comprar .comprar-action p a {font: 700 1.7em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif; letter-spacing: 0px;}
+
+
+
+/*--| STORE
+----------------------------------------------------------------------------------------- |--*/
+
+.store-comprar,
+.store-comprar .comprar-precio,
+.store-comprar .comprar-action {height: 35px;}
+
+.store-comprar .comprar-precio,
+.store-comprar .comprar-action {padding: 0px 14px 0px 14px;}
+
+.store-comprar .comprar-precio p,
+.store-comprar .comprar-action p a {font: 700 2.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+
+
+
+/*--| LISTADOS
+----------------------------------------------------------------------------------------- |--*/
+
+.listado-comprar,
+.listado-comprar .comprar-precio,
+.listado-comprar .comprar-action {height: 30px;}
+
+.listado-comprar .comprar-precio,
+.listado-comprar .comprar-action {padding: 0px 9px 0px 9px;}
+
+.listado-comprar .comprar-precio p,
+.listado-comprar .comprar-action p a {font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+
+.lista-comprar,
+.lista-comprar .comprar-precio,
+.lista-comprar .comprar-action {height: 30px;}
+
+.lista-comprar .comprar-precio,
+.lista-comprar .comprar-action {padding: 0px 9px 0px 9px;}
+
+.lista-comprar .comprar-precio p,
+.lista-comprar .comprar-action p a {font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.lista-comprar {margin-right: 20px;}
+
+
+
+
+/*--| LISTADOS
+----------------------------------------------------------------------------------------- |--*/
+
+.oferta-similar-comprar,
+.oferta-similar-comprar .comprar-precio,
+.oferta-similar-comprar .comprar-action {height: 30px;}
+
+.oferta-similar-comprar .comprar-precio,
+.oferta-similar-comprar .comprar-action {padding: 0px 9px 0px 9px;}
+
+.oferta-similar-comprar .comprar-precio p,
+.oferta-similar-comprar .comprar-action p a {font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.lista-comprar {margin-right: 20px;}
+
+
+
+/*--| TEXTO
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.txt p {
+	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #494d45;
+	margin: 0px 0px 0.4166em 0px;
+	padding-left: 12px;
+	background: url(../../img/main/home/home.png) no-repeat -230px -190px;
+	}
+
+#listados .txt p {
+	font: normal 1.2em/1.458em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0.33em 0px;
+	}
+
+
+
+/*--| LISTADO
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.lista {
+	width: 980px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px auto 0px auto;
+	}
+
+.lista .lista-item {
+	width: 235px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: -5px 5px 0px 5px;
+	float: left;
+	}
+
+.lista .lista-item-top {
+	width: 235px;
+	height: 55px;
+	background: url(../../img/main/home/home.png) no-repeat 0px -460px;
+	}
+
+.lista .lista-item-body {
+	width: 225px;
+	height: auto;
+	min-height: 150px;
+	overflow: hidden;
+	padding: 5px 15px 0px 15px;
+	background: url(../../img/main/home/lista-body.jpg) repeat-y 0px 0px;
+	}
+
+.lista .lista-item-bot {
+	width: 235px;
+	height: 15px;
+	background: url(../../img/main/home/home.png) no-repeat 0px -515px;
+	}
+
+.lista .lista-item-body h3 {
+	width: 198px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+	font: 700 1.6em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ffffee;
+	background: url(../../img/main/store/store.png) no-repeat 0px -10px;
+	}
+
+.lista .lista-item-body figure {
+	width: 205px;
+	height: 102px;
+	margin: 5px 0px 7px 0px;
+	}
+
+.lista-item-body .data-final {
+	width: 205px;
+	height: 40px;
+	margin: 0px 0px 5px 0px;
+	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+

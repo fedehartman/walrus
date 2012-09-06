@@ -1,0 +1,131 @@
+/*
+Theme Name: Woow | BODY
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| BODY
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+html {height: 100%; overflow-x: hidden; }
+
+body {
+	height: auto;
+	overflow-x: hidden;
+	background: #0067ac url(../img/body/back.jpg) no-repeat fixed center 0px;
+	}
+	
+.container {
+	width: 1940px;
+	height: auto;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin: 0px 0px 0px -970px;
+	}
+
+
+
+/*--| TYPEFACE
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+html {font-size: 16px;}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Asap', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+
+@font-face {
+	font-family: 'Asap';
+	font-style: italic;
+	font-weight: 700;
+	src: local('Asap Bold Italic'), local('Asap-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/asap/v1/_sVKdO-TLWvaH-ptGimJBT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+	}
+
+@font-face {
+	font-family: 'Asap';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Asap'), local('Asap-Regular'), url(http://themes.googleusercontent.com/static/fonts/asap/v1/SgBaq0dzhSGNMfqm2JX5ng.woff) format('woff');
+	}
+
+@font-face {
+	font-family: 'Asap';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Asap Bold'), local('Asap-Bold'), url(http://themes.googleusercontent.com/static/fonts/asap/v1/yVILXKVgPzaz72DegpV7Bg.woff) format('woff');
+	}
+
+@font-face {
+	font-family: 'Asap';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Asap Italic'), local('Asap-Italic'), url(http://themes.googleusercontent.com/static/fonts/asap/v1/MdJnJ_Rxy6GcPmasGZsTfQ.woff) format('woff');
+	}
+
+strong {font-weight: 700;}
+
+
+
+/*--| BOTONES
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.boton {
+	background-color: #63800d;
+	background-image: -ms-linear-gradient(top, #71910F 0%, #69870E 100%);
+	background-image: -moz-linear-gradient(top, #71910F 0%, #69870E 100%);
+	background-image: -o-linear-gradient(top, #71910F 0%, #69870E 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #71910F), color-stop(1, #69870E));
+	background-image: -webkit-linear-gradient(top, #71910F 0%, #69870E 100%);
+	background-image: linear-gradient(to bottom, #71910F 0%, #69870E 100%);
+	border: 1px solid #495b12;
+	border-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.1);
+	font: normal 1.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+	   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+	        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+	}
+
+.boton:hover {
+	color: #fff;
+	background-image: -ms-linear-gradient(top, #70920e 0%, #597507 100%);
+	background-image: -moz-linear-gradient(top, #70920e 0%, #597507 100%);
+	background-image: -o-linear-gradient(top, #70920e 0%, #597507 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #70920e), color-stop(1, #597507));
+	background-image: -webkit-linear-gradient(top, #70920e 0%, #597507 100%);
+	background-image: linear-gradient(to bottom, #70920e 0%, #597507 100%);
+	background-color: #597507;
+	border-color: rgba(255, 255, 255, 0.45) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	}
+
+.boton:active {
+	background-image: -ms-linear-gradient(top, #597507 0%, #70920e 100%);
+	background-image: -moz-linear-gradient(top, #597507 0%, #70920e 100%);
+	background-image: -o-linear-gradient(top, #597507 0%, #70920e 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #597507), color-stop(1, #70920e));
+	background-image: -webkit-linear-gradient(top, #597507 0%, #70920e 100%);
+	background-image: linear-gradient(to bottom, #597507 0%, #70920e 100%);
+	border-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2);
+	background-color: #70920e;
+	}
+
+
+
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

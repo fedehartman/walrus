@@ -1,0 +1,811 @@
+<!--
+ATENCIÓN
+Este hmtl es una versión para desarrollo.
+Como se sabe, para una newsletter los estilos css deben estar en línea.
+Usamos esta herramienta http://premailer.dialect.ca/ para testear la newsletter.
+Además de dejar los estilos en línea, agraga algunos hacks automáticos
+para que la newsletter se visualice bien en Hotmail
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!--
+Site Name: Woow Newsletter
+Site URI: http://woow.com.uy
+Version: 1.0
+Date: May 24 - Aug 6 | 2012
+Design, HTML/CSS: IUGO - http://www.iugo.com.uy
+--> 
+
+
+<head>
+<title>w&oacute;&Ograve;w! | Newsletter</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<style type="text/css">
+
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	-webkit-text-size-adjust: none;
+	border: 0;
+	}
+
+table {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	}
+
+img {
+	border: none; 
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	outline: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #095c98;
+	}
+	img.news_img-alt-small {font-size: 10px; color: #FFF;}
+	
+img a {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	}
+
+a, a:link, a:visited, a:hover, a:active {  
+	outline-style: none;
+	outline-style: 0;
+	outline-width: 0px;
+	text-decoration: none;  
+	}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-transform: none;
+	text-decoration: none;
+	line-height: normal;
+	font-variant: normal;
+	white-space: normal;
+	}
+
+.news_oferta {
+	width: 610px;
+	height: 215px;
+	margin: 0px;
+	padding: 0px;
+	background: #dbdbbf url(http://www.iugohosting.com/bc/woownews/oferta.jpg) no-repeat 0px 0px;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+	}
+
+p.news_espacio {
+	font-size: 6px;
+	line-height: 0px;
+	}
+
+.news_tituloback1 {
+	width: 215px;
+	height: 7px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0e4f8f;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-top-right-radius: 5px; 
+	-webkit-border-bottom-right-radius: 0px;
+	}
+
+.news_tituloback2 {
+	width: 215px;
+	height: 48px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0e4f8f;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-top-right-radius: 0px; 
+	-webkit-border-bottom-right-radius: 5px;
+	}
+
+p.news_titulo {
+	font-size: 17px;
+	font-weight: bold;
+	color: #f6f8fa;
+	line-height: 20px;
+	margin-left: 7px;
+	}
+
+p.news_descripcion {
+	font-size: 11px;
+	color: #363630;
+	line-height: 18px;
+	margin-left: 15px;
+	}
+	p.news_margin-top-5 {margin-top: 5px;}
+	span.news_colorgreen {color: #6e8c15;}
+
+p.news_precio {
+	font-size: 14px;
+	color: #141412;
+	font-weight: bold;
+	text-decoration: line-through;
+	margin-left: 2px;
+	}
+
+p.news_descuento {
+	font-size: 14px;
+	color: #141412;
+	font-weight: bold;
+	margin-left: 1px;
+	}
+
+.news_veroferta {
+	width: 110px;
+	height: 30px;
+	background-color: #6e8c15;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+	}
+
+p.news_ver {
+	font-size: 20px;
+	color: #f3f4f3;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin: 2px 0px 0px 7px;
+	}
+	
+p.news_ver a.news_verlink {	
+	color: #f3f4f3;
+	margin: 0px;
+	text-decoration: none;
+	padding: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+
+.news_footerback {
+	width: 660px;
+	height: 165px;
+	background: #095c98;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+	}
+
+.news_recomenda-boton {
+	width: 145px;
+	height: 25px;
+	background: #81a31d url(http://www.iugohosting.com/bc/woownews/recomenda.jpg) no-repeat 0px 0px;
+	-moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px;
+	}
+
+p.news_recomenda {
+	font-size: 12px;
+	color: #f6f7f2;
+	margin: 4px 0px 0px 28px;
+	}
+	p.news_recomenda a {
+		color: #f6f7f2;
+		margin: 0px;
+		text-decoration: none;
+		padding: 0px;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		}
+
+p.news_amigos {
+	font-size: 12px;
+	color: #f6f7f2;
+	line-height: 14px;
+	margin: 0px 0px 0px 0px;
+	text-align: right;
+	}
+
+p.news_actualiza {
+	font-size: 12px;
+	color: #f6f7f2;
+	margin: 0px;
+	text-align: right;
+	}
+	p.news_actualiza a {color: #f6f7f2; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+p.news_address {
+	font-size: 11px;
+	color: #dce2e8;
+	margin: 0px;
+	text-align: right;
+	}
+	
+</style>
+
+
+</head>
+
+<body topmargin="0" marginheight="0" offset="0">
+<center>
+<table border="0" cellpadding="0">
+<tr>
+<td width="660px" bgcolor="#fff">
+
+
+
+
+
+<!--| HEADER
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+	<td valign="top" height="100px" width="660px" >
+		<img src="http://www.iugohosting.com/bc/woownews/header.jpg" width="660px" height="100px" alt="Woow - 24 hrs para comprar y hasta 6 meses para consumir">
+	</td>
+</tr>
+</table>
+</center>
+
+
+
+<!--| BANNER
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0" >
+<tr>
+	<td valign="top" height="110px" width="610px">
+		<a href="#"><img src="http://www.iugohosting.com/bc/woownews/banner.jpg" width="610px" height="90px" alt="Vacaciones de Julio"></a>
+	</td>
+</tr>
+</table>
+</center>
+
+
+
+<!--| CONTENIDO
+====================================================================================================================================================== |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+<td valign="top" width="610px">
+
+
+
+<!--| OFERTA - 1
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+
+<td valign="top" width="580px" height="185px" bgcolor="#e5e5c3" class="news_oferta">
+<table border="0" cellpadding="15"  >
+	<tr>
+		<td valign="top" width="580px" height="185px">
+			<table border="0" cellpadding="0" >
+			<tr>
+				<td><a href="#"><img src="http://www.iugohosting.com/bc/woownews/sample.jpg" width="340px" height="185px" alt="Descuento en Sushi"/></a></td>
+				<td valign="top" width="215px" height="185px">
+					<table border="0" cellpadding="0">
+					<tr><td valign="top" width="215px" height="10px"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr><td valign="top" width="215px" height="7px" bgcolor="#0e4f8f" class="news_tituloback1"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr>
+						<td valign="top" width="215px" height="48px" bgcolor="#0e4f8f" class="news_tituloback2">
+							<p class="news_espacio">&nbsp;</p>
+							<p class="news_titulo">Disfrut&aacute; del mejor sushi<br />para 2 al mejor precio</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="3px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" height="42px" width="215px">
+							<p class="news_descripcion news_margin-top-5"><span class="news_colorgreen">&#8226;</span> 1 Roll de vegetales al wok 8 piezas</p>
+							<p class="news_descripcion"><span class="news_colorgreen">&#8226;</span> 1 Philadelphia roll de 8 piezas</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="215px" height="7px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="7px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="150px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="50px"><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" width="215px" height="25px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="25px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="10px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="80px" bgcolor="#bfbfa6"><p class="news_precio">&nbsp;U$S 7430&nbsp;</p></td>
+								<td valign="top" height="25px" width="60px" bgcolor="#bfbfa6"><p class="news_descuento">&nbsp;57%&nbsp;</p></td>
+								<td valign="top" height="25px" width="50px" bgcolor=""><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="210px" height="30px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="30px" width="100px"></td>
+								<td valign="top" height="30px" width="110px" bgcolor="#6e8c15" class="news_veroferta">
+									<p class="news_ver"><a class="news_verlink" href="#">Ver Oferta&nbsp;</a></p>
+								</td>
+							<tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</center> 
+<br /> <!--| </oferta> |-->
+
+
+
+
+
+<!--| OFERTA - 2
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+
+<td valign="top" width="580px" height="185px" bgcolor="#e5e5c3" class="news_oferta">
+<table border="0" cellpadding="15"  >
+	<tr>
+		<td valign="top" width="580px" height="185px">
+			<table border="0" cellpadding="0" >
+			<tr>
+				<td><a href="#"><img src="http://www.iugohosting.com/bc/woownews/sample.jpg" width="340px" height="185px" alt="Descuento en Sushi"/></a></td>
+				<td valign="top" width="215px" height="185px">
+					<table border="0" cellpadding="0">
+					<tr><td valign="top" width="215px" height="10px"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr><td valign="top" width="215px" height="7px" bgcolor="#0e4f8f" class="news_tituloback1"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr>
+						<td valign="top" width="215px" height="48px" bgcolor="#0e4f8f" class="news_tituloback2">
+							<p class="news_espacio">&nbsp;</p>
+							<p class="news_titulo">Disfrut&aacute; del mejor sushi<br />para 2 al mejor precio</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="3px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" height="42px" width="215px">
+							<p class="news_descripcion news_margin-top-5"><span class="news_colorgreen">&#8226;</span> 1 Roll de vegetales al wok 8 piezas</p>
+							<p class="news_descripcion"><span class="news_colorgreen">&#8226;</span> 1 Philadelphia roll de 8 piezas</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="215px" height="7px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="7px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="150px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="50px"><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" width="215px" height="25px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="25px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="10px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="80px" bgcolor="#bfbfa6"><p class="news_precio">&nbsp;U$S 7430&nbsp;</p></td>
+								<td valign="top" height="25px" width="60px" bgcolor="#bfbfa6"><p class="news_descuento">&nbsp;57%&nbsp;</p></td>
+								<td valign="top" height="25px" width="50px" bgcolor=""><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="210px" height="30px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="30px" width="100px"></td>
+								<td valign="top" height="30px" width="110px" bgcolor="#6e8c15" class="news_veroferta">
+									<p class="news_ver"><a class="news_verlink" href="#">Ver Oferta&nbsp;</a></p>
+								</td>
+							<tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</center> 
+<br /> <!--| </oferta> |-->
+<!--| ====================================================================================== |-->
+
+
+
+
+<!--| OFERTA - 3
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+
+<td valign="top" width="580px" height="185px" bgcolor="#e5e5c3" class="news_oferta">
+<table border="0" cellpadding="15"  >
+	<tr>
+		<td valign="top" width="580px" height="185px">
+			<table border="0" cellpadding="0" >
+			<tr>
+				<td><a href="#"><img src="http://www.iugohosting.com/bc/woownews/sample.jpg" width="340px" height="185px" alt="Descuento en Sushi"/></a></td>
+				<td valign="top" width="215px" height="185px">
+					<table border="0" cellpadding="0">
+					<tr><td valign="top" width="215px" height="10px"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr><td valign="top" width="215px" height="7px" bgcolor="#0e4f8f" class="news_tituloback1"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr>
+						<td valign="top" width="215px" height="48px" bgcolor="#0e4f8f" class="news_tituloback2">
+							<p class="news_espacio">&nbsp;</p>
+							<p class="news_titulo">Disfrut&aacute; del mejor sushi<br />para 2 al mejor precio</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="3px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" height="42px" width="215px">
+							<p class="news_descripcion news_margin-top-5"><span class="news_colorgreen">&#8226;</span> 1 Roll de vegetales al wok 8 piezas</p>
+							<p class="news_descripcion"><span class="news_colorgreen">&#8226;</span> 1 Philadelphia roll de 8 piezas</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="215px" height="7px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="7px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="150px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="50px"><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" width="215px" height="25px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="25px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="10px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="80px" bgcolor="#bfbfa6"><p class="news_precio">&nbsp;U$S 7430&nbsp;</p></td>
+								<td valign="top" height="25px" width="60px" bgcolor="#bfbfa6"><p class="news_descuento">&nbsp;57%&nbsp;</p></td>
+								<td valign="top" height="25px" width="50px" bgcolor=""><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="210px" height="30px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="30px" width="100px"></td>
+								<td valign="top" height="30px" width="110px" bgcolor="#6e8c15" class="news_veroferta">
+									<p class="news_ver"><a class="news_verlink" href="#">Ver Oferta&nbsp;</a></p>
+								</td>
+							<tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</center> 
+<br /> <!--| </oferta> |-->
+<!--| ====================================================================================== |-->
+
+
+
+
+<!--| OFERTA - 4
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+
+<td valign="top" width="580px" height="185px" bgcolor="#e5e5c3" class="news_oferta">
+<table border="0" cellpadding="15"  >
+	<tr>
+		<td valign="top" width="580px" height="185px">
+			<table border="0" cellpadding="0" >
+			<tr>
+				<td><a href="#"><img src="http://www.iugohosting.com/bc/woownews/sample.jpg" width="340px" height="185px" alt="Descuento en Sushi"/></a></td>
+				<td valign="top" width="215px" height="185px">
+					<table border="0" cellpadding="0">
+					<tr><td valign="top" width="215px" height="10px"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr><td valign="top" width="215px" height="7px" bgcolor="#0e4f8f" class="news_tituloback1"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr>
+						<td valign="top" width="215px" height="48px" bgcolor="#0e4f8f" class="news_tituloback2">
+							<p class="news_espacio">&nbsp;</p>
+							<p class="news_titulo">Disfrut&aacute; del mejor sushi<br />para 2 al mejor precio</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="3px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" height="42px" width="215px">
+							<p class="news_descripcion news_margin-top-5"><span class="news_colorgreen">&#8226;</span> 1 Roll de vegetales al wok 8 piezas</p>
+							<p class="news_descripcion"><span class="news_colorgreen">&#8226;</span> 1 Philadelphia roll de 8 piezas</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="215px" height="7px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="7px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="150px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="50px"><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" width="215px" height="25px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="25px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="10px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="80px" bgcolor="#bfbfa6"><p class="news_precio">&nbsp;U$S 7430&nbsp;</p></td>
+								<td valign="top" height="25px" width="60px" bgcolor="#bfbfa6"><p class="news_descuento">&nbsp;57%&nbsp;</p></td>
+								<td valign="top" height="25px" width="50px" bgcolor=""><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="210px" height="30px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="30px" width="100px"></td>
+								<td valign="top" height="30px" width="110px" bgcolor="#6e8c15" class="news_veroferta">
+									<p class="news_ver"><a class="news_verlink" href="#">Ver Oferta&nbsp;</a></p>
+								</td>
+							<tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</center> 
+<br /> <!--| </oferta> |-->
+<!--| ====================================================================================== |-->
+
+
+
+
+<!--| OFERTA - 5
+============================================================================================ |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+
+<td valign="top" width="580px" height="185px" bgcolor="#e5e5c3" class="news_oferta">
+<table border="0" cellpadding="15"  >
+	<tr>
+		<td valign="top" width="580px" height="185px">
+			<table border="0" cellpadding="0" >
+			<tr>
+				<td><a href="#"><img src="http://www.iugohosting.com/bc/woownews/sample.jpg" width="340px" height="185px" alt="Descuento en Sushi"/></a></td>
+				<td valign="top" width="215px" height="185px">
+					<table border="0" cellpadding="0">
+					<tr><td valign="top" width="215px" height="10px"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr><td valign="top" width="215px" height="7px" bgcolor="#0e4f8f" class="news_tituloback1"><p class="news_espacio">&nbsp;</p></td></tr>
+					<tr>
+						<td valign="top" width="215px" height="48px" bgcolor="#0e4f8f" class="news_tituloback2">
+							<p class="news_espacio">&nbsp;</p>
+							<p class="news_titulo">Disfrut&aacute; del mejor sushi<br />para 2 al mejor precio</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="3px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" height="42px" width="215px">
+							<p class="news_descripcion news_margin-top-5"><span class="news_colorgreen">&#8226;</span> 1 Roll de vegetales al wok 8 piezas</p>
+							<p class="news_descripcion"><span class="news_colorgreen">&#8226;</span> 1 Philadelphia roll de 8 piezas</p>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="215px" height="7px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="7px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="150px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="7px" width="50px"><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top" width="215px" height="25px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="25px" width="15px"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="10px" bgcolor="#bfbfa6"><p class="news_espacio">&nbsp;</p></td>
+								<td valign="top" height="25px" width="80px" bgcolor="#bfbfa6"><p class="news_precio">&nbsp;U$S 7430&nbsp;</p></td>
+								<td valign="top" height="25px" width="60px" bgcolor="#bfbfa6"><p class="news_descuento">&nbsp;57%&nbsp;</p></td>
+								<td valign="top" height="25px" width="50px" bgcolor=""><p class="news_espacio">&nbsp;</p></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td valign="top" height="5px" width="215px"><p class="news_espacio">&nbsp;</p></td>
+					<tr>
+						<td valign="top" width="210px" height="30px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" height="30px" width="100px"></td>
+								<td valign="top" height="30px" width="110px" bgcolor="#6e8c15" class="news_veroferta">
+									<p class="news_ver"><a class="news_verlink" href="#">Ver Oferta&nbsp;</a></p>
+								</td>
+							<tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</center> 
+<br /> <!--| </oferta> |-->
+<!--| ====================================================================================== |-->
+
+
+</td>
+</tr>
+</table>
+</center> <!--| </contenido> |-->
+
+<!--| ================================================================================================================================================ |-->
+
+
+
+<!--| FOOTER
+====================================================================================================================================================== |-->
+
+<center>
+<table border="0" cellpadding="0">
+<tr>
+<td valign="top" width="660px" height="165px" bgcolor="#095c98" class="news_footerback">
+	<center>
+	<table border="0" cellpadding="0">
+    <tr><td valign="top" width="580px" height="25px"><p class="news_espacio">&nbsp;</p><p class="news_espacio">&nbsp;</p></td></tr>
+	<tr>
+		<td valign="top" width="580px" height="110px">
+			<table border="0" cellpadding="0" >
+			<tr>
+				<td valign="top" width="175px" height="110px">
+					<table border="0" cellpadding="0" >
+					<tr>
+						<td valign="top" width="175px" height="65px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" width="145px" height="25px" bgcolor="#81a31d" class="news_recomenda-boton">
+									<p class="news_recomenda"><a href="#">Recomend&aacute; w&ograve;&Oacute;w!</a></p>
+								</td>
+								<td valign="top" width="30px" height="25px"></td>
+							</tr>
+							<tr><td valign="top" width="175px" height="8px" colspan="2"><p class="news_espacio">&nbsp;</p></td></tr>
+							<tr>
+								<td valign="top" width="175px" height="30px" colspan="2">
+									<p class="news_amigos">Tus amigos recibir&aacute;n un cup&oacute;n<br />y nosotros <strong>te regalamos $100</strong></p>
+								</td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					<tr><td valign="top" width="175px" height="20px"></td></tr>
+					<tr>
+						<td valign="top" width="175px" height="15px">
+							<table border="0" cellpadding="0">
+							<tr>
+								<td valign="top" width="15px" height="15px"><a href="https://www.facebook.com/woOw.MVD"><img src="http://www.iugohosting.com/bc/woownews/fb.jpg" width="15px" height="15px" alt="FB"></a></td>
+								<td valign="top" width="8px" height="15px"></td>
+								<td valign="top" width="15px" height="15px"><a href="http://twitter.com/woowuruguay"><img src="http://www.iugohosting.com/bc/woownews/tw.jpg" width="15px" height="15px" alt="TW"></a></td>
+								<td valign="top" width="8px" height="15px"></td>
+								<td valign="top" width="15px" height="15px"><a href="mailto:info@woow.com.uy"><img src="http://www.iugohosting.com/bc/woownews/mail.jpg" width="15px" height="15px" alt="M"></a></td>
+								<td valign="top" width="8px" height="15px"></td>
+								<td valign="top" width="106px" height="15px">
+									<p class="news_actualiza"><a href="#">Actualiz&aacute; tus datos</a></p>
+								</td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+				<td valign="top" width="30px" height="110px"><p class="news_espacio">&nbsp;</p></td>
+				<td valign="top" width="375px" height="110px">
+					<table border="0" cellpadding="0" >
+					<tr>
+						<td valign="top" colspan="2" width="375px" height="70px"><img class="news_img-alt-small" src="http://www.iugohosting.com/bc/woownews/tarjetas.jpg" width="375px" height="70px" alt="Compra Segura: Visa, MasterCard, OcaCard, Santander, E-Brou, Cabal y Abitab"></td>
+					</tr>
+					<tr>
+						<td valign="top" width="85px" height="40px" rowspan="2"><a href="http://www.woow.com.uy"><img src="http://www.iugohosting.com/bc/woownews/woow-logo.jpg" width="85px" height="40px" alt="woow.com.uy"></a></td>
+                    	<td valign="top" width="290px" height="15px"><p class="news_espacio">&nbsp;</p></td></tr>
+						<tr><td valign="top" width="290px" height="20px">
+							<p class="news_address">Blvr. Artigas 1279-1231 CP: 1120 | Montevideo, Uruguay&nbsp;</p>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	</center>
+</td>
+</tr>
+</table>
+</center>
+<br />
+
+
+
+
+
+<!--| ================================================================================================================================================ |-->
+
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+<!--| ================================================================================================================ | IUGO - http://www.iugo.com.uy |-->

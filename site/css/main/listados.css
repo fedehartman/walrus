@@ -1,0 +1,269 @@
+/*
+Theme Name: Woow | MAIN - LISTADOS
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| LISTADOS
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#listados {
+	width: 985px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 10px 0px 0px 0px;
+	}
+
+#listados .listado-linea {
+	width: 980px;
+	height: 10px;
+	margin: 435px 0px 0px -5px;
+	z-index: 11;
+	position: absolute;
+	background-color: #121b23;
+	}
+
+
+
+/*--| HEADER
+------------------------------------------------------------------------------------------------------------- |--*/
+
+#listados header {
+	width: 975px;
+	height: 45px;
+	background: url(../../img/main/listados/header.png) repeat-x 0px 0px;
+	margin: 15px 5px 5px 15px;
+	position: absolute;
+	left: 0%;
+	z-index: 10;
+	}
+
+#listados h2 {
+	font: 700 3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #fbfbf3;
+	margin: 0px 0px 0px 195px;
+	text-shadow: -1px -1px #9c9c9c;
+	float: left;
+	}
+
+.buscador {
+	float: right;
+	margin: 7px 0px 0px 0px;
+	}
+
+
+input.form_search {
+	margin-right: 5px;
+	width: 115px;
+	-webkit-transition: width 0.2s linear;
+	   -moz-transition: width 0.2s linear;
+	    -ms-transition: width 0.2s linear;
+	     -o-transition: width 0.2s linear;
+	        transition: width 0.2s linear;
+	}
+	input.form_search:focus {width: 210px;}
+
+select {width: 120px; margin-right: 5px;}
+
+button.form_search {
+	width: 28px;
+	height: 26px;
+	margin: 1px 10px 0px 0px;
+	border: 1px solid #02497a;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	background-color: #095c98;
+	                                     background-image: -ms-linear-gradient(top, #095c98 0%,             #07558b 100%);
+	                                    background-image: -moz-linear-gradient(top, #095c98 0%,             #07558b 100%);   
+	                                      background-image: -o-linear-gradient(top, #095c98 0%,             #07558b 100%);
+		                             background-image: -webkit-linear-gradient(top, #095c98 0%,             #07558b 100%);
+	                                   background-image: linear-gradient(to bottom, #095c98 0%,             #07558b 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #095c98), color-stop(1, #07558b));
+	}
+
+button.form_search:hover {
+	background-color: #054d81;
+	                                     background-image: -ms-linear-gradient(top, #095c98 0%,             #003b64 100%);
+	                                    background-image: -moz-linear-gradient(top, #095c98 0%,             #003b64 100%);   
+	                                      background-image: -o-linear-gradient(top, #095c98 0%,             #003b64 100%);
+		                             background-image: -webkit-linear-gradient(top, #095c98 0%,             #003b64 100%);
+	                                   background-image: linear-gradient(to bottom, #095c98 0%,             #003b64 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #095c98), color-stop(1, #003b64));
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+	}
+
+button.form_search:active {
+	background-color: #003b64;
+	                                     background-image: -ms-linear-gradient(top, #003b64 0%,             #095c98 100%);
+	                                    background-image: -moz-linear-gradient(top, #003b64 0%,             #095c98 100%);   
+	                                      background-image: -o-linear-gradient(top, #003b64 0%,             #095c98 100%);
+		                             background-image: -webkit-linear-gradient(top, #003b64 0%,             #095c98 100%);
+	                                   background-image: linear-gradient(to bottom, #003b64 0%,             #095c98 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003b64), color-stop(1, #095c98));
+	}
+
+button.form_search i.lupa {
+	width: 19px;
+	height: 17px;
+	margin: 2px 0px 0px 0px;
+	background: url(../../img/main/listados/logo.png) no-repeat -100px 0px;
+	display: inline-block;
+	vertical-align: text-top;
+	}
+
+
+
+/*--| ITEMS
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.listado {
+	width: 995px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 50px 0px 0px 7px;
+	}
+
+#listados .item {
+	width: 205px;
+	height: 325px;
+	margin: 0px 10px 50px 0px;
+	padding: 55px 15px 15px 15px;
+	background: url(../../img/main/listados/listados.jpg) no-repeat 0px 0px;
+	float: left;
+	}
+
+#listados h3 {
+	width: 198px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 7px;
+	font: 700 1.6em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ffffee;
+	background: url(../../img/main/store/store.png) no-repeat 0px -10px;
+	}
+
+#listados figure {
+	width: 205px;
+	height: 102px;
+	margin: 5px 0px 7px 0px;
+	}
+
+#listados figure img {
+	width: 205px;
+	height: 102px;
+	margin: 0px 0px 0px 0px;
+	}
+
+#listados .data-final {
+	width: 205px;
+	height: 40px;
+	margin: 0px 0px 5px 0px;
+	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+
+
+/*--| PAGINACIÓN
+------------------------------------------------------------------------------------------------------------- |--*/
+
+#paginacion-wrapper {
+	width: 975px;
+	height: 50px;
+	background: url(../../img/main/listados/paginacion.png) repeat-x 0px 0px;
+	margin: 5px;
+	}
+
+#paginacion-wrapper figure {
+	width: 100px;
+	height: 35px;
+	margin: 8px 0px 0px 10px;
+	float: left;
+	background: url(../../img/main/listados/logo.png) no-repeat 0px 0px;
+	}
+
+#paginacion-wrapper .contenido {
+	float: right;
+	width: 805px;
+	height: 50px;
+	margin: 0px 10px 0px 0px;
+	}
+
+#paginacion-wrapper .contenido p {
+	font: 700 2.5em/2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eceded;
+	margin: 1px 10px 0px 0px;
+	float: right;
+	text-align: right;
+	}
+
+#paginacion-wrapper nav.paginacion ul {
+	height: 25px;
+	float: right;
+	}
+
+#paginacion-wrapper nav.paginacion ul li {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin: 12px 3px 2px 2px;
+	background-color: #678415;
+	border: 1px solid #698227;
+	font: 700 1.3em/1.95em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #e7eae2;
+	text-align: center;
+	}
+
+#paginacion-wrapper nav.paginacion ul li a {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	color: #e7eae2;
+	width: 25px;
+	height: 25px;
+	display: block;
+	                                     background-image: -ms-linear-gradient(top, #7b992f 0%,             #6d8c18 100%);
+	                                    background-image: -moz-linear-gradient(top, #7b992f 0%,             #6d8c18 100%);   
+	                                      background-image: -o-linear-gradient(top, #7b992f 0%,             #6d8c18 100%);
+	                                 background-image: -webkit-linear-gradient(top, #7b992f 0%,             #6d8c18 100%);
+	                                   background-image: linear-gradient(to bottom, #7b992f 0%,             #6d8c18 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7b992f), color-stop(1, #6d8c18));
+	}
+
+#paginacion-wrapper nav.paginacion ul li a:hover {
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+	}
+
+#paginacion-wrapper nav.paginacion ul li a:active {
+	                                     background-image: -ms-linear-gradient(top, #6d8c18 0%,             #7b992f 100%);
+	                                    background-image: -moz-linear-gradient(top, #6d8c18 0%,             #7b992f 100%);   
+	                                      background-image: -o-linear-gradient(top, #6d8c18 0%,             #7b992f 100%);
+	                                 background-image: -webkit-linear-gradient(top, #6d8c18 0%,             #7b992f 100%);
+	                                   background-image: linear-gradient(to bottom, #6d8c18 0%,             #7b992f 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6d8c18), color-stop(1, #7b992f));
+	}
+
+#paginacion-wrapper nav.paginacion ul li.current a {
+	border: 1px solid #e0e2e2;
+	background-color: #e7eae2;
+	color: #678415;
+	                                     background-image: -ms-linear-gradient(top, #fdfdfd 0%,             #e4e5e5 100%);
+	                                    background-image: -moz-linear-gradient(top, #fdfdfd 0%,             #e4e5e5 100%);   
+	                                      background-image: -o-linear-gradient(top, #fdfdfd 0%,             #e4e5e5 100%);
+	                                 background-image: -webkit-linear-gradient(top, #fdfdfd 0%,             #e4e5e5 100%);
+	                                   background-image: linear-gradient(to bottom, #fdfdfd 0%,             #e4e5e5 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(1, #e4e5e5));
+	}

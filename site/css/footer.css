@@ -1,0 +1,388 @@
+/*
+Theme Name: Woow | FOOTER
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+
+/*--| FOOTER 2
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#footer2 {
+	width: 985px;
+	height: 260px;
+	margin: 15px 10px 0px 10px;
+	}
+
+.footer2_bar {
+	width: 977px;
+	height: 10px;clear: both;
+	background-color: #001024;
+	margin: 0px 0px 0px 4px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	}
+
+.footer2_social {
+	width: 975px;
+	height: 220px;
+	margin: 10px 5px 5px 5px;
+	background: url(../img/textures/blue.jpg) repeat 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	}
+
+
+
+/*--| BOXES
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer2_wrapper {
+	width: 540px;
+	height: 195px;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	}
+
+.footer2_wrapper_top {
+	width: 540px;
+	height: 180px;
+	}
+
+.footer2_wrapper_bot {
+	width: 540px;
+	height: 15px;
+	background: url(../img/footer/footer.png) no-repeat -20px -830px;
+	}
+
+.footer2_divider {
+	width: 20px;
+	height: 180px;
+	float: left;
+	background: url(../img/footer/footer.png) no-repeat 0px -830px;
+	}
+
+
+
+/*--| CÓMO FUNCIONA
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer2_1 {
+	width: 160px;
+	height: 180px;
+	float: left;
+	}
+
+#footer2 h4 {
+	font: normal 1.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	margin: 12px 0px 0px 5px;
+	/*text-shadow: 1px 1px 2px #000000;*/
+	}
+
+.footer2_video {
+	width: 150px;
+	height: 75px;
+	background: url(../img/footer/footer.png) no-repeat -20px -845px;
+	margin: 5px 5px 5px 5px;
+	cursor: pointer;
+	display: block;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+	       box-shadow:  0px 0px 3px rgba(0, 0, 0, 0.65);
+	}
+	.footer2_video:hover {background: url(../img/footer/footer.png) no-repeat -170px -920px;}
+
+#footer2 p {
+	font: normal 1.1em/1.36em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	margin: 6px 0px 0px 7px;
+	/*text-shadow: 1px 1px 1px #000000;*/
+	}
+	#footer2 p sup {font-size: 0.8em;}
+	#footer2 p a {
+		color: #eaecec;
+		margin: -2px 0px 0px -4px;
+		padding: 2px 4px 2px 4px;
+		}
+		#footer2 p a:hover {
+			background-color: #6e8e0c;
+			color: #fff;
+			-webkit-border-radius: 3px;
+			   -moz-border-radius: 3px;
+			        border-radius: 3px;
+			-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+			   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+			        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+			}	
+
+.footer2_grafica {
+	width: 150px;
+	height: 75px;
+	background: url(../img/footer/footer.png) no-repeat -20px -920px;
+	margin: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
+	}
+
+button.footer2-btn-empresa {
+	height: 19px;
+	padding: 1px 5px 0px 2px;
+	font: normal 1.1em/1.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	float: right;
+	margin-top: 8px;
+	}
+
+i.footer2-btn-icon {
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: text-top;
+	margin: 0px 4px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-right: 1px solid #637d1a;
+	background: url(../img/footer/footer.png) no-repeat -170px -845px;	
+	}
+
+
+
+/*--| TU EMPRESA
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer2_2 {
+	width: 160px;
+	height: 180px;
+	float: left;
+	}
+
+
+
+/*--| CONTACTO
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer2_3 {
+	width: 160px;
+	height: 180px;
+	float: left;
+	}
+
+.footer2_3-divider {
+	width: 160px;
+	height: 10px;
+	background: url(../img/footer/footer.png) no-repeat -190px -845px;
+	margin: 3px 0px 0px 0px;
+	}
+
+i.footer2_3-mail,
+i.footer2_3-tel,
+i.footer2_3-day {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: text-top;
+	padding: 0px 0px 0px 0px;
+	}
+	i.footer2_3-mail {background: url(../img/footer/footer.png) no-repeat -170px -860px;}
+	i.footer2_3-tel  {background: url(../img/footer/footer.png) no-repeat -170px -875px;}
+	i.footer2_3-day  {background: url(../img/footer/footer.png) no-repeat -170px -890px;}
+
+
+
+/*--| FACEBOOK
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer2_4 {
+	width: 415px;
+	height: 195px;
+	float: left;
+	margin: 10px 0px 0px 0px;
+	}
+	
+.footer2_4 iframe {
+	margin: 5px 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	background-color: #fff;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+	-webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.65);
+	        box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.65);
+	}
+
+
+
+/*--| FOOTER
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+footer {
+	width: 1940px;
+	height: 800px;
+	background: url(../img/footer/footer.png) no-repeat 0px 20px;
+	margin: -565px auto 0px auto;
+	overflow: hidden;
+	}
+
+.footer_wrapper {
+	width: 975px;
+	height: 115px;
+	margin: 610px 0px 0px 485px;
+	}
+
+
+
+/*--| OFERTAS + LA EMPRESA + CONOZCA MÁS
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer_1 {
+	width: 150px;
+	height: auto;
+	overflow: hidden;
+	margin: 0px 25px 0px 0px;
+	float: left;
+	}
+
+.footer_1 dt {
+	font: normal 1.3em/1.92em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #94b929;
+	margin: 18px 0px 0px 0px;
+	}
+
+.footer_1 dd a {
+	font: normal 1.1em/2.04em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #d0d4ce;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 8px 2px 4px;
+	}
+	.footer_1 dd a:hover {
+		background-color: #095992;
+		color: #fff;
+		-webkit-border-radius: 3px;
+		   -moz-border-radius: 3px;
+		        border-radius: 3px;
+		background-image: -ms-linear-gradient(top, #0e68a9 0%, #07568e 100%);
+		background-image: -moz-linear-gradient(top, #0e68a9 0%, #07568e 100%);
+		background-image: -o-linear-gradient(top, 0e68a9 0%, #07568e 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0e68a9), color-stop(1, #07568e));
+		background-image: -webkit-linear-gradient(top, #0e68a9 0%, #07568e 100%);
+		background-image: linear-gradient(to bottom, #0e68a9 0%, #07568e 100%);
+		}
+	.color-blue {color: #095992;}
+	.footer_1 dd a:hover span.color-blue {color: #fff;}
+	.footer_1 dd a:active {
+		background-image: -ms-linear-gradient(top, #07568e 0%, #0e68a9 100%);
+		background-image: -moz-linear-gradient(top, #07568e 0%, #0e68a9 100%);
+		background-image: -o-linear-gradient(top, 07568e 0%, #0e68a9 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #07568e), color-stop(1, #0e68a9));
+		background-image: -webkit-linear-gradient(top, #07568e 0%, #0e68a9e 100%);
+		background-image: linear-gradient(to bottom, #07568e 0%, #0e68a9 100%);
+		}
+
+
+
+/*--| TARJETAS + SOCIAL
+------------------------------------------------------------------------------------------------------------- |--*/
+
+.footer_2 {
+	width: 445px;
+	height: 115px;
+	margin: 0px 0px 0px 5px;
+	float: left;
+	}
+
+.footer_2-top {
+	width: 445px;
+	height: 80px;
+	margin: 0px 0px 0px 0px;
+	}
+
+.footer_2-top dt {
+	font: normal 1.3em/1.92em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #94b929;
+	margin: 18px 0px 10px 0px;
+	padding: 0px 0px 0px 20px;
+	background: url(../img/footer/footer.png) no-repeat -185px -860px;
+	}
+
+.footer_2-top dd {height: 25px; float: left; margin-top:}
+      .footer_2-top dd.visa {width: 55px; background: url(../img/footer/footer.png) no-repeat -185px -885px;}
+.footer_2-top dd.mastercard {width: 50px; background: url(../img/footer/footer.png) no-repeat -240px -885px;}
+   .footer_2-top dd.ocacard {width: 65px; background: url(../img/footer/footer.png) no-repeat -290px -885px;}
+ .footer_2-top dd.santander {width: 90px; background: url(../img/footer/footer.png) no-repeat -355px -885px;}
+     .footer_2-top dd.ebrou {width: 65px; background: url(../img/footer/footer.png) no-repeat -445px -885px;}
+     .footer_2-top dd.cabal {width: 40px; background: url(../img/footer/footer.png) no-repeat -510px -885px;}
+    .footer_2-top dd.abitab {width: 80px; background: url(../img/footer/footer.png) no-repeat -550px -885px;}
+
+.footer_2-bot {
+	width: 445px;
+	height: 35px;
+	margin: 0px 0px 0px 0px;
+	}
+
+.footer_2-bot-left {
+	width: 155px;
+	height: 35px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	}
+
+.footer_2-fb a,
+.footer_2-tw a,
+.footer_2-mail a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin: 11px 5px 0px 0px;
+	}
+	        .footer_2-fb a {background: url(../img/footer/footer.png) no-repeat -320px -920px;}
+	  .footer_2-fb a:hover {background: url(../img/footer/footer.png) no-repeat -320px -940px;}
+	        .footer_2-tw a {background: url(../img/footer/footer.png) no-repeat -340px -920px;}
+	  .footer_2-tw a:hover {background: url(../img/footer/footer.png) no-repeat -340px -940px;}
+	      .footer_2-mail a {background: url(../img/footer/footer.png) no-repeat -360px -920px;}
+	.footer_2-mail a:hover {background: url(../img/footer/footer.png) no-repeat -360px -940px;}
+
+.footer_2-bot-right {
+	width: 290px;
+	height: 35px;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	}
+
+.footer_2-woow a {
+	width: 85px;
+	height: 35px;
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 10px;
+	background: url(../img/footer/footer.png) no-repeat -320px -960px;
+	}
+
+.footer_2-woow p {
+	width: auto;
+	height: 35px;
+	float: left;
+	font: normal 1.1em/2.04em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #a8ab9b;
+	padding: 8px 0px 0px 0px;
+	}
+
+
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

@@ -1,0 +1,1131 @@
+/*
+Theme Name: Woow | MAIN - HOME
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| HOME
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+section.home {
+	width: 710px;
+	height: auto;
+	min-height: 50px;
+	overflow: hidden;
+	margin: 10px 10px 0px 0px;
+	float: left;
+	}
+
+
+/*--| LA OFERTA
+------------------------------------------------------------------------------------------------------------- |--*/
+
+article#home-oferta {
+	width: 700px;
+	height: 350px;
+	margin: 5px 5px 5px 5px;
+	background-color: #fff;
+	overflow: hidden;
+	position: absolute;
+	z-index: 5;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85);
+	   -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85);
+	        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.85);
+	}
+
+
+
+/*--| SLIDER
+----------------------------------------------------------------------------------------- |--*/
+
+.es-carousel-wrapper {
+	position: absolute;
+	z-index: 90;
+	width: 142px;
+	margin: 290px 0px 0px 32px;
+	opacity: 0.7;
+		-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+	     -o-transition: all 0.2s ease-in-out;
+	    -ms-transition: all 0.2s ease-in-out;
+	        transition: all 0.2s ease-in-out;
+	}
+
+.es-carousel-wrapper:hover {opacity: 0.9;}
+
+.es-carousel {overflow:hidden;}
+
+.es-carousel ul {display: none;}
+
+.es-carousel ul li {
+	float: left;
+	display: block;
+	width: 70px;
+	height: 35px;
+	}
+
+.es-carousel ul li a {
+	display: block;
+	-webkit-touch-callout: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+	     -o-transition: all 0.2s ease-in-out;
+	    -ms-transition: all 0.2s ease-in-out;
+	        transition: all 0.2s ease-in-out;
+	}
+
+.es-carousel ul li a:hover,
+.es-carousel ul li.selected a {opacity: 1.0;}
+
+.es-carousel ul li a img {
+	display: block;
+	border: none;
+	max-height: 100%;
+	max-width: 100%;
+	}
+
+.es-nav span {
+	position: absolute;
+	top: 50%;
+	width: 15px;
+	height: 35px;
+	text-indent: -9000px;
+	cursor: pointer;
+	background-color: #054a7a;
+	margin: -18px 0px 0px -17px;
+	background-color: #02416d;
+	                                     background-image: -ms-linear-gradient(top, #024878 0%,             #003961 100%);
+	                                    background-image: -moz-linear-gradient(top, #024878 0%,             #003961 100%);
+	                                      background-image: -o-linear-gradient(top, #024878 0%,             #003961 100%);
+		                             background-image: -webkit-linear-gradient(top, #024878 0%,             #003961 100%);
+	                                   background-image: linear-gradient(to bottom, #024878 0%,             #003961 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #024878), color-stop(1, #003961));
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+	   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+	        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+	}
+
+.es-nav span.es-nav-next:hover,
+.es-nav span.es-nav-prev:hover {
+	                                     background-image: -ms-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
+	                                    background-image: -moz-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
+	                                      background-image: -o-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
+		                             background-image: -webkit-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
+	                                   background-image: linear-gradient(to bottom, #0c5a92 0%,             #023f68 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c5a92), color-stop(1, #023f68));
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	}
+
+.es-nav span.es-nav-next:active,
+.es-nav span.es-nav-prev:active {
+	                                     background-image: -ms-linear-gradient(top, #003961 0%,             #024878 100%);
+	                                    background-image: -moz-linear-gradient(top, #003961 0%,             #024878 100%);
+	                                      background-image: -o-linear-gradient(top, #003961 0%,             #024878 100%);
+	                                 background-image: -webkit-linear-gradient(top, #003961 0%,             #024878 100%);
+	                                   background-image: linear-gradient(to bottom, #003961 0%,             #024878 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003961), color-stop(1, #003961));
+	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
+	}
+
+.es-nav span.es-nav-prev {
+	   -webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	       -moz-border-radius-topleft: 3px;
+	    -moz-border-radius-bottomleft: 3px;
+	           border-top-left-radius: 3px;
+	        border-bottom-left-radius: 3px;
+	}
+
+
+.es-nav span.es-nav-next {
+	margin: -18px 0px 0px 144px;
+	   -webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	       -moz-border-radius-topright: 3px;
+	    -moz-border-radius-bottomright: 3px;
+	           border-top-right-radius: 3px;
+	        border-bottom-right-radius: 3px;
+	}
+
+.es-nav span:hover {opacity:1.0;}
+
+.rg-image-wrapper {position: relative;}
+
+.rg-image{
+	position: relative;
+	text-align: center;
+	line-height: 0px;
+	}
+
+figure.opa {
+	position: absolute;
+	z-index: -1;
+	}
+
+.rg-image img {
+	width: 700px;
+	height: 350px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.65);
+	}
+
+.rg-image-nav a {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 28px;
+	height: 100%;
+	text-indent: -9000px;
+	cursor: pointer;
+	outline: none;
+	display: none;
+	}
+
+.rg-image-nav a.rg-image-nav-next {
+	right: 0px;
+	left: auto;
+	}
+
+.rg-view {display: none;}
+
+
+
+/*--| TEXTOS
+----------------------------------------------------------------------------------------- |--*/
+
+article#home-oferta canvas.circle {
+	width: 230px;
+	height: 350px;
+	background-color: #000;
+	margin: -350px 0px 0px 0px;
+	position: absolute;
+	z-index: 10;
+	background: url(../../img/main/home/home.png) no-repeat 0px 0px;
+	   -webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	       -moz-border-radius-topleft: 3px;
+	    -moz-border-radius-bottomleft: 3px;
+	           border-top-left-radius: 3px;
+	        border-bottom-left-radius: 3px;
+	}
+
+article#home-oferta .data {
+	width: 690px;
+	height: 341px;
+	margin: -356px 0px 0px 10px;
+	position: absolute;
+	z-index: 15;
+	}
+
+article#home-oferta .descuento {
+	width: 80px;
+	height: 70px;
+	margin: 0px 0px 0px 605px;
+	background: url(../../img/main/home/home.png) no-repeat -425px -65px;
+	font: bold 3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #e1e5eb;
+	padding: 10px 0px 0px 10px;
+	letter-spacing: -1px;
+	}
+
+article#home-oferta .texto-precio {
+	width: 675px;
+	height: 265px;
+	}
+
+article#home-oferta article.titulos {
+	width: 205px;
+	height: auto;
+	min-height: 70px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	float: left;
+	}
+
+article#home-oferta article.titulos h2 {
+	font: normal 2.7em/1.203em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #a9d607;
+	letter-spacing: -1px;
+	word-spacing: -1px;
+	text-shadow: 1px 1px 3px #000000;
+	margin: 0px 0px 9px 0px;
+	word-wrap: break-word;
+	}
+
+article#home-oferta article.titulos h3 {
+	font: normal 1.4em/1.42em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #d7d8d8;
+	text-shadow: 1px 1px 3px #000000;
+	margin: 0px 0px 0px 3px;
+	}
+
+article#home-oferta article.titulos .slider-controls {
+	width: 180px;
+	height: 35px;
+	margin: 16px 0px 12px 0px;
+	}
+
+.oferta-home {
+	font: bold 3em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	text-shadow: 1px 1px 3px #435807;
+	}
+
+article#home-oferta .oferta-home-precio {
+	font: bold 3em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	text-shadow: none;
+	height: 37px;
+	padding: 4px 10px 0px 10px; 
+	}
+
+article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padding-top: 9px; vertical-align: middle;}
+
+
+
+/*--| DETALLES
+------------------------------------------------------------------------------------------------------------- |--*/
+
+#home-detalles {
+	width: 695px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 355px 0px 0px 5px;
+	}
+
+#home-detalles canvas.top {
+	width: 695px;
+	height: 40px;
+	background: url(../../img/main/home/home.png) no-repeat 0px -350px;
+	}
+
+#home-detalles canvas.bot {
+	width: 695px;
+	height: 30px;
+	background: url(../../img/main/home/home.png) no-repeat 0px -390px;
+	}
+
+#home-detalles article {
+	width: 625px;
+	height: auto;
+	min-height: 400px;
+	overflow: hidden;
+	padding: 0px 30px 0px 40px;
+	background: url(../../img/main/home/detalles-back.jpg) repeat-y 0px 0px;
+	}
+
+
+
+/*--| DATA
+----------------------------------------------------------------------------------------- |--*/
+
+#home-detalles section.data {
+	width: 610px;
+	height: 105px;
+	margin: 5px 0px 15px 15px;
+	}
+
+#home-detalles .data-1,
+#home-detalles .data-2,
+#home-detalles .data-3 {
+	height: 105px;
+	float: left;
+	}
+
+#home-detalles .data-1 {
+	width: 194px;
+	border-right: 1px solid #adb0a3;
+	}
+
+#home-detalles .data-2 {width: 210px;}
+
+#home-detalles .data-3 {
+	width: 204px;
+	border-left: 1px solid #adb0a3;
+	}
+
+
+
+/*--| COLUMNA 1
+-------------------------------------------------------------------- |--*/
+
+#home-detalles .data-1-wrapper {
+	width: 160px;
+	height: 75px;
+	margin: 15px 0px 5px 10px;
+	}
+
+
+
+/*--| PRECIO
+------------------------------------------------ |--*/
+
+#home-detalles p.precio {
+	font: bold 1.6em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #202520;
+	letter-spacing: -1px;
+	margin: 10px 0px 7px 4px;
+	width: 194px;
+	}
+
+#home-detalles p.precio i.precio {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background: url(../../img/main/home/home.png) no-repeat -510px -65px;
+	vertical-align: text-top;
+	margin: 1px 2px 0px 0px;
+	padding: 0px 0px 0px 3px;
+	}
+
+#home-detalles p.precio b.moneda {
+	font-size: 0.6875em;
+	letter-spacing: 0px;
+	vertical-align: middle;
+	}
+
+#home-detalles p.precio b.referencia {
+	font-size: 0.6875em;
+	color: #02497a;
+	letter-spacing: 0px;
+	}
+
+
+
+/*--| PORCENTAJE
+------------------------------------------------ |--*/
+
+#home-detalles p.porcentaje {
+	font: bold 2.7em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #202520;
+	letter-spacing: -1px;
+	display: block;
+	}
+
+#home-detalles p.porcentaje i.porcentaje {
+	width: 15px;
+	height: 13px;
+	display: inline-block;
+	background: url(../../img/main/home/home.png) no-repeat -510px -80px;
+	vertical-align: middle;
+	margin: 0px 5px 0px 0px;
+	padding: 0px 0px 2px 3px;
+	}
+
+#home-detalles p.porcentaje b.porcentaje {
+	font-size: 0.666em;
+	color: #02497a;
+	letter-spacing: 0px;
+	}
+
+#home-detalles p.porcentaje b.referencia {
+	font-size: 0.555em;
+	color: #02497a;
+	letter-spacing: 0px;
+	vertical-align: middle;
+	word-spacing: -2px;
+	margin-left: -1px;
+	}
+
+canvas.data-1-linea {
+	width: 194px;
+	height: 1px;
+	background: url(../../img/main/home/home.png) no-repeat -230px -149px;
+	margin: 0px 0px 0px 0px;
+	}
+
+
+
+/*--| COLUMNA 2
+-------------------------------------------------------------------- |--*/
+
+#home-detalles .data-2-wrapper {
+	width: 180px;
+	height: 75px;
+	margin: 10px 0px 0px 15px;
+	}
+
+
+
+/*--| COMPRADOS
+------------------------------------------------ |--*/
+
+#home-detalles p.comprados {
+	font: bold 2.8em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #202520;
+	letter-spacing: -1px;
+	margin: 0px 0px 7px 16px;
+	width: 210px;
+	}
+
+#home-detalles p.comprados i.comprados {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../../img/main/home/home.png) no-repeat -510px -95px;
+	vertical-align: text-top;
+	margin: 4px 6px 0px 0px;
+	}
+
+#home-detalles p.comprados b.referencia {
+	font-size: 0.46em;
+	color: #02497a;
+	letter-spacing: 0px;
+	vertical-align: middle;
+	}
+
+
+
+/*--| ACTIVACIÓN
+------------------------------------------------ |--*/
+
+#home-detalles p.activa,
+#home-detalles p.desactivada  {
+	font: bold 1.9em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #202520;
+	margin: 2px 0px 0px 3px;
+	width: 160px;
+	border-top: 1px solid #c6c9b9;
+	padding: 10px 8px 0px 8px;
+	word-spacing: -1px;
+	}
+
+#home-detalles p.desactivada {
+	font: bold 1.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4b4f45;
+	margin: 8px 0px 0px 4px;
+	padding: 12px 8px 0px 5px;
+	text-indent: 12px;
+	}
+
+#home-detalles p.activa i.activa,
+#home-detalles p.desactivada i.desactivada {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 6px 0px 0px;
+	}
+	          #home-detalles p.activa i.activa {background: url(../../img/main/home/home.png) no-repeat -510px -115px;}
+	#home-detalles p.desactivada i.desactivada {background: url(../../img/main/home/home.png) no-repeat -535px -115px; margin-right: 1px; }
+
+
+
+/*--| COLUMNA 3
+-------------------------------------------------------------------- |--*/
+
+#home-detalles .data-3-wrapper {
+	width: 160px;
+	height: 75px;
+	margin: 30px 0px 0px 25px;
+	}
+
+
+
+/*--| FINALIZA
+------------------------------------------------ |--*/
+
+#home-detalles p.finaliza {
+	font: bold 1.3em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #02497a;
+	display: block;
+	margin: 0px 0px 6px 4px;
+	}
+
+
+
+/*--| TIEMPO
+----------------------------------------a-------- |--*/
+
+#home-detalles p.tiempo i.tiempo {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../../img/main/home/home.png) no-repeat -530px -95px;
+	vertical-align: text-top;
+	margin: 5px 5px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+#home-detalles p.tiempo {
+	font: bold 2.8em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #202520;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	word-spacing: -4px;
+	}
+
+canvas.data-3-linea {
+	width: 204px;
+	height: 1px;
+	background: url(../../img/main/home/home.png) no-repeat -230px -148px;
+	margin: 0px 0px 0px 0px;
+	float: right;
+	}
+
+
+
+/*--| DETALLES
+----------------------------------------------------------------------------------------- |--*/
+
+section#detalles {
+	width: 625px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 20px 0px;
+	}
+
+.detalles-top,
+.detalles-bot {
+	width: 620px;
+	height: auto;
+	overflow: hidden;
+	margin: 0px 0px 35px 0px;
+	}
+	.detalles-bot {margin: 0px 0px 5px 0px;}
+
+
+
+/*--| TITULO
+------------------------------------------------ |--*/
+
+section#detalles h4 {
+	height: 19px;
+	background: url(../../img/main/home/home.png) no-repeat -230px -155px;
+	font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #2b6294;
+	margin: 0px 0px 10px 0px;
+	padding: 1px 0px 10px 15px;
+	}
+
+section#detalles h4 i {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: text-top;
+	float: right;
+	margin: 7px 10px 0px 0px;
+	}
+
+
+
+/*--| TEXTO
+------------------------------------------------ |--*/
+
+.detalles-txt p,
+.detalles-txt dl dt,
+.detalles-txt dl dd {
+	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #494d45;
+	margin: 0px 0px 0.4166em 0px;
+	padding: 0px 0px 0px 12px;
+	background: url(../../img/main/home/home.png) no-repeat -230px -190px;
+	}
+
+.detalles-txt dl dd {
+	margin: 0px 0px 0.45em 10px;
+	padding: 0px 0px 0px 12px;
+	background: url(../../img/main/home/tick-blue.png) no-repeat 0px 0px;
+	}
+
+.detalles-txt p a,
+.detalles-txt dl dt a,
+.detalles-txt dl dd a {
+	font-weight: bold;
+	color: #316083;
+	padding: 1px 3px 1px 3px;
+	margin: 0px -3px 0px -3px;
+	}
+
+.detalles-txt p a:hover,
+.detalles-txt dl dt:hover,
+.detalles-txt dl dd a:hover {
+	font-weight: bold;
+	color: #e0dec5;
+	background-color: #316083;
+	}
+
+
+
+/*--| IMG
+------------------------------------------------ |--*/
+
+figure.detalles-img {
+	margin: 10px 0px 0px 14px;
+	opacity: 0.90;
+	border: 1px solid #d6d6bc;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+figure.detalles-img img {
+	width: 284px;
+	height: 142px;
+	padding: 0px 0px 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+figure.detalles-img:hover {opacity: 1.0;}
+
+
+
+/*--| DETALLES
+-------------------------------------------------------------------- |--*/
+
+section#detalles article.detalles {
+	width: 300px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	float: left;
+	background: none;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	}
+
+section#detalles h4 i.detalles {background: url(../../img/main/home/home.png) no-repeat -555px -65px;}
+
+section#detalles article.detalles .detalles-txt {
+	width: 270px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 0px 15px;
+	}
+
+
+
+/*--| CONDICIONES
+-------------------------------------------------------------------- |--*/
+
+section#detalles article.condiciones {
+	width: 300px;
+	height: 100%;
+	min-height: 20px;
+	overflow: hidden;
+	float: right;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+section#detalles h4 i.condiciones {background: url(../../img/main/home/home.png) no-repeat -570px -65px;}
+
+section#detalles article.condiciones .detalles-txt {
+	width: 270px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 0px 15px;
+	}
+
+
+
+/*--| DESCRIPCIÓN
+-------------------------------------------------------------------- |--*/
+
+section#detalles article.descripcion {
+	width: 405px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	float: left;
+	background: none;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	}
+
+section#detalles h4 i.descripcion {background: url(../../img/main/home/home.png) no-repeat -555px -80px;}
+
+section#detalles article.descripcion .detalles-txt {
+	width: 375px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 0px 15px;
+	}
+
+section#detalles article.descripcion .detalles-txt p {margin: 0px 0px 0.83333em 0px;}
+
+
+
+/*--| COMPAÑÍA
+-------------------------------------------------------------------- |--*/
+
+section#detalles article.compania {
+	width: 195px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	float: right;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	}
+
+section#detalles h4 i.compania {background: url(../../img/main/home/home.png) no-repeat -570px -80px;}
+
+section#detalles article.compania .detalles-txt {
+	width: 190px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 0px 5px;
+	}
+
+
+
+/*--| LOGO
+------------------------------------------------ |--*/
+
+figure.detalles-logo {
+	width: 190px;
+	height: 95px;
+	margin: -2px 0px 10px 3px;
+	border: 1px solid #d6d6bc;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+figure.detalles-logo img {
+	width: 190px;
+	height: 95px;
+	padding: 0px 0px 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+
+
+/*--| ADDRESS
+------------------------------------------------ |--*/
+
+section#detalles article.compania .detalles-txt p {
+	font: normal 1.3em/1.9233em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0.4166em 0px;
+	padding: 0px 0px 0px 17px;
+	background: none;
+	}
+
+section#detalles article.compania .detalles-txt p.direccion {background: url(../../img/main/home/home.png) no-repeat -664px 3px;}
+    section#detalles article.compania .detalles-txt p.sitio {background: url(../../img/main/home/home.png) no-repeat -665px -62px;}
+   section#detalles article.compania .detalles-txt p.correo {background: url(../../img/main/home/home.png) no-repeat -665px -92px;}
+  section#detalles article.compania .detalles-txt p.horario {background: url(../../img/main/home/home.png) no-repeat -665px -122px;}
+ section#detalles article.compania .detalles-txt p.telefono {background: url(../../img/main/home/home.png) no-repeat -665px -152px;}
+
+
+
+/*--| MAPA + SOCIAL + TARJETAS
+----------------------------------------------------------------------------------------- |--*/
+
+#home-detalles section.mapasocial {
+	width: 625px;
+	height: 150px;
+	margin: 0px 5px 15px 0px;
+	}
+
+
+/*--| MAPA
+-------------------------------------------------------------------- |--*/
+
+#home-detalles figure.mapa {
+	width: 300px;
+	height: 150px;
+	margin: 0px 0px 0px 5px;
+	border: 1px solid #b3b7a3;
+	opacity: 0.98;
+	float: left;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+#home-detalles figure.mapa img {
+	width: 300px;
+	height: 150px;
+	padding: 0px 0px 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+
+
+/*--| REGALA + RECOMENDA
+-------------------------------------------------------------------- |--*/
+
+#home-detalles .social-tarjetas {
+	width: 295px;
+	height: 149px;
+	margin-top: 1px;
+	float: right;
+	margin: 5px 5px 0px 0px;
+	}
+
+#home-detalles p.regala,
+#home-detalles p.recomenda {
+	font: 700 1.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	height: 20px;
+	margin: 0px 0px 5px 0px;
+	padding: 3px 0px 0px 0px;
+	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+	   #home-detalles p.regala {width: 164px;}
+	#home-detalles p.recomenda {width: 234px;}
+	
+#home-detalles p.regala a,
+#home-detalles p.recomenda a {	
+	display: inline-block;
+	color: #095992;
+	}
+
+#home-detalles p.regala i.regala,
+#home-detalles p.recomenda i.recomenda {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: text-top;
+	margin: 0px 3px 0px 6px;
+	}
+          #home-detalles p.regala i.regala {background: url(../../img/main/home/home.png) no-repeat -665px -185px;}
+	#home-detalles p.recomenda i.recomenda {background: url(../../img/main/home/home.png) no-repeat -665px -210px;}
+
+
+
+/*--| SOCIAL
+-------------------------------------------------------------------- |--*/
+
+#home-detalles .social {
+	width: 295px;
+	height: 25px;
+	margin: 0px 0px 5px 0px;
+	}
+
+#home-detalles .social .social-item {
+	float: left;
+	margin: 2px 5px 0px 0px;
+	}
+
+
+
+/*--| TARJETAS
+-------------------------------------------------------------------- |--*/
+
+#home-detalles .tarjetas {
+	width: 295px;
+	height: 60px;
+	margin: 0px 0px 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+#home-detalles .tarjetas .tarjetas-txt {
+	float: left;
+	width: 78px;
+	height: 46px;
+	padding: 16px 0px 0px 12px;
+	}
+
+#home-detalles .tarjetas .tarjetas-txt dt {
+	font: 700 1.3em/1.15em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #095992;
+	}
+
+#home-detalles .tarjetas-logos {
+	width: 205px;
+	height: 55px;
+	float: right;
+	padding: 5px 0px 0px 0px;
+	}
+
+#home-detalles .tarjetas dd {
+	height: 25px;
+	float: left;
+	margin: 0px 12px 0px 0px;
+	}
+	#home-detalles .tarjetas dd:hover {cursor: pointer;}
+
+            #home-detalles .tarjetas dd.visa {background: url(../../img/main/home/home.png) no-repeat    0px -430px; width: 41px;} 
+      #home-detalles .tarjetas dd.visa:hover {background: url(../../img/main/home/home.png) no-repeat -291px -430px;}
+
+      #home-detalles .tarjetas dd.mastercard {background: url(../../img/main/home/home.png) no-repeat  -41px -430px; width: 27px;} 
+#home-detalles .tarjetas dd.mastercard:hover {background: url(../../img/main/home/home.png) no-repeat -332px -430px;}
+
+         #home-detalles .tarjetas dd.ocacard {background: url(../../img/main/home/home.png) no-repeat  -68px -430px; width: 46px;} 
+   #home-detalles .tarjetas dd.ocacard:hover {background: url(../../img/main/home/home.png) no-repeat -360px -430px;}
+
+           #home-detalles .tarjetas dd.cabal {background: url(../../img/main/home/home.png) no-repeat -114px -430px; width: 19px;} 
+     #home-detalles .tarjetas dd.cabal:hover {background: url(../../img/main/home/home.png) no-repeat -406px -430px;}
+
+           #home-detalles .tarjetas dd.ebrou {background: url(../../img/main/home/home.png) no-repeat -133px -430px; width: 45px;} 
+     #home-detalles .tarjetas dd.ebrou:hover {background: url(../../img/main/home/home.png) no-repeat -425px -430px;}
+
+       #home-detalles .tarjetas dd.santander {background: url(../../img/main/home/home.png) no-repeat -178px -430px; width: 55px;} 
+ #home-detalles .tarjetas dd.santander:hover {background: url(../../img/main/home/home.png) no-repeat -470px -430px;}
+
+          #home-detalles .tarjetas dd.abitab {background: url(../../img/main/home/home.png) no-repeat -233px -430px; width: 58px;} 
+    #home-detalles .tarjetas dd.abitab:hover {background: url(../../img/main/home/home.png) no-repeat -525px -430px;}
+
+
+
+
+/*--| COMPRALO
+----------------------------------------------------------------------------------------- |--*/
+
+#home-detalles section.compralo {
+	width: 625px;
+	height: 55px;
+	padding: 14px 0px 0px 0px;
+	border-top: 1px solid #b6baa6;
+	}
+
+#home-detalles .final-data {
+	width: 310px;
+	height: 45px;
+	float: left;
+	margin: 5px 0px 0px 0px;
+	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+#home-detalles .final-data_precio,
+#home-detalles .final-data_descuento,
+#home-detalles .final-data_preciofinal {
+	float: left;
+	height: 45px;
+	}
+
+#home-detalles .final-data_precio {
+	width: 87px;
+	border-right: 1px solid #d7d8c6;
+	}
+
+#home-detalles .final-data_precio p.precio {
+	margin: 13px 0px 0px 0px;
+	text-align: right;
+	width: 80px;
+	}
+
+#home-detalles .final-data_descuento {
+	width: 77px;
+	border-right: 1px solid #d7d8c6;
+	}
+
+#home-detalles .final-data_descuento p.porcentaje {margin: 7px 0px 0px 5px;}
+
+#home-detalles .final-data_preciofinal p.tiempo {
+	font: bold 2.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 7px 0px 0px 7px;
+	}
+
+#home-detalles .boton-precio {
+	float: right;
+	margin: 5px 5px 0px 0px;
+	}
+
+#home-detalles .oferta-home-precio {
+	font: bold 3em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	text-shadow: none;
+	height: 36px;
+	padding: 4px 10px 0px 10px; 
+	}
+
+
+
+
+/*--| OFERTA FINALIZADA - OFERTA SIMILIAR
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#oferta-similar {
+	width: 665px;
+	height: 205px;
+	margin: 5px 5px 20px 5px;
+	padding: 15px 10px 15px 15px;
+	background: #e3e4d2 url(../../img/textures/paper.jpg) repeat 0px 0px;
+	}
+
+#oferta-similar figure {
+	width: 410px;
+	height: 205px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+#oferta-similar figure img {
+	width: 410px;
+	height: 205px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+#oferta-similar article {
+	width: 255px;
+	height: 190px;
+	float: right;
+	margin: 15px 0px 0px 0px;
+	}
+
+#oferta-similar  h3 {
+	width: 255px;
+	height: 55px;
+	margin: 0px 0px 0px 0px;
+	font: 700 1.8em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ffffee;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px 15px 0px 9px;
+	background: url(../../img/main/store/store.png) no-repeat 0px -125px;
+	}
+
+#oferta-similar .txt {
+	width: 245px;
+	margin: 10px 0px 0px 20px;
+	}
+
+#oferta-similar .final-data {
+	width: 235px;
+	height: 35px;
+	margin: 10px 0px 0px 15px;
+	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+#oferta-similar .txt p {background: url(../../img/main/home/home.png) no-repeat -230px -190px;}
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/
