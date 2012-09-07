@@ -90,7 +90,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 						</select>
 					</div>
 					<div class="left">
-						<button type="submit" class="form_search"><i class="lupa"><span class="none">Buscar</span></button>
+						<button type="submit" class="form_search"><i class="lupa"></i><span class="none">Buscar</span></button>
 					</div>
 				</fieldset>
 			</form>

@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    /*$("body").queryLoader2({
+    $("body").queryLoader2({
         barColor: "#6e6d73",
         backgroundColor: "#fff1b0",
         percentage: true,
         barHeight: 30,
         completeAnimation: "grow"
-    });*/
+    });
 
 
 /*--| TOOLTIP
@@ -43,7 +43,17 @@ $('figure.detalles-img').cycle({
     speed:  2500 
  });
 
+$('#popup-button').click(function(){
+	$("#popup h2").addClass('none');
+	$("#popup .popup-form-step1").addClass('none');
+	$("#popup .popup-form-step2").removeClass('none');
+	$("#popup h3.step1").addClass('none');
+	$("#popup h3.step2").removeClass('none');
+	});
 
-
+$('a.popup-close').click(function(){
+	$("html").removeClass('popup');
+	$("#popup").addClass('none');
+	});
 
 });

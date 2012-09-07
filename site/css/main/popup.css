@@ -13,6 +13,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| POPUP
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+html.popup {overflow: hidden;}
+
 #popup {
 	width: 1920px;
 	height: 1200px;
@@ -71,38 +73,202 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .popup-content {
 	width: 710px;
 	height: 450px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
 	background: url(../../img/textures/sunbeans.png) no-repeat 0px 0px;
 	}
 
-
 #popup h1 {
-	width: 250px;
-	height: 170px;
+	width: 240px;
+	height: 175px;
+	display: block;
+	background: url(../../img/header/header.png) no-repeat 0px -120px;
+	margin: -1px 0px 0px 5px;
 	position: absolute;
 	z-index: 20;
-	margin: -1px 0px 0px 10px;
 	top: 0%;
-	background: url(../../img/main/popup/popup.png) no-repeat 0px 0px;
 	}
 
-#popup h2 {
-	font: 700 2.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #eaecec;
+#popup .copete {
 	width: 405px;
 	height: 130px;
-	margin: 30px 0px 0px 255px;
+	margin: 25px 0px 0px 250px;
+	}
+	
+#popup h2 {
+	font: 700 2.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ffffff;
 	text-shadow: 1px 1px 3px #435900;
 	}
 
+#popup canvas.popup-img {
+	width: 720px;
+	height: 160px;
+	position: absolute;
+	z-index: 5;
+	margin: -35px 0px 0px -5px;
+	background: url(../../img/main/popup/popup.png) no-repeat 0px 0px;
+	}
+
+#popup article {
+	width: 645px;
+	height: 140px;
+	margin: 130px 0px 0px 30px;
+	}
+
+#popup .top {width: 645px; height: 85px;}
+
+#popup .top-left {
+	width: 350px;
+	height: 80px;
+	float: left;
+	}
+
+#popup canvas.top-left-back {
+	width: 330px;
+	height: 80px;
+	background-color: #000;
+	-khtml-opacity: 0.2;
+	  -moz-opacity: 0.2;
+	       opacity: 0.2;
+	filter: alpha(opacity=20);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+	
+#popup-form {
+	width: 310px;
+	height: 70px;
+	margin: -70px 0px 0px 10px;
+	position: absolute;
+	z-index: 3;
+	}
+
+#popup .top-right {
+	width: 295px;
+	height: 80px;
+	float: right;
+	}
+
+#popup .top-right h3 {
+	font: 700 1.8em/1.388em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-shadow: 1px 1px 3px #435900;
+	margin: 5px 0px 0px 0px;
+	}
+
+.form-step1 {
+	width: 25px;
+	height: 25px;
+	background-color: #09F;
+	cursor: pointer;
+	}
 
 
 
-/*<div id="popup">
 
-<canvas class="popup-overlay"></canvas>
+	/*<article>
 
-<div class="popup-content">
-opa
-</div>
+		<div class="top">
 
-</div>*/
+			<div class="popup-top-left">
+				<form id="popup-uno">
+					<fieldset>
+						<div class="input-prepend">
+							<span class="add-on"><i class="icon-envelope"></i></span>
+							<input class="span2" id="prependedInput" size="16" type="text" placeholder="Email:">
+						</div>
+						<select>
+							<option>Categoria</option>
+							<option>Gastronomía</option>
+							<option>Estética</option>
+							<option>Turismo</option>
+							<option>Store</option>
+						</select>
+					</fieldset>
+				</form>
+			</div>
+
+			<div class="popup-top-right">
+				<h3>Descuentos en spas, restaurantes, peluquerías, bares, espectáculos y mucho más.</h3>
+			</div>*/
+
+
+
+
+
+#popup .line {
+	width: 645px;
+	height: 5px;
+	background: url(../../img/main/popup/popup.png) no-repeat 0px -160px;
+	}
+
+#popup .bot {width: 645px; height: 60px;}
+
+#popup .bot-left {
+	width: 345px;
+	height: 45px;
+	float: left;
+	padding: 15px 0px 0px 15px;
+	}
+
+#popup .bot-left p {
+	font: normal 0.9em/1.38em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #deedc2;
+	}
+
+#popup .bot-left p a {
+	color: #deedc2;
+	border-bottom: 1px dotted #c7d4ad;
+	}
+
+#popup .bot-left p a:hover {
+	background-color: #6e8f07;
+	color: #fff;
+	border: none;
+	margin: 0px -3px 0px -3px;
+	padding: 2px 3px 2px 3px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+#popup .bot-right {
+	width: 285px;
+	height: 60px;
+	float: right;
+	}
+
+#popup .bot-right p a {
+	font: 700 1.5em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #587300;
+	float: right;
+	margin: 17px 0px 0px 0px;
+	padding: 3px 7px 3px 7px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+#popup .bot-right p a:hover {
+	border: 1px solid #587700;
+	color: #fff;
+	background-color: #628400;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+	   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+	        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
+	}
+
+#popup .bot-right p a:active {
+	border: 1px solid #587700;
+	color: #eaecec;
+	background-color: #628400;
+	-webkit-box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+	   -moz-box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+	        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
+	}
+

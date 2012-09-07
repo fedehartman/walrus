@@ -44,7 +44,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 </head>
 
 
-<body id="home" class="popup">
+<body id="home">
+
 
 <?php include("popup.php"); ?>
 
