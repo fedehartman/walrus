@@ -2,7 +2,7 @@
 <!--| ASIDE
 ========================================================================================================================= |-->
 
-<aside class="home" id="column-2">
+<aside class="home">
 
 
 
@@ -64,7 +64,7 @@
 
 			<li class="oferta">
 				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-				<canvas class="circle"></canvas>
+				<div class="circle"></div>
 				<article>
 					<h4>Oferta 1<br> en Colonia.</h4>
 					<div class="comprar aside-comprar">
@@ -72,7 +72,7 @@
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 				</article>
-				<canvas class="line"></canvas>
+				<div class="line"></div>
 			</li>
 
 			<li class="oferta">

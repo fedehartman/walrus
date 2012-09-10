@@ -24,7 +24,7 @@
 					<p>wóÒw es el 1<sup>er</sup> sitio de compras en grupo de Uruguay que te permite obtener grandes descuentos.</p>
 				</div>
 
-				<canvas class="footer2_divider"></canvas>
+				<div class="footer2_divider"></div>
 
 
 			<!--| TU EMPRESA
@@ -32,12 +32,12 @@
 
 				<div class="footer2_2">
 					<h4>Sumá tu empresa a wóÒw</h4>
-					<canvas class="footer2_grafica"></canvas>
+					<div class="footer2_grafica"></div>
 					<p>wóÒw te puede llevar cientos de consumidores a tu puerta</p>
 					<div class="boton boton-chico right"><a href="#"><i class="boton-mail"></i>Contactanos aquí</a></div>
 				</div>
 
-				<canvas class="footer2_divider"></canvas>
+				<div class="footer2_divider"></div>
 
 
 			<!--| CONTACTO
@@ -52,13 +52,13 @@
 					<div class="boton boton-chico right"><a href="#"><i class="boton-mail"></i>Envianos tu consulta</a></div>
 				</div>
 
-				<canvas class="footer2_divider"></canvas>
+				<div class="footer2_divider"></div>
 
 			<!--| =================================================================== |-->
 
 			</div> <!--"footer2_wrapper_top"-->
 
-			<div class="footer2_wrapper_bot"></div>
+			<!--<div class="footer2_wrapper_bot"></div>-->
 
 		</div> <!--"footer2_wrapper"-->
 
@@ -67,10 +67,10 @@
 	<!--| FACEBOOK
 	================================================================================= |-->
 
-		<!--<div class="footer2_4">
+		<div class="footer2_4">
 			<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FwoOw.MVD&amp;width=405&amp;height=185&amp;colorscheme=light&amp;show_faces=true&amp;border_color=18649c&amp;stream=false&amp;header=false" style="border:none; overflow:hidden; width:405px; height:185px;"></iframe>
 		</div>
--->
+
 
 	<!--| =========================================================================== |-->
 
@@ -175,7 +175,7 @@
 
 
 
-</div>
+</div> <!--"footer_wrapper"-->
 </footer>
 
 </div> <!--"container"-->

@@ -31,7 +31,7 @@ article#home-oferta {
 	height: 350px;
 	margin: 5px 5px 5px 5px;
 	background-color: #fff;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	position: absolute;
 	z-index: 5;
 	-webkit-border-radius: 3px;
@@ -100,15 +100,7 @@ article#home-oferta {
 	height: 35px;
 	text-indent: -9000px;
 	cursor: pointer;
-	background-color: #054a7a;
 	margin: -18px 0px 0px -17px;
-	background-color: #02416d;
-	                                     background-image: -ms-linear-gradient(top, #024878 0%,             #003961 100%);
-	                                    background-image: -moz-linear-gradient(top, #024878 0%,             #003961 100%);
-	                                      background-image: -o-linear-gradient(top, #024878 0%,             #003961 100%);
-		                             background-image: -webkit-linear-gradient(top, #024878 0%,             #003961 100%);
-	                                   background-image: linear-gradient(to bottom, #024878 0%,             #003961 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #024878), color-stop(1, #003961));
 	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
 	   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
 	        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.35);
@@ -116,49 +108,19 @@ article#home-oferta {
 
 .es-nav span.es-nav-next:hover,
 .es-nav span.es-nav-prev:hover {
-	                                     background-image: -ms-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
-	                                    background-image: -moz-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
-	                                      background-image: -o-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
-		                             background-image: -webkit-linear-gradient(top, #0c5a92 0%,             #023f68 100%);
-	                                   background-image: linear-gradient(to bottom, #0c5a92 0%,             #023f68 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c5a92), color-stop(1, #023f68));
 	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 	}
 
-.es-nav span.es-nav-next:active,
-.es-nav span.es-nav-prev:active {
-	                                     background-image: -ms-linear-gradient(top, #003961 0%,             #024878 100%);
-	                                    background-image: -moz-linear-gradient(top, #003961 0%,             #024878 100%);
-	                                      background-image: -o-linear-gradient(top, #003961 0%,             #024878 100%);
-	                                 background-image: -webkit-linear-gradient(top, #003961 0%,             #024878 100%);
-	                                   background-image: linear-gradient(to bottom, #003961 0%,             #024878 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003961), color-stop(1, #003961));
-	-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
-	        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.65);
-	}
-
-.es-nav span.es-nav-prev {
-	   -webkit-border-top-left-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	       -moz-border-radius-topleft: 3px;
-	    -moz-border-radius-bottomleft: 3px;
-	           border-top-left-radius: 3px;
-	        border-bottom-left-radius: 3px;
-	}
-
+.es-nav span.es-nav-prev {background: url(../../img/main/home/home.png) no-repeat -665px -315px;}
+.es-nav span.es-nav-prev:active {background: url(../../img/main/home/home.png) no-repeat -665px -280px;}
 
 .es-nav span.es-nav-next {
 	margin: -18px 0px 0px 144px;
-	   -webkit-border-top-right-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	       -moz-border-radius-topright: 3px;
-	    -moz-border-radius-bottomright: 3px;
-	           border-top-right-radius: 3px;
-	        border-bottom-right-radius: 3px;
+	background: url(../../img/main/home/home.png) no-repeat -680px -315px;
 	}
+	.es-nav span.es-nav-next:active {background: url(../../img/main/home/home.png) no-repeat -680px -280px;}
 
 .es-nav span:hover {opacity:1.0;}
 
@@ -235,7 +197,7 @@ article#home-oferta .data {
 	}
 
 article#home-oferta .descuento {
-	width: 80px;
+	width: 70px;
 	height: 70px;
 	margin: 0px 0px 0px 605px;
 	background: url(../../img/main/home/home.png) no-repeat -425px -65px;
@@ -298,6 +260,20 @@ article#home-oferta .oferta-home-precio {
 	}
 
 article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padding-top: 9px; vertical-align: middle;}
+
+.precio-oferta {
+	float: right;
+	background-color: #FFC;
+	margin: 200px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	background: url(../../img/textures/black.png) repeat 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+
+
 
 
 

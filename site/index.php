@@ -120,12 +120,14 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 					<h3>52% de descuento en 1 Roll de vegetales al wok 8 piezas</h3>
                     <div class="slider-controls"></div>
 				</article>
-                <div class="right" style="margin-top: 210px;">
-				<div class="comprar home-comprar">
-					<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-					<div class="comprar-action"><p><a href="#">Compralo</a></p></div>
+                <!--<div class="right" style="margin-top: 210px;">-->
+				<div class="precio-oferta">
+					<div class="comprar home-comprar">
+						<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+						<div class="comprar-action"><p><a href="#">Compralo</a></p></div>
+					</div>
 				</div>
-                </div>
+                <!--</div>-->
 			</div>
 		</div> <!--"data"-->
 	</article> <!--"home-oferta"-->

@@ -66,6 +66,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .footer2_wrapper_bot {
 	width: 540px;
 	height: 15px;
+	clear: both;
 	background: url(../img/footer/footer.png) no-repeat -20px -830px;
 	}
 
@@ -134,6 +135,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	width: 150px;
 	height: 75px;
 	background: url(../img/footer/footer.png) no-repeat -20px -920px;
+	background-image: url(../img/footer/footer.png);
+	background-repeat: no-repeat;
+	background-position: -20px -920px;	
 	margin: 5px 5px 5px 5px;
 	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);
 	   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.65);

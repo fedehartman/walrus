@@ -36,7 +36,10 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><link href="css/ie.css" rel="stylesheet"><![endif]-->
+	<!--[if lt IE 9]><link href="css/ie8-7.css" rel="stylesheet"><![endif]-->
+	<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
 
 
 <!--| ================================================================================================================================================ |-->
@@ -44,10 +47,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 </head>
 
 
-<body id="store">
+<body>
 
 <?php include("header.php"); ?>
 
+
+<div class="container">
 
 <div class="main_wrapper"> <!--| main + footer |-->
 
@@ -60,7 +65,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <div class="content">
 
-<!--<div class="test">
+<div class="test">
 
 <div class="comprar home-comprar">
 	<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
@@ -87,14 +92,13 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <div class="boton boton-chico"><a href="#"><i class="boton-mail"></i>Contactanos aquí</a></div>
 
-</div>-->
+</div>
 
 <!--| =================================================================================================================== |-->
 
 </div> <!--"content"-->
 
-<?php include("footer.php"); ?>
-
+	<?php include("footer.php"); ?>
 
 </body>
 
