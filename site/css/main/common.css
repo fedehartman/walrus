@@ -14,7 +14,18 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 .paper {
-	background: #e3e4d2 url(../../img/textures/paper.jpg) repeat 0px 0px;
+	background: #dedcbd url(../../img/textures/paper.jpg) repeat 0px 0px;
+	margin: 5px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+.blue {
+	background: #0060a3 url(../../img/textures/blue.jpg) repeat 0px 0px;
 	margin: 5px;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;

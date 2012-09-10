@@ -34,7 +34,7 @@
 		===================================================== |-->
 
 			<div class="header-news_wrapper">
-				<div class="header-news-counter"><p>7</p></div>
+				<div class="header-news-counter"><p>8</p></div>
 				<div class="header-news_icon">
 					<div class="header-news none">
 						<div class="header-news-arrow"></div>
@@ -113,10 +113,10 @@
 				<div class="header-usuario-dropwdown none">
 					<div class="header-usuario-arrow"></div>
 					<ul class="header-usuario-select-options">
-						<li><a href="#">Mi Cuenta</a></li>
-						<li><a href="#">Mis Pedidos</a></li>
-						<li><a href="#">Amigos Referidos</a></li>
-						<li class="divider"><a href="#">Libreta de Direcciones</a></li>
+						<li><a href="usuario-cuenta.php">Mi Cuenta</a></li>
+						<li><a href="usuario-pedidos.php">Mis Pedidos</a></li>
+						<li><a href="usuario-amigos.php">Amigos Referidos</a></li>
+						<li class="divider"><a href="usuario-libreta.php">Libreta de Direcciones</a></li>
 						<li><a href="#">Cerrar Sesión</a></li>
 					</ul>
 				</div>
