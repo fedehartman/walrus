@@ -1,0 +1,37 @@
+/*
+Theme Name: Woow | HEADER
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| HEADER
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#main-nav li a {background: url(../img/header/menu-item-back.png) repeat-x 0px 0px;}
+
+#main-nav li a:hover {background: url(../img/header/menu-item-back.png) repeat-x 0px -30px;}
+
+#home li.main-nav_home a,
+#home li.main-nav_home a:hover,
+
+#store li.main-nav_store a,
+#store li.main-nav_store a:hover
+
+#todas li.main-nav_todas a,
+#todas li.main-nav_todas a:hover
+
+#recientes li.main-nav_recientes a,
+#recientes li.main-nav_recientes a:hover {background: url(../img/header/menu-item-back.png) repeat-x 0px -60px;}
+
+
+
+
+
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

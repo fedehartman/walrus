@@ -39,7 +39,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /*--| IMG
 ------------------------------------------------------------------------------------------------------------- |--*/
 
-img {border: none;}
+img {border: none; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;}
 img a {border: none;}
 
 

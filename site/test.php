@@ -60,7 +60,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <div class="content">
 
-<div class="test">
+<!--<div class="test">
 
 <div class="comprar home-comprar">
 	<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
@@ -87,7 +87,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <div class="boton boton-chico"><a href="#"><i class="boton-mail"></i>Contactanos aquí</a></div>
 
-</div>
+</div>-->
 
 <!--| =================================================================================================================== |-->
 

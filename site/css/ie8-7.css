@@ -1,0 +1,64 @@
+/*
+Theme Name: Woow | HEADER
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| HEADER
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.header-body {
+	width: 1055px;
+	height: 175px;
+	padding: 0px 432px 0px 433px;
+	position: absolute;
+	top: 0px;
+	background: url(../img/header/ie-back.png) no-repeat 0px 0px;
+	}
+
+h1 a {
+	width: 240px;
+	height: 175px;
+	display: block;
+	float: left;
+	background: url(../img/header/header.png) no-repeat 0px -120px;
+	margin: -5px 0px 0px 0px;
+	-webkit-transition: margin-top 0.1s linear;
+	   -moz-transition: margin-top 0.1s linear;
+	    -ms-transition: margin-top 0.1s linear;
+	     -o-transition: margin-top 0.1s linear;
+	        transition: margin-top 0.1s linear;
+	}
+	h1 a:hover {margin-top: 0px;}
+	h1 a i.backhome {
+		display: none;
+		position: absolute;
+		z-index: 20;
+		text-align: center;
+		width: 15px;
+		height: 15px;
+		background: url(../img/header/header.png) no-repeat -240px -134px;
+		margin: 124px 0px 0px 116px;
+		vertical-align: text-top;
+		}
+		h1 a:hover i.backhome {display: inline-block;}
+
+.header-leftside-top {
+	display: inline-block;
+	}
+
+.header-usuario-avatar {margin: 4px 0px 0px 0px; background-color: #FFC;}
+
+
+
+
+
+
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

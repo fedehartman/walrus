@@ -15,7 +15,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <!--[if IE 8]><html class="no-js lt-ie9" lang="es-UY"><![endif]-->
 
 <!--[if gt IE 8]><!-->
-<html class="no-js popup" lang="es-UY">
+<html class="no-js" lang="es-UY">
 <!--<![endif]-->
 
 
@@ -36,6 +36,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]><link href="css/ie.css" rel="stylesheet"><![endif]-->
+	<!--[if lt IE 9]><link href="css/ie8-7.css" rel="stylesheet"><![endif]-->
+	<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
 
 	<?php include("main/home_oferta_slider.php"); ?>
 
@@ -47,12 +50,14 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <body id="home">
 
 
-<?php include("popup.php"); ?>
+<?php /*?><?php include("popup.php"); ?><?php */?>
 
-<?php include("modales.php"); ?>
+<?php /*?><?php include("modales.php"); ?><?php */?>
 
 <?php include("header.php"); ?>
 
+
+<div class="container">
 
 <div class="main_wrapper"> <!--| main + footer |-->
 
