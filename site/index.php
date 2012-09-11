@@ -36,6 +36,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--[if IE]><link href="css/ie.css" rel="stylesheet"><![endif]-->
 	<!--[if lt IE 9]><link href="css/ie8-7.css" rel="stylesheet"><![endif]-->
 	<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
@@ -85,7 +86,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	================================================================================= |-->
 
 		<div id="rg-gallery" class="rg-gallery">
-        	<figure class="opa"><img src="img/samples/sample.jpg" width="700" height="350"></figure>
 			<div class="rg-thumbs">
 			  <div class="es-carousel-wrapper">
 					<div class="es-nav">
@@ -111,7 +111,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<!--| TEXTOS
 	================================================================================= |-->
 
-		<canvas class="circle"></canvas>
+		<canvas class="circulo"></canvas>
 		<div class="data">
 			<div class="descuento">52</div>
 			<div class="texto-precio">
@@ -145,9 +145,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 	<div id="home-detalles">
 
-		<canvas class="top"></canvas>
+		<canvas class="home-detalles-top"></canvas>
 
-		<article>
+		<article class="home-detalles-body">
 
 
 
@@ -197,7 +197,10 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			===================================================== |-->
 
 					<article class="detalles">
-						<h4>Detalles<i class="detalles"></i></h4>
+						<div class="detalles-title">
+							<div class="triangle"></div>
+							<h4 class="home-detalles">Detalles<i class="detalles"></i></h4>
+						</div>
 						<div class="detalles-txt">
 							<dl>
 								<dt><strong>El Menú incluye:</strong></dt>
@@ -228,7 +231,10 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			===================================================== |-->
 
 					<article class="condiciones">
-						<h4>Condiciones<i class="condiciones"></i></h4>
+						<div class="detalles-title">
+							<div class="triangle"></div>
+							<h4 class="home-detalles">Condiciones<i class="condiciones"></i></h4>
+						</div>
 						<div class="detalles-txt">
 							<p>Lo podrás retirar o lo recibirás entre el 30 de julio y el 3 de agosto de 2012.</p>
 							<p>En caso de elegir la opción que incluye envío, recordá leer las condiciones de envío.</p>
@@ -265,7 +271,10 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			===================================================== |-->
 
 					<article class="descripcion">
-						<h4>Descripción<i class="descripcion"></i></h4>
+						<div class="detalles-title">
+							<div class="triangle"></div>
+							<h4 class="home-detalles">Descripción<i class="descripcion"></i></h4>
+						</div>
 						<div class="detalles-txt">
 							<p>En Tsunami Sushi Lounge se combinan técnicas japonesas con productos regionales de alta calidad, logrando una perfecta armonía entre lo tradicional y los sabores de su vanguardia gastronómica más actual.</p>
 							<p>El mejor maridaje no tiene porque ser regional. Los mariscos cocidos y el pescado crudo combinan increíblemente con la cerveza.</p>
@@ -281,7 +290,10 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			===================================================== |-->
 
 					<article class="compania">
-						<h4>La Compañía<i class="compania"></i></h4>
+						<div class="detalles-title">
+							<div class="triangle"></div>
+							<h4 class="home-detalles">La Compañía<i class="compania"></i></h4>
+						</div>
 						<figure class="detalles-logo"><img src="img/samples/logo.png" width="190" height="95"></figure>
 						<div class="detalles-txt">
 							<address class="detalles">
@@ -412,7 +424,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 		</article>
 
-		<canvas class="bot"></canvas>
+		<canvas class="home-detalles-bot"></canvas>
 
 	</div> <!--"home-detalles"-->
 

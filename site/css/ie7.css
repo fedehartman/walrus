@@ -20,7 +20,61 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
+/*--| HOME - ASIDE - STORE SLIDER
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+.slider  {
+	position: relative;
+	top: 30px;
+	}
+
+#home-aside-store .ol_controls_position {margin: 30px 0px 0px 70px;}
+
+.circle {display: none;}
+
+.circle-ie7 {
+	display: block;
+	width: 125px;
+	height: 125px;
+	background: url(../img/textures/black.png) repeat 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	z-index: 10;
+	}
+
+
+
+/*--| HOME - OFERTA
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#home-detalles {
+	top: 375px;
+	position: absolute;
+	margin: 0px 0px 0px 5px;
+	}
+
+/*#home-detalles .detalles-top {
+	width: 695px;
+	height: 40px;
+	background: url(../../img/main/home/home.png) no-repeat 0px -350px;
+	}
+
+#home-detalles canvas.bot {
+	width: 695px;
+	height: 30px;
+	background: url(../../img/main/home/home.png) no-repeat 0px -390px;
+	}*/
+
+.home-detalles-body {
+	width: 625px;
+	height: auto;
+	min-height: 400px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 30px 0px 40px;
+	background: url(../../img/main/home/detalles-back.jpg) repeat-y 0px 0px;
+	}
 
 
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

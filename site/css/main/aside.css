@@ -13,7 +13,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| ASIDE
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
-aside.home {
+.home {
 	width: 265px;
 	height: auto;
 	min-height: 20px;
@@ -49,7 +49,7 @@ aside.home {
 	font: 700 2.5em/1.4em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #eaecec;
 	padding: 0px 0px 0px 10px;
-	background: url(../../img/main/home/home.png) no-repeat -355px 0px;
+	background: url(../../img/main/main.png) no-repeat -355px 0px;
 	}
 	#home-aside-store h3 {margin-left: -10px;}
 
@@ -59,7 +59,7 @@ aside.home {
 	position: absolute;
 	z-index: 35;
 	margin: -10px 0px 0px 50px;
-	background: url(../../img/main/home/home.png) no-repeat -355px -65px;
+	background: url(../../img/main/main.png) no-repeat -355px -65px;
 	}
 
 
@@ -160,17 +160,18 @@ aside.home {
 #home-aside-store figure,
 #home-aside-ofertas figure {width: 244px; height: 122px; overflow: hidden; }
 
-#home-aside-store canvas.circle,
-#home-aside-ofertas canvas.circle {
+#home-aside-store .circle,
+#home-aside-ofertas .circle {
 	width: 125px;
 	height: 125px;
-	background: url(../../img/main/home/home.png) no-repeat -230px 0px;
+	background: url(../../img/main/main.png) no-repeat -230px 0px;
 	position: absolute;
 	z-index: 10;
 	overflow: hidden;
 	}
-	#home-aside-store canvas.circle {margin: 0px 0px 0px 0px;}
-	#home-aside-ofertas canvas.circle {margin: -122px 0px 0px 0px;}
+	#home-aside-store .circle {margin: 0px 0px 0px 0px;}
+	#home-aside-ofertas .circle {margin: -122px 0px 0px 0px;}
+	.circle-ie7 {display: none;}
 
 #home-aside-store article,
 #home-aside-ofertas article {
@@ -202,7 +203,7 @@ aside.home {
 #home-aside-ofertas .line {
 	width: 245px;
 	height: 15px;
-	background: url(../../img/main/home/home.png) no-repeat -357px -50px;
+	background: url(../../img/main/main.png) no-repeat -357px -50px;
 	}
 	#home-aside-store .line {margin-left: 5px;}
 

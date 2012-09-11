@@ -113,14 +113,14 @@ article#home-oferta {
 	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 	}
 
-.es-nav span.es-nav-prev {background: url(../../img/main/home/home.png) no-repeat -665px -315px;}
-.es-nav span.es-nav-prev:active {background: url(../../img/main/home/home.png) no-repeat -665px -280px;}
+.es-nav span.es-nav-prev {background: url(../../img/main/main.png) no-repeat -665px -315px;}
+.es-nav span.es-nav-prev:active {background: url(../../img/main/main.png) no-repeat -665px -280px;}
 
 .es-nav span.es-nav-next {
 	margin: -18px 0px 0px 144px;
-	background: url(../../img/main/home/home.png) no-repeat -680px -315px;
+	background: url(../../img/main/main.png) no-repeat -680px -315px;
 	}
-	.es-nav span.es-nav-next:active {background: url(../../img/main/home/home.png) no-repeat -680px -280px;}
+	.es-nav span.es-nav-next:active {background: url(../../img/main/main.png) no-repeat -680px -280px;}
 
 .es-nav span:hover {opacity:1.0;}
 
@@ -172,14 +172,15 @@ figure.opa {
 /*--| TEXTOS
 ----------------------------------------------------------------------------------------- |--*/
 
-article#home-oferta canvas.circle {
+article#home-oferta .circulo {
 	width: 230px;
 	height: 350px;
 	background-color: #000;
-	margin: -350px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	position: absolute;
+	top: 0px;
 	z-index: 10;
-	background: url(../../img/main/home/home.png) no-repeat 0px 0px;
+	background: url(../../img/main/main.png) no-repeat 0px 0px;
 	   -webkit-border-top-left-radius: 3px;
 	-webkit-border-bottom-left-radius: 3px;
 	       -moz-border-radius-topleft: 3px;
@@ -200,7 +201,7 @@ article#home-oferta .descuento {
 	width: 70px;
 	height: 70px;
 	margin: 0px 0px 0px 605px;
-	background: url(../../img/main/home/home.png) no-repeat -425px -65px;
+	background: url(../../img/main/main.png) no-repeat -425px -65px;
 	font: bold 3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #e1e5eb;
 	padding: 10px 0px 0px 10px;
@@ -288,19 +289,19 @@ article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padd
 	margin: 355px 0px 0px 5px;
 	}
 
-#home-detalles canvas.top {
+.home-detalles-top {
 	width: 695px;
 	height: 40px;
-	background: url(../../img/main/home/home.png) no-repeat 0px -350px;
+	background: url(../../img/main/main.png) no-repeat 0px -350px;
 	}
 
-#home-detalles canvas.bot {
+.home-detalles-bot {
 	width: 695px;
 	height: 30px;
-	background: url(../../img/main/home/home.png) no-repeat 0px -390px;
+	background: url(../../img/main/main.png) no-repeat 0px -390px;
 	}
 
-#home-detalles article {
+article.home-detalles-body {
 	width: 625px;
 	height: auto;
 	min-height: 400px;
@@ -367,7 +368,7 @@ article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padd
 	width: 15px;
 	height: 15px;
 	display: inline-block;
-	background: url(../../img/main/home/home.png) no-repeat -510px -65px;
+	background: url(../../img/main/main.png) no-repeat -510px -65px;
 	vertical-align: text-top;
 	margin: 1px 2px 0px 0px;
 	padding: 0px 0px 0px 3px;
@@ -401,7 +402,7 @@ article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padd
 	width: 15px;
 	height: 13px;
 	display: inline-block;
-	background: url(../../img/main/home/home.png) no-repeat -510px -80px;
+	background: url(../../img/main/main.png) no-repeat -510px -80px;
 	vertical-align: middle;
 	margin: 0px 5px 0px 0px;
 	padding: 0px 0px 2px 3px;
@@ -425,7 +426,7 @@ article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padd
 canvas.data-1-linea {
 	width: 194px;
 	height: 1px;
-	background: url(../../img/main/home/home.png) no-repeat -230px -149px;
+	background: url(../../img/main/main.png) no-repeat -230px -149px;
 	margin: 0px 0px 0px 0px;
 	}
 
@@ -457,7 +458,7 @@ canvas.data-1-linea {
 	width: 20px;
 	height: 20px;
 	display: inline-block;
-	background: url(../../img/main/home/home.png) no-repeat -510px -95px;
+	background: url(../../img/main/main.png) no-repeat -510px -95px;
 	vertical-align: text-top;
 	margin: 4px 6px 0px 0px;
 	}
@@ -501,8 +502,8 @@ canvas.data-1-linea {
 	vertical-align: middle;
 	margin: 0px 6px 0px 0px;
 	}
-	          #home-detalles p.activa i.activa {background: url(../../img/main/home/home.png) no-repeat -510px -115px;}
-	#home-detalles p.desactivada i.desactivada {background: url(../../img/main/home/home.png) no-repeat -535px -115px; margin-right: 1px; }
+	          #home-detalles p.activa i.activa {background: url(../../img/main/main.png) no-repeat -510px -115px;}
+	#home-detalles p.desactivada i.desactivada {background: url(../../img/main/main.png) no-repeat -535px -115px; margin-right: 1px; }
 
 
 
@@ -536,7 +537,7 @@ canvas.data-1-linea {
 	width: 20px;
 	height: 20px;
 	display: inline-block;
-	background: url(../../img/main/home/home.png) no-repeat -530px -95px;
+	background: url(../../img/main/main.png) no-repeat -530px -95px;
 	vertical-align: text-top;
 	margin: 5px 5px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -553,7 +554,7 @@ canvas.data-1-linea {
 canvas.data-3-linea {
 	width: 204px;
 	height: 1px;
-	background: url(../../img/main/home/home.png) no-repeat -230px -148px;
+	background: url(../../img/main/main.png) no-repeat -230px -148px;
 	margin: 0px 0px 0px 0px;
 	float: right;
 	}
@@ -585,14 +586,30 @@ section#detalles {
 /*--| TITULO
 ------------------------------------------------ |--*/
 
-section#detalles h4 {
-	height: 19px;
-	background: url(../../img/main/home/home.png) no-repeat -230px -155px;
+.detalles-title {
+	height: 30px;
+	margin: 0px 0px 10px 0px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.detalles-title .triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	border-top: 14px solid transparent;
+	border-left: 5px solid #dedcbd;
+	border-bottom: 16px solid transparent;
+	}
+
+h4.home-detalles {
 	font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #2b6294;
 	margin: 0px 0px 10px 0px;
-	padding: 1px 0px 10px 15px;
+	padding: 0px 0px 0px 15px;
 	}
+
 
 section#detalles h4 i {
 	width: 15px;
@@ -615,7 +632,7 @@ section#detalles h4 i {
 	color: #494d45;
 	margin: 0px 0px 0.4166em 0px;
 	padding: 0px 0px 0px 12px;
-	background: url(../../img/main/home/home.png) no-repeat -230px -190px;
+	background: url(../../img/main/main.png) no-repeat -230px -190px;
 	}
 
 .detalles-txt dl dd {
@@ -634,7 +651,6 @@ section#detalles h4 i {
 	}
 
 .detalles-txt p a:hover,
-.detalles-txt dl dt:hover,
 .detalles-txt dl dd a:hover {
 	font-weight: bold;
 	color: #e0dec5;
@@ -682,7 +698,7 @@ section#detalles article.detalles {
 	padding: 0px;
 	}
 
-section#detalles h4 i.detalles {background: url(../../img/main/home/home.png) no-repeat -555px -65px;}
+section#detalles h4 i.detalles {background: url(../../img/main/main.png) no-repeat -555px -65px;}
 
 section#detalles article.detalles .detalles-txt {
 	width: 270px;
@@ -708,7 +724,7 @@ section#detalles article.condiciones {
 	padding: 0px;
 	}
 
-section#detalles h4 i.condiciones {background: url(../../img/main/home/home.png) no-repeat -570px -65px;}
+section#detalles h4 i.condiciones {background: url(../../img/main/main.png) no-repeat -570px -65px;}
 
 section#detalles article.condiciones .detalles-txt {
 	width: 270px;
@@ -734,7 +750,7 @@ section#detalles article.descripcion {
 	padding: 0px;
 	}
 
-section#detalles h4 i.descripcion {background: url(../../img/main/home/home.png) no-repeat -555px -80px;}
+section#detalles h4 i.descripcion {background: url(../../img/main/main.png) no-repeat -555px -80px;}
 
 section#detalles article.descripcion .detalles-txt {
 	width: 375px;
@@ -762,7 +778,7 @@ section#detalles article.compania {
 	padding: 0px;
 	}
 
-section#detalles h4 i.compania {background: url(../../img/main/home/home.png) no-repeat -570px -80px;}
+section#detalles h4 i.compania {background: url(../../img/main/main.png) no-repeat -570px -80px;}
 
 section#detalles article.compania .detalles-txt {
 	width: 190px;
@@ -808,11 +824,11 @@ section#detalles article.compania .detalles-txt p {
 	background: none;
 	}
 
-section#detalles article.compania .detalles-txt p.direccion {background: url(../../img/main/home/home.png) no-repeat -664px 3px;}
-    section#detalles article.compania .detalles-txt p.sitio {background: url(../../img/main/home/home.png) no-repeat -665px -62px;}
-   section#detalles article.compania .detalles-txt p.correo {background: url(../../img/main/home/home.png) no-repeat -665px -92px;}
-  section#detalles article.compania .detalles-txt p.horario {background: url(../../img/main/home/home.png) no-repeat -665px -122px;}
- section#detalles article.compania .detalles-txt p.telefono {background: url(../../img/main/home/home.png) no-repeat -665px -152px;}
+section#detalles article.compania .detalles-txt p.direccion {background: url(../../img/main/main.png) no-repeat -664px 3px;}
+    section#detalles article.compania .detalles-txt p.sitio {background: url(../../img/main/main.png) no-repeat -665px -62px;}
+   section#detalles article.compania .detalles-txt p.correo {background: url(../../img/main/main.png) no-repeat -665px -92px;}
+  section#detalles article.compania .detalles-txt p.horario {background: url(../../img/main/main.png) no-repeat -665px -122px;}
+ section#detalles article.compania .detalles-txt p.telefono {background: url(../../img/main/main.png) no-repeat -665px -152px;}
 
 
 
@@ -876,7 +892,10 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 	}
 	   #home-detalles p.regala {width: 164px;}
 	#home-detalles p.recomenda {width: 234px;}
-	
+
+#home-detalles p.regala:hover,
+#home-detalles p.recomenda:hover {background: url(../../img/textures/paper71.jpg) repeat 0px 0px;}
+
 #home-detalles p.regala a,
 #home-detalles p.recomenda a {	
 	display: inline-block;
@@ -891,8 +910,8 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 	vertical-align: text-top;
 	margin: 0px 3px 0px 6px;
 	}
-          #home-detalles p.regala i.regala {background: url(../../img/main/home/home.png) no-repeat -665px -185px;}
-	#home-detalles p.recomenda i.recomenda {background: url(../../img/main/home/home.png) no-repeat -665px -210px;}
+          #home-detalles p.regala i.regala {background: url(../../img/main/main.png) no-repeat -665px -185px;}
+	#home-detalles p.recomenda i.recomenda {background: url(../../img/main/main.png) no-repeat -665px -210px;}
 
 
 
@@ -951,26 +970,26 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 	}
 	#home-detalles .tarjetas dd:hover {cursor: pointer;}
 
-            #home-detalles .tarjetas dd.visa {background: url(../../img/main/home/home.png) no-repeat    0px -430px; width: 41px;} 
-      #home-detalles .tarjetas dd.visa:hover {background: url(../../img/main/home/home.png) no-repeat -291px -430px;}
+            #home-detalles .tarjetas dd.visa {background: url(../../img/main/main.png) no-repeat    0px -430px; width: 41px;} 
+      #home-detalles .tarjetas dd.visa:hover {background: url(../../img/main/main.png) no-repeat -291px -430px;}
 
-      #home-detalles .tarjetas dd.mastercard {background: url(../../img/main/home/home.png) no-repeat  -41px -430px; width: 27px;} 
-#home-detalles .tarjetas dd.mastercard:hover {background: url(../../img/main/home/home.png) no-repeat -332px -430px;}
+      #home-detalles .tarjetas dd.mastercard {background: url(../../img/main/main.png) no-repeat  -41px -430px; width: 27px;} 
+#home-detalles .tarjetas dd.mastercard:hover {background: url(../../img/main/main.png) no-repeat -332px -430px;}
 
-         #home-detalles .tarjetas dd.ocacard {background: url(../../img/main/home/home.png) no-repeat  -68px -430px; width: 46px;} 
-   #home-detalles .tarjetas dd.ocacard:hover {background: url(../../img/main/home/home.png) no-repeat -360px -430px;}
+         #home-detalles .tarjetas dd.ocacard {background: url(../../img/main/main.png) no-repeat  -68px -430px; width: 46px;} 
+   #home-detalles .tarjetas dd.ocacard:hover {background: url(../../img/main/main.png) no-repeat -360px -430px;}
 
-           #home-detalles .tarjetas dd.cabal {background: url(../../img/main/home/home.png) no-repeat -114px -430px; width: 19px;} 
-     #home-detalles .tarjetas dd.cabal:hover {background: url(../../img/main/home/home.png) no-repeat -406px -430px;}
+           #home-detalles .tarjetas dd.cabal {background: url(../../img/main/main.png) no-repeat -114px -430px; width: 19px;} 
+     #home-detalles .tarjetas dd.cabal:hover {background: url(../../img/main/main.png) no-repeat -406px -430px;}
 
-           #home-detalles .tarjetas dd.ebrou {background: url(../../img/main/home/home.png) no-repeat -133px -430px; width: 45px;} 
-     #home-detalles .tarjetas dd.ebrou:hover {background: url(../../img/main/home/home.png) no-repeat -425px -430px;}
+           #home-detalles .tarjetas dd.ebrou {background: url(../../img/main/main.png) no-repeat -133px -430px; width: 45px;} 
+     #home-detalles .tarjetas dd.ebrou:hover {background: url(../../img/main/main.png) no-repeat -425px -430px;}
 
-       #home-detalles .tarjetas dd.santander {background: url(../../img/main/home/home.png) no-repeat -178px -430px; width: 55px;} 
- #home-detalles .tarjetas dd.santander:hover {background: url(../../img/main/home/home.png) no-repeat -470px -430px;}
+       #home-detalles .tarjetas dd.santander {background: url(../../img/main/main.png) no-repeat -178px -430px; width: 55px;} 
+ #home-detalles .tarjetas dd.santander:hover {background: url(../../img/main/main.png) no-repeat -470px -430px;}
 
-          #home-detalles .tarjetas dd.abitab {background: url(../../img/main/home/home.png) no-repeat -233px -430px; width: 58px;} 
-    #home-detalles .tarjetas dd.abitab:hover {background: url(../../img/main/home/home.png) no-repeat -525px -430px;}
+          #home-detalles .tarjetas dd.abitab {background: url(../../img/main/main.png) no-repeat -233px -430px; width: 58px;} 
+    #home-detalles .tarjetas dd.abitab:hover {background: url(../../img/main/main.png) no-repeat -525px -430px;}
 
 
 
@@ -1103,6 +1122,6 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
 	}
 
-#oferta-similar .txt p {background: url(../../img/main/home/home.png) no-repeat -230px -190px;}
+#oferta-similar .txt p {background: url(../../img/main/main.png) no-repeat -230px -190px;}
 
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

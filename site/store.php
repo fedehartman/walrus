@@ -75,17 +75,20 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 				<p>Proin hendrerit est varius fermentum</p>
 				<p>Tincidunt lacus vitae sem</p>
 			</div>
-			<div class="final-data">
-				<div class="final-data_precio">
-					<p class="precio"><b class="moneda">$</b>150</p>
-				</div>
-				<div class="final-data_descuento">
-					<p class="porcentaje">57<b class="porcentaje">%</b></p>
-				</div>
-				<div class="final-data_comprados">
-					<p class="comprados">1837<b class="referencia">comprados</b></p>
-				</div>
-			</div>
+			<div class="num num-store-main right">
+	<div class="num-inicial-wrapper">
+		<i class="num-inicial-icon"></i>
+		<p class="num-inicial-cifra">% 250</p>
+	</div>
+	<div class="num-porcen-wrapper">
+		<i class="num-porcen-icon"></i>
+		<p class="num-porcen-cifra">58<b class="num-porcen-sign">%</b></p>
+	</div>
+	<div class="num-comprados-wrapper">
+		<i class="num-comprados-icon"></i>
+		<p class="num-comprados-cifra">125<b class="num-comprados-sign">comprados</b></p>
+	</div>
+</div>
 			<div class="comprar store-comprar right">
 				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
 				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>

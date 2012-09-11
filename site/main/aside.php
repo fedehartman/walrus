@@ -5,7 +5,7 @@
 <aside class="home">
 
 
-
+<?php /*?><?php */?>
 	<!--| STORE
 	================================================================================= |-->
 	
@@ -16,6 +16,7 @@
 			<canvas class="circle"></canvas>
 			<ul>
 				<li>
+					<div class="circle-ie7"></div> <!--Para el puto IE7-->
 					<figure class="img"><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 					<article class="h4-lineas-tres">
 						<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
@@ -26,6 +27,7 @@
 					</article>
 				</li>
 				<li>
+                <div class="circle-ie7"></div> <!--Para el puto IE7-->
 					<figure class="img"><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 					<article class="h4-lineas-tres">
 						<h4>Oferta 2<br> en Colonia. <br>2 noches para dos</h4>
@@ -36,6 +38,7 @@
 					</article>
 				</li>
 				<li>
+                <div class="circle-ie7"></div> <!--Para el puto IE7-->
 					<figure class="img"><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 					<article class="h4-lineas-tres">
 						<h4>Armonía y relax<br> en Colonia. <br>2 noches para dos</h4>
@@ -48,7 +51,7 @@
 			</ul>
 		</div> <!--"home-aside-store-slider"-->
 		<div class="ol_controls_position"></div>
-		<canvas class="line"></canvas>
+		<div class="line"></div>
 	</div> <!--"home-aside-store"-->
 
 
@@ -63,6 +66,7 @@
 		<ul>
 
 			<li class="oferta">
+				<div class="circle-ie7"></div> <!--Para el puto IE7-->
 				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<div class="circle"></div>
 				<article>
@@ -76,6 +80,7 @@
 			</li>
 
 			<li class="oferta">
+				<div class="circle-ie7"></div> <!--Para el puto IE7-->
 				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
@@ -89,6 +94,7 @@
 			</li>
 
 			<li class="oferta">
+				<div class="circle-ie7"></div> <!--Para el puto IE7-->
 				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
@@ -102,6 +108,7 @@
 			</li>
 
 			<li class="oferta">
+				<div class="circle-ie7"></div> <!--Para el puto IE7-->
 				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
@@ -115,6 +122,7 @@
 			</li>
 
 			<li class="oferta">
+				<div class="circle-ie7"></div> <!--Para el puto IE7-->
 				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
