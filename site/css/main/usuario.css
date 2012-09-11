@@ -174,6 +174,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .usuario h3 i.icon-top-dirreciones {background: url(../../img/main/main.png) no-repeat -60px -590px;}
 
 
+
 /*--| LINE
 ----------------------------------------------------------------------------------------- |--*/
 
@@ -219,12 +220,13 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	#usuario-libreta.usuario-menu {top: 170px;}
 
 .usuario-body {
-	width: 745px;
+	width: 760px;
 	height: auto;
 	min-height: 20px;
 	overflow: hidden;
 	margin: 15px 0px 0px 20px;
 	}
+
 
 
 /*--| MI CUENTA
@@ -233,16 +235,347 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| MIS PEDIDOS
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+.body-pedidos {width: 775px; margin-left: 5px;}
+
+.usuario-pedidos-items {
+	width: 775px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	}
+
+.usuario-pedidos-item {
+	width: 775px;
+	height: 140px;
+	margin: 0px 0px 40px 0px;
+	}
+
+
+/*--| 
+-------------------------------------------------------------------- |--*/
+
+i.usuario-icon-small {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	float: left;
+	vertical-align: text-top;
+	margin: 6px 2px 0px 0px;
+	}
+
+.usuario-pedidos-title {
+	width: 760px;
+	height: 25px;
+	margin: 0px 0px 10px 0px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.usuario-pedidos-triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	border-top: 12px solid transparent;
+	border-left: 5px solid #dedcbd;
+	border-bottom: 13px solid transparent;
+	}
+
+.usuario-pedidos-title h3 {
+	font: 700 1.4em/1.9em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #2b5b89;
+	float: left;
+	width: 745px;
+	}
+
+.usuario-pedidos-item i.usuario-pedidos-title {float: right; margin-right: 8px; background: url(../../img/icons/icon-paperdark.png) repeat -72px -96px;}
+
+
+
+
+/*--| 
+-------------------------------------------------------------------- |--*/
+
+.usuario-pedidos-body {
+	width: 735px;
+	height: 105px;
+	margin: 0px 0px 0px 15px;
+	}
+
+.usuario-pedidos-img {
+	width: 210px;
+	height: 105px;
+	float: left;
+	}
+
+
+/*--| 
+-------------------------------------------------------------------- |--*/
+
+.usuario-pedidos-columna1 {
+	width: 134px;
+	height: 105px;
+	float: left;
+	border-right: 1px solid #bcbeae;
+	margin: 0px 0px 0px 15px;	
+	padding-right: 15px;
+	}
+
+.usuario-pedidos-row,
+.usuario-pedidos-rows {
+	width: px;
+	height: 25px;
+	border-bottom: 1px solid #bcbeae;
+	}
+
+.usuario-pedidos-row-small {
+	float: left;
+	width: 40px;
+	height: 25px;
+	margin-right: 5px;
+	}
+	.usuario-pedidos-row-small-archivar {float: right; width: 80px;}
+
+.usuario-pedidos-columna1 p {
+	font: normal 1.2em/2.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #686d63;
+	}
+	.usuario-pedidos-columna1 p.cupon-listo {color: #0e68aa; font: 700 1.3em/2.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.usuario-pedidos-columna1 p.cupon-nolisto {color: #686d63; font: 700 1.3em/2.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.usuario-pedidos-columna1 p a {
+	color: #686d63;
+	margin: 0px 0px 0px -3px;
+	padding: 1px 3px 1px 3px;
+	}
+	.usuario-pedidos-columna1 p a:hover {background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;}
+
+i.usuario-check {background: url(../../img/icons/icon-greenpaper.png) repeat -288px 0px;}
+i.usuario-uncheck {background: url(../../img/icons/icon-paperdark.png) repeat -312px 1px;}
+i.usuario-descargar {background: url(../../img/icons/icon-paperdark.png) repeat -96px -24px;}
+i.usuario-ver {background: url(../../img/icons/icon-paperdark.png) repeat -96px -120px;}
+i.usuario-archivar {background: url(../../img/icons/icon-paperdark.png) repeat -408px -120px;}
+i.usuario-star {
+	cursor: pointer;
+	background: url(../../img/icons/icon-paperdark.png) repeat -120px 0px;
+	}
+i.usuario-star:hover,
+i.usuario-star-active {background: url(../../img/icons/icon-greenpaper.png) repeat -120px 0px;}
+
+
+
+/*--| 
+-------------------------------------------------------------------- |--*/
+
+.usuario-pedidos-columna2 {
+	width: 340px;
+	height: 105px;
+	float: left;
+	margin: 0px 0px 0px 20px;	
+	}
+
+.usuario-pedidos-row-item-l {
+	width: 114px;
+	height: 21px;
+	float: left;
+	margin-top: 2px;
+	border-right: 1px solid #bcbeae;
+	}
+
+.usuario-pedidos-row-item-r {
+	width: 220px;
+	height: 21px;
+	float: right;
+	margin-top: 2px;
+	}
+
+.usuario-pedidos-row-item-l p,
+.usuario-pedidos-row-item-r p {font: normal 1.2em/2.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.usuario-pedidos-row-item-l p {color: #0e68aa; text-align: right; margin-right: 5px;}
+.usuario-pedidos-row-item-r p {color: #2b2d28; font-weight: 700;}
+.usuario-pedidos-row-item-r p.usuarios-pedidos-total {
+	margin: 2px 0px 0px 0px; 
+	padding: 0px 25px 0px 5px;
+	line-height: 1.5em;
+	width: 60px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+
+/*--| 
+-------------------------------------------------------------------- |--*/
+
+.usuario-pedidos-footer {
+	width: 750px;
+	height: 25px;
+	border-top: 1px solid #adb0a3;
+	padding: 14px 0px 0px 0px;
+	margin: 0px 0px 0px 5px;
+	}
+
+.usuario-pedidos-footer-archivados {
+	width: 200px;
+	height: 25px;
+	float: left;
+	}
+
+.usuario-pedidos-footer-archivados p a {
+	font: normal 1.2em/2.3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #686d63;
+	float: left;
+	padding: 0px 6px 0px 6px;
+	}
+.usuario-pedidos-footer-archivados p a:hover {background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;}
+
+.usuario-pedidos-footer-paginación {
+	width: 400px;
+	height: 25px;
+	float: right;
+	}
+
+.usuario-pedidos-footer-paginación nav.paginacion ul {
+	height: 25px;
+	float: right;
+	}
+
+.usuario-pedidos-footer-paginación nav.paginacion ul li {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin: 0px 3px 0px 2px;
+	font: 700 1.3em/1.95em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #686d63;
+	text-align: center;
+	}
+
+.usuario-pedidos-footer-paginación nav.paginacion ul li a {
+	color: #686d63;
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.usuario-pedidos-footer-paginación nav.paginacion ul li a:hover {background: #e3e4d2 url(../../img/textures/paper81.jpg) repeat 0px 0px;}
+
+.usuario-pedidos-footer-paginación nav.paginacion ul li a:active,
+.usuario-pedidos-footer-paginación nav.paginacion ul li.current a {background: #e3e4d2 url(../../img/textures/paper71.jpg) repeat 0px 0px;}
+
+
+
 /*--| AMIGOS
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 /*--| DIRECCIONES
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+.usuario-libreta-items {
+	width: 760px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	}
+
+.usuario-libreta-item {
+	width: 345px;
+	height: 150px;
+	float: left;
+	margin: 0px 15px 15px 0px;
+	padding: 30px 10px 15px 10px;
+	background: #dedcbd url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+h4.usuario-h4-25 {
+	font: 700 2.5em/1.8em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #095c98;
+	margin: 0px 0px 0px 0px;
+	width: 345px;
+	height: 35px;
+	}
+
+.usuario-libreta-row {
+	width: 345px;
+	height: 25px;
+	margin: 5px 0px 0px 0px;
+	background: #dedcbd url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	}
+
+.usuario-libreta-row-doble {
+	width: 345px;
+	height: 25px;
+	margin: 5px 0px 0px 0px;
+	}
+
+.usuario-libreta-rows-small {
+	float: left;
+	width: 225px;
+	height: 25px;
+	}
+
+.usuario-libreta-row-small,
+.usuario-libreta-row-small-tel {
+	width: 75px;
+	height: 25px;
+	margin: 0px 5px 0px 0px;
+	float: left;
+	background: #dedcbd url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	}
+	.usuario-libreta-row-small-tel {width: 100px;}
+
+.usuario-libreta-botones {
+	width: 54px;
+	height: 25px;
+	float: right;
+	}
+
+.usuario-libreta-boton a {
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin: 0px 0px 0px 2px;
+	display: inline-block;
+	background: #dedcbd url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	}
+
+.usuario-libreta-boton a.libreta-editar:hover {background: #748c31 url(../../img/textures/greenpaper.jpg) repeat 0px 0px;}
+.usuario-libreta-boton a.libreta-eliminar:hover {background: #748c31 url(../../img/textures/redpaper.jpg) repeat 0px 0px;}
+.usuario-libreta-boton a:hover i.usuario-icon-editar {background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
+.usuario-libreta-boton a:hover i.usuario-icon-eliminar {background: url(../../img/icons/icon-paper.png) repeat -312px   0px;}
+
+.usuario-libreta-item i {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: 6px 5px 0px 5px;
+	float: left;
+	}
+
+.usuario-libreta-item p {
+	font: normal 1.3em/2.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #424740;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	}
+
+ .usuario-libreta-item i.usuario-icon-usuario {background: url(../../img/icons/icon-paperdark.png) repeat -168px   0px;}
+    .usuario-libreta-item i.usuario-icon-home {background: url(../../img/icons/icon-paperdark.png) repeat    0px -24px;}
+   .usuario-libreta-item i.usuario-icon-lugar {background: url(../../img/icons/icon-paperdark.png) repeat  -24px -72px;}
+.usuario-libreta-item i.usuario-icon-usuarios {background: url(../../img/icons/icon-paperdark.png) repeat   0px -168px;}
+     .usuario-libreta-item i.usuario-icon-cel {background: url(../../img/icons/icon-paperdark.png) repeat -24px -168px;}
+  .usuario-libreta-item i.usuario-icon-editar {background: url(../../img/icons/icon-paperdark.png) repeat    0px -72px;}
+.usuario-libreta-item i.usuario-icon-eliminar {background: url(../../img/icons/icon-paperdark.png) repeat -312px   0px;}
+
+
+
+/*--| AGREGAR
+----------------------------------------------------------------------------------------- |--*/
+
 .usuario-libreta-agregar-wrapper {
 	width: 745px;
 	height: 30px;
-	margin: 10px 0px 0px 0px;
+	margin: 0px 5px 5px 0px;
 	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
 	}
 

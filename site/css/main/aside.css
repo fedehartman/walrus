@@ -22,16 +22,23 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	}
 
 .aside-back {
-	width: 255px;
+	width: 252px;
 	height: auto;
-	top: 0px;
-	bottom: 0px;
-	position: relative;
-	background-color: #999;
-	margin: 15px 0px 0px 5px;
+	margin: 15px 1px 0px 5px;
+	border: 1px solid #ccd1d3;
+	background-color: #cfd3d7;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-image: url(../../img/textures/rayas-left-light.png), -webkit-linear-gradient(top,                                  #ccd1d3 0%,             #d0d6d9 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -moz-linear-gradient(top,                                     #ccd1d3 0%,             #d0d6d9 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -ms-linear-gradient(top,                                      #ccd1d3 0%,             #d0d6d9 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -o-linear-gradient(top,                                       #ccd1d3 0%,             #d0d6d9 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), linear-gradient(to bottom,                                    #ccd1d3 0%,             #d0d6d9 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccd1d3), color-stop(1, #d0d6d9 ));
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
 	}
-
-
 
 
 

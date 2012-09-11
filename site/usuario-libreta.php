@@ -24,9 +24,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Woow</title>
+	<title>Woow | Libreta de Direcciones</title>
 
-	<meta name="description" content="Woow | Store" />
+	<meta name="description" content="Woow | Libreta de Direcciones" />
 	<meta name="author" content="Woow | http://www.woow.com.uy" />
 	<meta name="keywords" content="" /> 
 	<meta name="robots" content="all" /> 
@@ -89,25 +89,114 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-	<!--| LIBRETA
+	<!--| LIBRETA - BODY
 	========================================================================================================================= |-->
-    
+
 	<div class="usuario paper">
+
+
+		<!--| TITLE
+		================================================================================= |-->
+
 		<div class="usuario-title">
 			<div class="triangle"></div>
 			<h3>Libreta de Direcciones<i class="usuario-icon icon-top-dirreciones"></i></h3>
 		</div>
+
+
+		<!--| BODY
+		================================================================================= |-->
+
 		<div class="usuario-body">
 			<div class="usuario-libreta-items">
 
+			<div class="usuario-libreta-item">
+				<h4 class="usuario-h4-25">Casa</h4>
+				<div class="usuario-libreta-row"><i class="usuario-icon-usuario"></i><p>Paul McCartney</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-home"></i><p>Luis A. de Herrera 1290 esq. Rivera</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-lugar"></i><p>Pocitos Nuevo, Montevideo.</p></div>
+				<div class="usuario-libreta-row-doble">
+					<div class="usuario-libreta-rows-small">
+						<div class="usuario-libreta-row-small"><i class="usuario-icon-usuarios"></i><p>Titular</p></div>
+						<div class="usuario-libreta-row-small-tel"><i class="usuario-icon-cel"></i><p>2 486 24 85</p></div>
+					</div>
+					<div class="usuario-libreta-botones">
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-editar" rel="tooltip" title="Editar"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-eliminar" rel="tooltip" title="Eliminar"><i class="usuario-icon-eliminar"></i><span class="none">Eliminar</span></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="usuario-libreta-item">
+				<h4 class="usuario-h4-25">Casa</h4>
+				<div class="usuario-libreta-row"><i class="usuario-icon-usuario"></i><p>Paul McCartney</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-home"></i><p>Luis A. de Herrera 1290 esq. Rivera</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-lugar"></i><p>Pocitos Nuevo, Montevideo.</p></div>
+				<div class="usuario-libreta-row-doble">
+					<div class="usuario-libreta-rows-small">
+						<div class="usuario-libreta-row-small"><i class="usuario-icon-usuarios"></i><p>Titular</p></div>
+						<div class="usuario-libreta-row-small-tel"><i class="usuario-icon-cel"></i><p>2 486 24 85</p></div>
+					</div>
+					<div class="usuario-libreta-botones">
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-editar" rel="tooltip" title="Editar"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-eliminar" rel="tooltip" title="Eliminar"><i class="usuario-icon-eliminar"></i><span class="none">Eliminar</span></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="usuario-libreta-item">
+				<h4 class="usuario-h4-25">Casa</h4>
+				<div class="usuario-libreta-row"><i class="usuario-icon-usuario"></i><p>Paul McCartney</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-home"></i><p>Luis A. de Herrera 1290 esq. Rivera</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-lugar"></i><p>Pocitos Nuevo, Montevideo.</p></div>
+				<div class="usuario-libreta-row-doble">
+					<div class="usuario-libreta-rows-small">
+						<div class="usuario-libreta-row-small"><i class="usuario-icon-usuarios"></i><p>Titular</p></div>
+						<div class="usuario-libreta-row-small-tel"><i class="usuario-icon-cel"></i><p>2 486 24 85</p></div>
+					</div>
+					<div class="usuario-libreta-botones">
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-editar" rel="tooltip" title="Editar"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-eliminar" rel="tooltip" title="Eliminar"><i class="usuario-icon-eliminar"></i><span class="none">Eliminar</span></a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="usuario-libreta-item">
+				<h4 class="usuario-h4-25">Casa</h4>
+				<div class="usuario-libreta-row"><i class="usuario-icon-usuario"></i><p>Paul McCartney</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-home"></i><p>Luis A. de Herrera 1290 esq. Rivera</p></div>
+				<div class="usuario-libreta-row"><i class="usuario-icon-lugar"></i><p>Pocitos Nuevo, Montevideo.</p></div>
+				<div class="usuario-libreta-row-doble">
+					<div class="usuario-libreta-rows-small">
+						<div class="usuario-libreta-row-small"><i class="usuario-icon-usuarios"></i><p>Titular</p></div>
+						<div class="usuario-libreta-row-small-tel"><i class="usuario-icon-cel"></i><p>2 486 24 85</p></div>
+					</div>
+					<div class="usuario-libreta-botones">
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-editar" rel="tooltip" title="Editar"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+						<div class="usuario-libreta-boton"><a href="#" class="libreta-eliminar" rel="tooltip" title="Eliminar"><i class="usuario-icon-eliminar"></i><span class="none">Eliminar</span></a></div>
+					</div>
+				</div>
+			</div>
+
 			</div> <!--usuario-libreta-items-->
+
+
+
+		<!--| AGREGAR
+		================================================================================= |-->
+
 			<div class="usuario-libreta-agregar-wrapper">
 				<div class="usuario-libreta-agregar">
 					<div class="boton boton-usuario-libreta-agregar right"><a href="#"><i class="boton-agregar"></i>Agregar</a></div>
 				</div>
 			</div>
+
+		<!--| =========================================================================== |-->
+
 		</div> <!--"usuario-body"-->
+
 		<div class="usuario-line"></div>
+
 	</div> <!--"usuario"-->
 
 

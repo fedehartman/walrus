@@ -23,6 +23,14 @@ $(document).ready(function () {
     });*/
 
 
+/*--| HOME - ASIDE
+------------------------------------------------------------------------------------------------------------- |--*/
+
+var total = $('section.home').height();		
+var totalAside = $('.aside-total').height();		
+$('.aside-back').height(total-totalAside-27);
+
+
 
 /*--| HEADER - CERRAR CON CLIC AFUERA
 ------------------------------------------------------------------------------------------------------------- |--*/

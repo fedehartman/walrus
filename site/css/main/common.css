@@ -364,12 +364,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	background-color: #71920e;
 	background-position: 0px 0px;
 	background-repeat: repeat;
-	background-image: url(../../img/textures/rayas-left-light.png), -webkit-linear-gradient(top,                                  #71920e 0%,             #69870c 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -moz-linear-gradient(top,                                     #71920e 0%,             #69870c 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -ms-linear-gradient(top,                                      #71920e 0%,             #69870c 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -o-linear-gradient(top,                                       #71920e 0%,             #69870c 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), linear-gradient(to bottom,                                    #71920e 0%,             #69870c 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #71920e), color-stop(1, #69870c ));
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-linear-gradient(top,                                  #71920e 0%,             #69870c 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -moz-linear-gradient(top,                                     #71920e 0%,             #69870c 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -ms-linear-gradient(top,                                      #71920e 0%,             #69870c 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -o-linear-gradient(top,                                       #71920e 0%,             #69870c 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), linear-gradient(to bottom,                                    #71920e 0%,             #69870c 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #71920e), color-stop(1, #69870c ));
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 	        border-radius: 3px;
@@ -384,15 +384,15 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	background-color: #81a31d;
 	background-position: 0px 0px;
 	background-repeat: repeat;
-	background-image: url(../../img/textures/rayas-left-light.png), -webkit-linear-gradient(top,                                  #81a31d 0%,             #4d660e 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -moz-linear-gradient(top,                                     #81a31d 0%,             #4d660e 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -ms-linear-gradient(top,                                      #81a31d 0%,             #4d660e 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -o-linear-gradient(top,                                       #81a31d 0%,             #4d660e 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), linear-gradient(to bottom,                                    #81a31d 0%,             #4d660e 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #81a31d), color-stop(1, #4d660e ));
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-linear-gradient(top,                                  #81a31d 0%,             #4d660e 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -moz-linear-gradient(top,                                     #81a31d 0%,             #4d660e 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -ms-linear-gradient(top,                                      #81a31d 0%,             #4d660e 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -o-linear-gradient(top,                                       #81a31d 0%,             #4d660e 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), linear-gradient(to bottom,                                    #81a31d 0%,             #4d660e 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #81a31d), color-stop(1, #4d660e ));
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
 	}
 
 
@@ -401,12 +401,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	background-color: #5b7312;
 	background-position: 0px 0px;
 	background-repeat: repeat;
-	background-image: url(../../img/textures/rayas-left-light.png), -webkit-linear-gradient(top,                                  #5a7512 0%,             #799a1a 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -moz-linear-gradient(top,                                     #5a7512 0%,             #799a1a 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -ms-linear-gradient(top,                                      #5a7512 0%,             #799a1a 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -o-linear-gradient(top,                                       #5a7512 0%,             #799a1a 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), linear-gradient(to bottom,                                    #5a7512 0%,             #799a1a 100%);
-	background-image: url(../../img/textures/rayas-left-light.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #5a7512), color-stop(1, #799a1a ));
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-linear-gradient(top,                                  #5a7512 0%,             #799a1a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -moz-linear-gradient(top,                                     #5a7512 0%,             #799a1a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -ms-linear-gradient(top,                                      #5a7512 0%,             #799a1a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -o-linear-gradient(top,                                       #5a7512 0%,             #799a1a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), linear-gradient(to bottom,                                    #5a7512 0%,             #799a1a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #5a7512), color-stop(1, #799a1a ));
 	-webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
 	   -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
 	        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
