@@ -114,14 +114,16 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			============================================================= |-->
         
 			<article class="usuario-amigos-top">
-				<p><b class="usuario-blue">Recomendanos</b> y te regalamos <b class="usuario-blue">un cupón por $100</b> por cada nuevo usuario que traigas a wóÒw! Podés utilizar el cupón en tu próxima compra en wóÒw!</p>
-				<p>Para eso, <b class="usuario-blue">compartí</b> este link con tus amigos. Hacé clic para copiarlo.</p>
+				<p><b class="usuario-azul">Recomendanos</b> y te regalamos <b class="usuario-azul">un cupón por $100</b> por cada nuevo usuario que traigas a <b class="usuario-azul">wóÒw</b>. Podés utilizar el cupón en tu próxima compra en wóÒw!</p>
+				<p>Para eso, <b class="usuario-azul">compartí</b> este &uarr; link con tus amigos. Hacé <b class="usuario-azul">clic</b> para copiarlo:</p>
 				<form>
 					<fieldset>
-						<input type="text" class="usuario-amigos" value="https://www.woow.com.uy/auth/register/index/d612fd5aac840aeb8da33cedd9ea6c4e">
+						<div class="input-prepend usuario-amigos-form-margin">
+							<span class="add-on"><i class="icon-link"></i></span><input class="usuario-amigos" id="prependedInput" type="text" value="https://www.woow.com.uy/auth/register/index/d612fd5aac840aeb8da33cedd9ea6c4e">
+						</div>
 					</fieldset>
 				</form>
-				<p>Estos son los amigos que ya se registraron gracias a tu link:</p>
+				<p>Estos son los amigos que ya se registraron gracias a <b class="usuario-azul">tu link</b>:</p>
 			</article>
 
 
@@ -129,37 +131,37 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			============================================================= |-->
             
 			<div class="usuario-amigos-tabla">
-				<table border="0" cellpadding="0">
+				<table border="0" cellpadding="0" class="usuario-amigos-table">
 					<tr>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
-						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
-						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+						<td width="148px" height="28px" align="right">Nombre</td>
+						<td width="148px" height="28px">Apellido</td>
+						<td width="308px" height="28px"><a href="mailto:correo@correo.com">correo@correo.com</a></td>
+						<td width="18px"  height="28px"><i class="usuario-amigos-check"></i></td>
+					</tr>
 					<tr>
+						<td width="148px" height="28px" align="right">Nombre</td>
+						<td width="148px" height="28px">Apellido</td>
+						<td width="308px" height="28px"><a href="mailto:correo@correo.com">correo@correo.com</a></td>
+						<td width="18px"  height="28px"><i class="usuario-amigos-check"></i></td>
+					</tr>
 					<tr>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
-						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
-						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+						<td width="148px" height="28px" align="right">Nombre</td>
+						<td width="148px" height="28px">Apellido</td>
+						<td width="308px" height="28px"><a href="mailto:correo@correo.com">correo@correo.com</a></td>
+						<td width="18px"  height="28px"><i class="usuario-amigos-check"></i></td>
+					</tr>
 					<tr>
+						<td width="148px" height="28px" align="right">Nombre</td>
+						<td width="148px" height="28px">Apellido</td>
+						<td width="308px" height="28px"><a href="mailto:correo@correo.com">correo@correo.com</a></td>
+						<td width="18px"  height="28px"><i class="usuario-amigos-check"></i></td>
+					</tr>
 					<tr>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
-						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
-						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
-					<tr>
-					<tr>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
-						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
-						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
-					<tr>
-					<tr>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
-						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
-						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
-						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
-					<tr>
+						<td width="148px" height="28px" align="right">Nombre</td>
+						<td width="148px" height="28px">Apellido</td>
+						<td width="308px" height="28px"><a href="mailto:correo@correo.com">correo@correo.com</a></td>
+						<td width="18px"  height="28px"><i class="usuario-amigos-check"></i></td>
+					</tr>
 				</table>
 			</div>
 

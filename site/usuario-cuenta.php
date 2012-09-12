@@ -89,16 +89,97 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-	<!--| MI CUENTA
+	<!--| CUENTA - BODY
 	========================================================================================================================= |-->
-    
+
 	<div class="usuario paper">
+
+
+		<!--| TITLE
+		================================================================================= |-->
+
 		<div class="usuario-title">
 			<div class="triangle"></div>
-			<h3>Mi cuenta<i class="usuario-icon icon-top-cuenta"></i></h3>
+			<h3>Mi Cuenta<i class="usuario-icon icon-top-cuenta"></i></h3>
 		</div>
+
+
+		<!--| BODY
+		================================================================================= |-->
+
+		<div class="usuario-body">
+
+
+			<div class="usuario-cuenta-top">
+
+			<!--| CÉDULA DE IDENTIDAD (?)
+			============================================================= |-->
+
+				<div class="usuario-cuenta-cedula">
+
+				</div>
+
+
+			<!--| DIRECCIONES + AMIGOS
+			============================================================= |-->
+
+				<div class="usuario-cuenta-direcciones-amigos">
+
+					<div class="usuario-cuenta-direcciones">
+						
+					</div>
+
+					<div class="usuario-cuenta-amigos">
+						
+					</div>
+
+				</div>
+
+			<!--| ======================================================= |-->
+
+			</div> <!--"usuario-cuenta-top"-->
+
+
+			<div class="usuario-cuenta-bot">
+
+			<!--| OPCIONES + ACTIVIDADES
+			============================================================= |-->
+
+				<div class="usuario-cuenta-opciones-actividades">
+
+					<div class="usuario-cuenta-opciones">
+						
+					</div>
+
+					<div class="usuario-cuenta-actividades">
+						
+					</div>
+
+				</div>
+
+
+
+			<!--| ÚLTIMOS PEDIDOS
+			============================================================= |-->
+
+				<div class="usuario-cuenta-pedidos">
+
+				</div>
+
+			<!--| ======================================================= |-->
+
+			</div> <!--"usuario-cuenta-top"-->
+
+		</div> <!--"usuario-body"-->
+
+
+		<!--| =========================================================================== |-->
+
+
 		<div class="usuario-line"></div>
+
 	</div> <!--"usuario"-->
+
 
 
 	<!--| MENU
