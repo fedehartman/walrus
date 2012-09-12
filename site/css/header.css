@@ -241,6 +241,13 @@ hgroup {
 	background-color: #364704;
 	}
 
+.icon-header-news {
+	display: inline-block;
+	margin: -1px 5px 0px 0px;
+	vertical-align: text-top;
+	background: url(../img/icons/icon-header.png) no-repeat -120px -96px;
+	}
+
 
 
 /*--|DEPARTAMENTOS
@@ -321,8 +328,17 @@ hgroup {
 .header-departamentos-select ul.header-departamentos-select-options li a {
 	font: normal 1.3em/1.666em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	padding: 5px;
-	width: 90px;
+	width: 110px;
 	}
+
+.icon-header-departamento {
+	width: px;
+	height: px;
+	display: inline-block;
+	margin: 0px 5px 0px 0px;
+	background: url(../img/icons/icon-header.png) no-repeat -24px -72px;
+	}
+
 
 
 
@@ -425,6 +441,17 @@ hgroup {
 	margin-bottom: 10px;
 	}
 
+.icon-header-cuenta {
+	display: inline-block;
+	margin: 0px 5px 0px 0px;
+	vertical-align: text-top;
+	}
+
+.icon-h-cuenta {background: url(../img/icons/icon-header.png) no-repeat -72px -168px;}
+.icon-h-pedidos {background: url(../img/icons/icon-header.png) no-repeat -48px -168px;}
+.icon-h-amigos {background: url(../img/icons/icon-header.png) no-repeat 0px -168px;}
+.icon-h-direcciones {background: url(../img/icons/icon-header.png) no-repeat -24px -72px;}
+.icon-h-sesion {background: url(../img/icons/icon-header.png) no-repeat -24px -72px;}
 
 
 /*--| MAIN NAV
@@ -537,7 +564,6 @@ body#todas li.main-nav_todas a,
 
 
 #main-nav li.main-nav_categorias ul.main-nav_dropdown {
-	display: none;
 	margin: 0px 0px 0px 5px;
 	position: absolute;
 	padding: 5px 5px 0px 5px;
@@ -560,7 +586,7 @@ body#todas li.main-nav_todas a,
 	   -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.65);
 	        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.65);
 	}
-	#main-nav li.main-nav_categorias:hover ul.main-nav_dropdown {display: block;}
+	/*#main-nav li.main-nav_categorias:hover ul.main-nav_dropdown {display: block;}*/
 
 #main-nav li ul.main-nav_dropdown li {float: none;}
 

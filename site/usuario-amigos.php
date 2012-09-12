@@ -24,9 +24,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Woow</title>
+	<title>Woow | Amigos Referidos</title>
 
-	<meta name="description" content="Woow | Store" />
+	<meta name="description" content="Woow | Amigos Referidos" />
 	<meta name="author" content="Woow | http://www.woow.com.uy" />
 	<meta name="keywords" content="" /> 
 	<meta name="robots" content="all" /> 
@@ -89,17 +89,110 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-	<!--| MI CUENTA
+	<!--| AMIGOS - BODY
 	========================================================================================================================= |-->
-    
+
 	<div class="usuario paper">
+
+
+		<!--| TITLE
+		================================================================================= |-->
+
 		<div class="usuario-title">
 			<div class="triangle"></div>
 			<h3>Amigos Referidos<i class="usuario-icon icon-top-amigos"></i></h3>
 		</div>
-		<div class="usuario-line"></div>
-	</div> <!--"usuario"-->
 
+
+		<!--| BODY
+		================================================================================= |-->
+
+		<div class="usuario-body">
+
+
+			<!--| TOP
+			============================================================= |-->
+        
+			<article class="usuario-amigos-top">
+				<p><b class="usuario-blue">Recomendanos</b> y te regalamos <b class="usuario-blue">un cupón por $100</b> por cada nuevo usuario que traigas a wóÒw! Podés utilizar el cupón en tu próxima compra en wóÒw!</p>
+				<p>Para eso, <b class="usuario-blue">compartí</b> este link con tus amigos. Hacé clic para copiarlo.</p>
+				<form>
+					<fieldset>
+						<input type="text" class="usuario-amigos" value="https://www.woow.com.uy/auth/register/index/d612fd5aac840aeb8da33cedd9ea6c4e">
+					</fieldset>
+				</form>
+				<p>Estos son los amigos que ya se registraron gracias a tu link:</p>
+			</article>
+
+
+			<!--| TABLA
+			============================================================= |-->
+            
+			<div class="usuario-amigos-tabla">
+				<table border="0" cellpadding="0">
+					<tr>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
+						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
+						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+					<tr>
+					<tr>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
+						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
+						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+					<tr>
+					<tr>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
+						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
+						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+					<tr>
+					<tr>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
+						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
+						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+					<tr>
+					<tr>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
+						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
+						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+					<tr>
+				</table>
+			</div>
+
+
+			<!--| BOTTOM
+			============================================================= |-->
+        
+			<article class="usuario-amigos-bot">
+				<div class="usuario-amigos-col">
+					<h4>¿Cómo funciona?</h4>
+						<p>Cada vez que un amigo que invites realice su primera compra (dentro del período de validez) se acreditarán $100 de descuento para tu próxima compra.</p>
+					<h4>¿Qué es el período de validez?</h4>
+						<p>Luego de que tu amigo se registre hay un período de 3 días para que efectúe su primer compra y tu ganes el descuento, pasado ese periodo la invitación caduca.</p>
+				</div>
+				<div class="usuario-amigos-col">
+					<h4>¿Cuánto descuento tengo acumulado hasta ahora?</h4>
+						<p>Cuando tengas un descuento que aun no consumiste podrás ver en esta página el monto del mismo.</p>
+					<h4>¿Cuándo puedo consumir mi descuento?</h4>
+						<p>La totalidad del descuento generado se consumirá en tu próxima compra, incluso cuando el monto del descuento supere el monto de la compra</p>
+				</div>
+			</article>
+            
+			<!--| ======================================================= |-->
+
+        </div> <!--"usuario-body"-->
+
+
+		<!--| =========================================================================== |-->
+
+
+		<div class="usuario-line"></div>
+
+	</div> <!--"usuario"-->
 
 	<!--| MENU
 	========================================================================================================================= |-->

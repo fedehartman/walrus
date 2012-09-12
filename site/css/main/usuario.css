@@ -225,6 +225,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	min-height: 20px;
 	overflow: hidden;
 	margin: 15px 0px 0px 20px;
+	background-color: #FFC;
 	}
 
 
@@ -467,6 +468,66 @@ i.usuario-star-active {background: url(../../img/icons/icon-greenpaper.png) repe
 
 /*--| AMIGOS
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.usuario-amigos-top {
+	width: 745px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	}
+
+.usuario-amigos-top p,
+.usuario-amigos-bot p {
+	font: normal 1.4em/1.428em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #424740;
+	}
+
+
+
+
+/*
+<article class="usuario-amigos-top">
+				<p><b class="usuario-blue">Recomendanos</b> y te regalamos <b class="usuario-blue">un cupón por $100</b> por cada nuevo usuario que traigas a wóÒw! Podés utilizar el cupón en tu próxima compra en wóÒw!</p>
+				<p>Para eso, <b class="usuario-blue">compartí</b> este link con tus amigos. Hacé clic para copiarlo.</p>
+				<form>
+					<fieldset>
+						<input type="text" class="usuario-amigos" value="https://www.woow.com.uy/auth/register/index/d612fd5aac840aeb8da33cedd9ea6c4e">
+					</fieldset>
+				</form>
+				<p>Estos son los amigos que ya se registraron gracias a tu link:</p>
+			</article>
+*/
+
+/*
+<div class="usuario-amigos-tabla">
+				<table border="0" cellpadding="0">
+					<tr>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Nombre</td>
+						<td valign="top" width="168px" height="28px" bgcolor="#e5e5c3">Apellido</td>
+						<td valign="top" width="343px" height="28px" bgcolor="#e5e5c3"><a href="#">correo</a></td>
+						<td valign="top" width="38px" height="28px" bgcolor="#e5e5c3"><i class="usuario-amigos-check"></i></td>
+					<tr>
+*/
+
+
+/*
+
+			<article class="usuario-amigos-bot">
+				<div class="usuario-amigos-col">
+					<h4>¿Cómo funciona?</h4>
+						<p>Cada vez que un amigo que invites realice su primera compra (dentro del período de validez) se acreditarán $100 de descuento para tu próxima compra.</p>
+					<h4>¿Qué es el período de validez?</h4>
+						<p>Luego de que tu amigo se registre hay un período de 3 días para que efectúe su primer compra y tu ganes el descuento, pasado ese periodo la invitación caduca.</p>
+				</div>
+				<div class="usuario-amigos-col">
+					<h4>¿Cuánto descuento tengo acumulado hasta ahora?</h4>
+						<p>Cuando tengas un descuento que aun no consumiste podrás ver en esta página el monto del mismo.</p>
+					<h4>¿Cuándo puedo consumir mi descuento?</h4>
+						<p>La totalidad del descuento generado se consumirá en tu próxima compra, incluso cuando el monto del descuento supere el monto de la compra</p>
+				</div>
+			</article>
+*/
+
 
 /*--| DIRECCIONES
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/

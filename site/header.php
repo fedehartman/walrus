@@ -40,9 +40,9 @@
 						<div class="header-news-arrow"></div>
 						<dl class="header-news_dropdown">
 							<dt>Notificaciones</dt>
-								<dd><a href="#">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</a></dd>
-								<dd><a href="#">Al igual que su buque gemelo Bismarck, el Tirpitz fue armado con una batería principal</a></dd>
-								<dd><a href="#">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</a></dd>
+								<dd><a href="#"><i class="icon-header-news"></i>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</a></dd>
+								<dd><a href="#"><i class="icon-header-news"></i>Al igual que su buque gemelo Bismarck, el Tirpitz fue armado con una batería principal</a></dd>
+								<dd><a href="#"><i class="icon-header-news"></i>Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</a></dd>
 						</dl> <!--"header-news_dropdown"-->
 					</div> <!--"header-news"-->
 				</div> <!--"header-news_icon"-->
@@ -67,13 +67,13 @@
 					<div class="header-departamentos-dropdown none">
 						<div class="header-departamentos-arrow"></div>
 						<ul class="header-departamentos-select-options">
-							<li><a href="#">Colonia</a></li>
-							<li><a href="#">Lavalleja</a></li>
-							<li><a href="#">Treinta y Tres</a></li>
-							<li><a href="#">Paysandú</a></li>
-							<li><a href="#">Rivera</a></li>
-							<li><a href="#">Rocha</a></li>
-							<li><a href="#">Salto</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Colonia</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Lavalleja</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Treinta y Tres</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Paysandú</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Rivera</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Rocha</a></li>
+							<li><a href="#"><i class="icon-header-departamento"></i>Salto</a></li>
 						</ul>
 					</div> <!--"header-departamentos-dropdown"-->
 				</div> <!--"header-departamentos-select"-->
@@ -113,11 +113,11 @@
 				<div class="header-usuario-dropwdown none">
 					<div class="header-usuario-arrow"></div>
 					<ul class="header-usuario-select-options">
-						<li><a href="usuario-cuenta.php">Mi Cuenta</a></li>
-						<li><a href="usuario-pedidos.php">Mis Pedidos</a></li>
-						<li><a href="usuario-amigos.php">Amigos Referidos</a></li>
-						<li class="divider"><a href="usuario-libreta.php">Libreta de Direcciones</a></li>
-						<li><a href="#">Cerrar Sesión</a></li>
+						<li><a href="usuario-cuenta.php"><i class="icon-header-cuenta icon-h-cuenta"></i>Mi Cuenta</a></li>
+						<li><a href="usuario-pedidos.php"><i class="icon-header-cuenta icon-h-pedidos"></i>Mis Pedidos</a></li>
+						<li><a href="usuario-amigos.php"><i class="icon-header-cuenta icon-h-amigos"></i>Amigos Referidos</a></li>
+						<li class="divider"><a href="usuario-libreta.php"><i class="icon-header-cuenta icon-h-direcciones"></i>Libreta de Direcciones</a></li>
+						<li><a href="#"><i class="icon-header-cuenta icon-h-sesion"></i>Cerrar Sesión</a></li>
 					</ul>
 				</div>
 			</div>
@@ -143,7 +143,7 @@
 			<li class="main-nav_todas"><a href="todas.php">Todas las Ofertas</a></li>
 			<li class="main-nav_categorias"><a href="#">Categorías<i class="main-nav_arrow"></i></a>
 				<div class="espacio"></div>
-				<ul class="main-nav_dropdown">
+				<ul class="main-nav_dropdown none">
 					<li><a href="gastronomia.php"><i class="categorias-gastronomia"></i>Gastronomía</a></li>
 					<li><a href="estetica.php"><i class="categorias-estetica"></i>Estética</a></li>
 					<li><a href="turismo.php"><i class="categorias-turismo"></i>Turismo</a></li>

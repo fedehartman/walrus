@@ -13,6 +13,10 @@ $(document).click(function(){
     $(".header-usuario-logueado > .header-usuario-dropwdown").addClass('none');
 	});
 
+$(document).click(function(){
+    $(".main-nav_categorias > .main-nav_dropdown").addClass('none');
+	});
+
 $(document).ready(function () {
     /*$("body").queryLoader2({
         barColor: "#6e6d73",
@@ -40,6 +44,7 @@ $(".header-news_icon").click(function(){
 	$(".header-news-counter").addClass('none');
 	$(".header-departamentos-dropdown").addClass('none');
 	$(".header-usuario-dropwdown").addClass('none');
+	$(".main-nav_dropdown").addClass('none');
 	});
 	
 $(".header-news_icon").click(function(e){
@@ -50,6 +55,7 @@ $(".header-departamentos-select .header-top-arrow-wrapper").click(function(){
 	$(".header-departamentos-dropdown").removeClass('none');
 	$(".header-usuario-dropwdown").addClass('none');
 	$(".header-news").addClass('none');
+	$(".main-nav_dropdown").addClass('none');
 	});
 
 $(".header-departamentos-select").click(function(e){
@@ -60,12 +66,23 @@ $(".header-usuario-logueado .header-top-arrow-wrapper").click(function(){
 	$(".header-usuario-dropwdown").removeClass('none');
 	$(".header-departamentos-dropdown").addClass('none');
 	$(".header-news").addClass('none');
+	$(".main-nav_dropdown").addClass('none');
 	});
 
 $(".header-usuario-logueado").click(function(e){
     e.stopPropagation();
 	});
 
+$(".main-nav_categorias a").click(function(){
+	$(".main-nav_dropdown").removeClass('none');
+	$(".header-usuario-dropwdown").addClass('none');
+	$(".header-departamentos-dropdown").addClass('none');
+	$(".header-news").addClass('none');
+	});
+
+$(".main-nav_categorias").click(function(e){
+    e.stopPropagation();
+	});
 
 /*--| TOOLTIP
 ------------------------------------------------------------------------------------------------------------- |--*/
