@@ -116,8 +116,26 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			============================================================= |-->
 
 				<div class="usuario-cuenta-cedula">
-
+					<div class="usuario-cuenta-avatar-nombre">
+						<div class="usuario-cuenta-avatar"><img src="img/samples/john.jpg" align="left" width="94" height="94" alt="John Lennon" /></div>
+						<h4 class="usuario-cuenta-nombre">John Lennon</h4>
+					</div>
+					<div class="usuario-cuenta-rows">
+						<div class="usuario-cuenta-row usuario-cuenta-row-fecha"><i class="usuario-icon cuenta-cumple"></i><p>09/10/1940</p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-cel"><i class="usuario-icon cuenta-cel"></i><p>099589345</p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-sexo"><i class="usuario-icon cuenta-hombre"></i></div>
+					</div>
+					<div class="usuario-cuenta-row usuario-cuenta-row-lugar"><i class="usuario-icon cuenta-luegar"></i><p>Woolton, Liverpool</p></div>
+					<div class="usuario-cuenta-rows">
+						<div class="usuario-cuenta-row usuario-cuenta-row-correo"><i class="usuario-icon cuenta-correo"></i><p><a href="john@thebeatles.com">john@thebeatles.com</a></p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-ci"><i class="usuario-icon cuenta-ci"></i><p>4356458-3</p></div>
+					</div>
+					<div class="usuario-cuenta-rows">
+						<div class="usuario-cuenta-row usuario-cuenta-row-pass"><i class="usuario-icon cuenta-pass"></i><p>&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p></div>
+						<div class="usuario-libreta-boton"><a href="#" class="usuario-cuenta-editar" rel="tooltip" title="Editá tus datos"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+					</div>
 				</div>
+
 
 
 			<!--| DIRECCIONES + AMIGOS
@@ -126,11 +144,27 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 				<div class="usuario-cuenta-direcciones-amigos">
 
 					<div class="usuario-cuenta-direcciones">
-						
+						<div class="usuario-cuenta-title-1">
+							<div class="usuario-pedidos-triangle"></div>
+							<h3>Mis últimas direcciones</h3>
+						</div>
+						<ul class="usuario-cuenta-list">
+							<li><i class="usuario-icon-small usuario-cuenta-lugarazul"></i>Casa</li>
+							<li><i class="usuario-icon-small usuario-cuenta-lugarazul"></i>Estudio</li>
+						</ul>
+						<p class="ver"><a href="usuario-libreta.php">Ver todos</a></p>
 					</div>
 
 					<div class="usuario-cuenta-amigos">
-						
+						<div class="usuario-cuenta-title-1">
+							<div class="usuario-pedidos-triangle"></div>
+							<h3>Amigos Referidos</h3>
+						</div>
+						<ul class="usuario-cuenta-list">
+							<li><i class="usuario-icon-small usuario-cuenta-amigos"></i>Paul McCartney</li>
+							<li><i class="usuario-icon-small usuario-cuenta-amigos"></i>Ringo Starr</li>
+						</ul>
+						<p class="ver"><a href="usuario-amigos.php">Ver todos</a></p>
 					</div>
 
 				</div>
@@ -148,11 +182,31 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 				<div class="usuario-cuenta-opciones-actividades">
 
 					<div class="usuario-cuenta-opciones">
-						
+						<div class="usuario-cuenta-title-2">
+							<div class="usuario-pedidos-triangle"></div>
+							<h3>Opciones</h3>
+						</div>
+						<ul class="usuario-cuenta-list">
+							<li><div class="usuario-check"><input type="checkbox"></div>Notificaciones por Correo</li>
+							<li><div class="usuario-check"><input type="checkbox"></div>Notificaciones por SMS</li>
+							<li><div class="usuario-check"><input type="checkbox"></div>Conectarme con Twitter</li>
+							<li><div class="usuario-check"><input type="checkbox"></div>Conectarme con Facebook</li>
+						</ul>
+						<div class="boton usuario-cuenta-boton"><a href="#">Guardar</a></div>
 					</div>
 
 					<div class="usuario-cuenta-actividades">
-						
+						<div class="usuario-cuenta-title-2">
+							<div class="usuario-pedidos-triangle"></div>
+							<h3>Actividades</h3>
+						</div>
+						<ul class="usuario-cuenta-list">
+							<li>Compraste un cupón para 2</li>
+							<li>Paul McCartney es tu nuevo amigo Referido</li>
+                            <li>Conectado con Facebook</li>
+                            <li>Notificaciones por SMS</li>
+						</ul>
+						<!--<p class="ver"><a href="#">Ver todos</a></p>-->
 					</div>
 
 				</div>
@@ -163,7 +217,41 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			============================================================= |-->
 
 				<div class="usuario-cuenta-pedidos">
-
+					<div class="usuario-cuenta-title-1">
+							<div class="usuario-pedidos-triangle"></div>
+							<h3>Mis últimos Pedidos</h3>
+						</div>
+					<ul class="usuario-cuenta-list">
+						<li class="pedidos">
+							<div class="usuario-cuenta-pedido-img"><img src="img/samples/sample.jpg" width="120" height="60"></div>
+							<div class="usuario-cuenta-pedido-data">
+								<p class="usuario-cuenta-data">Disfrutá del mejor sushi para dos al mejor precio</p>
+								<p class="ver-pedido"><a href="#">Ver Oferta</a></p>
+							</div>
+						</li>
+						<li class="pedidos">
+							<div class="usuario-cuenta-pedido-img"><img src="img/samples/sample.jpg" width="120" height="60"></div>
+							<div class="usuario-cuenta-pedido-data">
+								<p class="usuario-cuenta-data">Disfrutá del mejor sushi para dos al mejor precio</p>
+								<p class="ver-pedido"><a href="#">Ver Oferta</a></p>
+							</div>
+						</li>
+						<li class="pedidos">
+							<div class="usuario-cuenta-pedido-img"><img src="img/samples/sample.jpg" width="120" height="60"></div>
+							<div class="usuario-cuenta-pedido-data">
+								<p class="usuario-cuenta-data">Disfrutá del mejor sushi para dos al mejor precio</p>
+								<p class="ver-pedido"><a href="#">Ver Oferta</a></p>
+							</div>
+						</li>
+                        <li class="pedidos">
+							<div class="usuario-cuenta-pedido-img"><img src="img/samples/sample.jpg" width="120" height="60"></div>
+							<div class="usuario-cuenta-pedido-data">
+								<p class="usuario-cuenta-data">Disfrutá del mejor sushi para dos al mejor precio</p>
+								<p class="ver-pedido"><a href="#">Ver Oferta</a></p>
+							</div>
+						</li>
+					</ul>
+					<p class="ver"><a href="#">Ver todos</a></p>
 				</div>
 
 			<!--| ======================================================= |-->

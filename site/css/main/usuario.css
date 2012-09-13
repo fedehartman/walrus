@@ -268,8 +268,120 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	margin: 0px 0px 5px 0px;
 	}
 
+.usuario-cuenta-title-1 {
+	width: 310px;
+	height: 25px;
+	margin: 0px 0px 10px 0px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.usuario-cuenta-title-2 {
+	width: 410px;
+	height: 25px;
+	margin: 0px 0px 10px 0px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.usuario-pedidos-triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+	border-top: 12px solid transparent;
+	border-left: 5px solid #dedcbd;
+	border-bottom: 13px solid transparent;
+	}
+
+.usuario-cuenta-title-1 h3,
+.usuario-cuenta-title-2 h3 {
+	font: 700 1.4em/1.9em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #2b5b89;
+	float: left;
+	width: 395px;
+	padding-left: 0px;
+	}
+.usuario-cuenta-title-1 h3 {width: 295px;}
+
+ul.usuario-cuenta-list {
+	}
+
+ul.usuario-cuenta-list li {
+	font: normal 1.4em/2.07em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5d625a;
+	border-bottom: 1px solid #cfcfbd;
+	/*height: 29px;*/
+	}
+
+p.ver a {
+	float: right;
+	font: normal 1.2em/2.07em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5d625a;
+	}
+
+p.ver-pedido a {
+	font: normal 0.8em/3em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5d625a;
+	/*float: right;*/
+	margin: 8px 0px 0px 0px;
+	}
 
 
+
+
+.usuario-check {
+	padding-right: 5px;
+	float: left;
+	margin-top:4px;
+	margin-left: 2px;
+	}
+
+.usuario-cuenta-boton a {
+	height: 20px;
+	font: normal 1.4em/1.43em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	padding: 0px 5px 0px 5px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+	}
+
+.usuario-cuenta-pedido-img {
+	width: 120px;
+	height: 60px;
+	float: left;
+	}
+
+.usuario-cuenta-pedido-data {
+	width: 175px;
+	height: 60px;
+	float: right;
+	}
+
+.pedidos-boton {
+	float: right;
+	margin: 2px 10px 0px 0px;
+	}
+
+
+
+ul.usuario-cuenta-list li.pedidos {
+	width: 300px;
+	height: 60px;
+	padding: 0px 0px 10px 10px;
+	margin: 0px 0px 15px 0px;
+	}
+
+
+
+
+
+
+
+/*<div class="usuario-cuenta-pedido-img"><img src="img/samples/sample.jpg" width="120" height="60"></div>
+							<div class="usuario-cuenta-pedido-data">
+								<p class="usuario-cuenta-data">Disfrutá del mejor sushi para dos al mejor precio</p>
+								<div class="usuario-libreta-boton"><a href="#" class="usuario-cuenta-editar" rel="tooltip" title="Ver la oferta"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+							</div>*/
 /*--| AMIGOS
 ----------------------------------------------------------------------------------------- |--*/
 
@@ -288,6 +400,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	height: auto;
 	min-height: 285px;
 	overflow: hidden;
+	margin: 0px 0px 20px 0px;
 	} 
 
 .usuario-cuenta-opciones-actividades {
