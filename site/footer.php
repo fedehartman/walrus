@@ -68,8 +68,8 @@
 	================================================================================= |-->
 
 		<div class="footer2_4">
-			<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FwoOw.MVD&amp;width=405&amp;height=185&amp;colorscheme=light&amp;show_faces=true&amp;border_color=18649c&amp;stream=false&amp;header=false" style="border:none; overflow:hidden; width:405px; height:185px;"></iframe>
-		</div>
+<!--			<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FwoOw.MVD&amp;width=405&amp;height=185&amp;colorscheme=light&amp;show_faces=true&amp;border_color=18649c&amp;stream=false&amp;header=false" style="border:none; overflow:hidden; width:405px; height:185px;"></iframe>
+-->		</div>
 
 
 	<!--| =========================================================================== |-->

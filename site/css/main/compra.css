@@ -1,0 +1,91 @@
+/*
+Theme Name: Woow | MAIN - COMPRA
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| COMPRA
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+#compra-ticket {
+	width: 985px;
+	height: 220px;
+	margin: 10px 0px -5px 0px;
+	}
+
+.compra-ticket-body {
+	float: left;
+	width: 913px;
+	height: 165px;
+	padding: 15px;
+	}
+
+.compra-ticket-piolin {
+	float: right;
+	width: 40px;
+	height: 220px;
+	margin: 0px 0px 0px 945px;
+	position: absolute;
+	background: url(../../img/main/main.png) no-repeat -650px -455px;
+	}
+
+#compra-ticket figure.img {
+	width: 330px;
+	height: 165px;
+	float: left;
+	}
+
+#compra-ticket .detalles {
+	float: right;
+	width: 570px;
+	height: 165px;
+	}
+
+#compra-ticket .column-left {
+	float: left;
+	width: 230px;
+	height: 130px;
+	margin: 0px 15px 0px 15px;
+	}
+
+#compra-ticket .column-right {
+	float: right;
+	width: 310px;
+	height: 130px;
+	}
+
+
+
+
+		/*<div class="column-right">
+			<div class="tablita">
+				<div class="tablita-tr">
+					<div class="tablita-td-l-der">
+						<p><b class="referencia">Cantidad: </b>
+						<div class="compra-ticket-select">
+							<select class="compra-ticket-select">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</p>
+					<div class="tablita-td-l"><b class="referencia">Precio: </b>$15045</div>
+				</div>
+				<div class="tablita-tr">
+					<div class="tablita-td"><b class="referencia">Subtotal: </b>$15045</div>
+				</div>
+				<div class="tablita-tr">
+					<div class="tablita-td"><b class="referencia">Precio Final: </b><b class="blackpaper">$15045</b></div>
+				</div>*/
+
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

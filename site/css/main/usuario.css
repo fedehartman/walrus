@@ -245,12 +245,84 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 ----------------------------------------------------------------------------------------- |--*/
 
 .usuario-cuenta-cedula {
-	width: 405px;
+	width: 410px;
 	height: 245px;
 	float: left;
 	margin: 0px 0px 0px 5px;
 	}
 
+.usuario-cuenta-avatar-nombre {
+	width: 405px;
+	height: 120px;
+	margin: 0px 0px 0px 0px;
+	}
+
+.usuario-cuenta-avatar {
+	width: 94px;
+	height: 94px;
+	float: left;
+	padding: 10px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:    5px;
+	border-radius:         5px;
+	}
+
+.usuario-cuenta-avatar img {
+	width: 94px;
+	height: 94px;
+	border: 1px solid #989b8e;
+	}
+
+.usuario-cuenta-nombre {
+	font: 700 3.1em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #026da3;
+	letter-spacing: -1px;
+	width: 280px;
+	float: right;
+	margin: 32px 0px 0px 0px;
+	padding-bottom: 8px;
+	overflow: hidden;
+	border-bottom: 1px solid #989b8e;
+	}
+
+.usuario-cuenta-rows {
+	height: 25px;
+	margin: 0px 0px 5px 0px;
+	}
+
+.usuario-cuenta-row {
+	margin: 0px 5px 0px 0px;
+	float: left;
+	height: 25px;
+	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.usuario-cuenta-row-fecha {width: 155px;}
+.usuario-cuenta-row-cel {width: 155px;}
+.usuario-cuenta-row-sexo {width: 85px;}
+.usuario-cuenta-row-lugar {width: 405px;}
+.usuario-cuenta-row-correo {width: 265px;}
+.usuario-cuenta-row-ci {width: 135px;}
+.usuario-cuenta-row-pass {width: 372px;}
+
+.usuario-cuenta-rows p {
+	font: normal 1.3em/1.93em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #5d625a;
+	text-indent: 8px;
+	}
+
+.usuario-cuenta-rows p b.usuario-cedula-data,
+.usuario-cuenta-rows p b.usuario-cedula-data a {color: #026da3; font-weight: 700;}
+
+i.cuenta-hombre {
+	background: url(../../img/icons/icon-paperdark.png) repeat -120px -168px;
+	float: right;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: -20px 25px 0px 0px;
+	}
 
 
 /*--| DIRECCIONES
@@ -362,8 +434,6 @@ p.ver-pedido a {
 	margin: 2px 10px 0px 0px;
 	}
 
-
-
 ul.usuario-cuenta-list li.pedidos {
 	width: 300px;
 	height: 60px;
@@ -371,17 +441,6 @@ ul.usuario-cuenta-list li.pedidos {
 	margin: 0px 0px 15px 0px;
 	}
 
-
-
-
-
-
-
-/*<div class="usuario-cuenta-pedido-img"><img src="img/samples/sample.jpg" width="120" height="60"></div>
-							<div class="usuario-cuenta-pedido-data">
-								<p class="usuario-cuenta-data">Disfrutá del mejor sushi para dos al mejor precio</p>
-								<div class="usuario-libreta-boton"><a href="#" class="usuario-cuenta-editar" rel="tooltip" title="Ver la oferta"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
-							</div>*/
 /*--| AMIGOS
 ----------------------------------------------------------------------------------------- |--*/
 
@@ -848,16 +907,18 @@ h4.usuario-h4-25 {
 .usuario-libreta-boton a.libreta-editar:hover {background: #748c31 url(../../img/textures/greenpaper.jpg) repeat 0px 0px;}
 .usuario-libreta-boton a.libreta-eliminar:hover {background: #748c31 url(../../img/textures/redpaper.jpg) repeat 0px 0px;}
 .usuario-libreta-boton a:hover i.usuario-icon-editar {background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
+.usuario-libreta-boton a:hover i.usuario-cedula-editar {background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
 .usuario-libreta-boton a:hover i.usuario-icon-eliminar {background: url(../../img/icons/icon-paper.png) repeat -312px   0px;}
 
-.usuario-libreta-item i {
+.usuario-libreta-item i,
+i.usuario-cedula-editar  {
 	width: 15px;
 	height: 15px;
 	display: inline-block;
 	margin: 6px 5px 0px 5px;
 	float: left;
 	}
-
+i.usuario-cedula-editar {/*margin-top: -25px*/; background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
 .usuario-libreta-item p {
 	font: normal 1.3em/2.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #424740;

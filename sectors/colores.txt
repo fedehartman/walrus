@@ -1,0 +1,8 @@
+Paper
+
+Azul
+color: #285f91;
+
+Normal
+color: #4a4f45;
+

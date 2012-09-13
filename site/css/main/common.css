@@ -10,6 +10,156 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 */
 
 
+
+/*--| PAPER-TITLE
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.papertitle {
+	height: 25px;
+	width: auto;
+	background: #c6c6aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+.papertitle .triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	float: left;
+	margin-right: 7px;
+	border-top: 12px solid transparent;
+	border-left: 5px solid #dedcbd;
+	border-bottom: 13px solid transparent;
+	}
+
+.papertitle h4 {
+	font: 700 1.4em/1.7857em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #285f91;
+	float: left;
+	margin-top: 1px;
+	padding-right: 30px;
+	}
+
+.papertitle i {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	float: right;
+	vertical-align: text-top;
+	margin: 5px 6px 0px 0px;
+	background-image: url(../../img/icons/icon-paperdark.png);
+	background-repeat: no-repeat;
+	}
+
+
+
+/*--| TEXTO
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+article.trece-pts,
+article.doce-pts {margin: 10px 0px 20px 0px;}
+
+article.trece-pts p {
+	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4a4f45;
+	margin: 0px 0px 0.4166em 0px;
+	padding-left: 13px;
+	background: url(../../img/ticks/green.png) no-repeat 0px 0px;
+	}
+
+article.doce-pts p {
+	font: normal 1.2em/1.66em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4a4f45;
+	margin: 0px 0px 0.4166em 0px;
+	padding-left: 13px;
+	background: url(../../img/ticks/green.png) no-repeat 0px 0px;
+	}
+
+article.trece-pts p strong,
+article.doce-pts p strong {
+	font-weight: normal;
+	margin: 0px -3px 0px -3px;
+	padding: 1px 3px 1px 3px;
+	background: #c6c6aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+article.trece-pts p a,
+article.doce-pts p a {
+	color: #285f91;
+	margin: 0px -3px 0px -3px;
+	padding: 1px 3px 1px 3px;
+	}
+	article.trece-pts p a:hover,
+	article.doce-pts p a:hover {background: #c6c6aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;}
+
+#listados .txt p {
+	font: normal 1.2em/1.458em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0px 0px 0.33em 0px;
+	}
+
+b.p-azul {color: #285f91;}
+
+
+/*--| TABLITA
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.tablita {margin: 10px 0px 0px 0px;}
+
+.tablita p {
+	font: normal 1.5em/2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4a4f45;
+	}
+
+.tablita-tr {
+	height: 29px;
+	vertical-align: middle;
+	border-bottom: 1px solid #c5c7b3;
+	}
+
+.tablita-td {
+	height: 24px;
+	margin: 2px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+	}
+
+.tablita-td-l-iz {
+	height: 24px;
+	float: left;
+	margin: 2px 0px 0px 0px;
+	border-right: 1px solid #c5c7b3;
+	width: 50%;
+	}
+
+
+
+	
+	
+
+
+
+/*div class="tablita">
+				<div class="tablita-tr">
+					<div class="tablita-td-l-der">
+						<p><b class="referencia">Cantidad: </b>
+						<div class="compra-ticket-select">
+							<select class="compra-ticket-select">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+					</p>
+					<div class="tablita-td-l"><b class="referencia">Precio: </b>$15045</div>
+				</div>
+				<div class="tablita-tr">
+					<div class="tablita-td"><b class="referencia">Subtotal: </b>$15045</div>
+				</div>
+				<div class="tablita-tr">
+					<div class="tablit*/
+
+
+
 /*--| PAPER
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
@@ -268,21 +418,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-/*--| TEXTO
------------------------------------------------------------------------------------------------------------------------------------------------------ |--*/
-
-.txt p {
-	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #494d45;
-	margin: 0px 0px 0.4166em 0px;
-	padding-left: 12px;
-	background: url(../../img/main/home/home.png) no-repeat -230px -190px;
-	}
-
-#listados .txt p {
-	font: normal 1.2em/1.458em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin: 0px 0px 0.33em 0px;
-	}
 
 
 

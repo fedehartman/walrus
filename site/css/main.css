@@ -17,6 +17,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 @import "main/popup.css";
 @import "main/home.css";
 @import "main/aside.css";
+@import "main/compra.css";
 @import "main/store.css";
 @import "main/listados.css";
 @import "main/usuario.css";

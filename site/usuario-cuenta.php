@@ -118,21 +118,23 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 				<div class="usuario-cuenta-cedula">
 					<div class="usuario-cuenta-avatar-nombre">
 						<div class="usuario-cuenta-avatar"><img src="img/samples/john.jpg" align="left" width="94" height="94" alt="John Lennon" /></div>
-						<h4 class="usuario-cuenta-nombre">John Lennon</h4>
+						<h4 class="usuario-cuenta-nombre">John<br>Lennon</h4>
 					</div>
 					<div class="usuario-cuenta-rows">
-						<div class="usuario-cuenta-row usuario-cuenta-row-fecha"><i class="usuario-icon cuenta-cumple"></i><p>09/10/1940</p></div>
-						<div class="usuario-cuenta-row usuario-cuenta-row-cel"><i class="usuario-icon cuenta-cel"></i><p>099589345</p></div>
-						<div class="usuario-cuenta-row usuario-cuenta-row-sexo"><i class="usuario-icon cuenta-hombre"></i></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-fecha"><i class="usuario-icon cuenta-cumple"></i><p>Nací el: <b class="usuario-cedula-data">09/10/1940</b></p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-cel"><i class="usuario-icon cuenta-cel"></i><p>Celular: <b class="usuario-cedula-data">099589345</b></p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-sexo"><p>Sexo: </p><i class="cuenta-hombre"></i></div>
 					</div>
-					<div class="usuario-cuenta-row usuario-cuenta-row-lugar"><i class="usuario-icon cuenta-luegar"></i><p>Woolton, Liverpool</p></div>
+                    <div class="usuario-cuenta-rows">
+						<div class="usuario-cuenta-row usuario-cuenta-row-lugar"><i class="usuario-icon cuenta-luegar"></i><p>Vivo en: <b class="usuario-cedula-data">Woolton, Liverpool</b></p></div>
+                    </div>
 					<div class="usuario-cuenta-rows">
-						<div class="usuario-cuenta-row usuario-cuenta-row-correo"><i class="usuario-icon cuenta-correo"></i><p><a href="john@thebeatles.com">john@thebeatles.com</a></p></div>
-						<div class="usuario-cuenta-row usuario-cuenta-row-ci"><i class="usuario-icon cuenta-ci"></i><p>4356458-3</p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-correo"><i class="usuario-icon cuenta-correo"></i><p>Email: <b class="usuario-cedula-data"><a href="john@thebeatles.com">john@thebeatles.com</a></b></p></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-ci"><i class="usuario-icon cuenta-ci"></i><p>CI: <b class="usuario-cedula-data">4356458-3</b></p>></div>
 					</div>
 					<div class="usuario-cuenta-rows">
-						<div class="usuario-cuenta-row usuario-cuenta-row-pass"><i class="usuario-icon cuenta-pass"></i><p>&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p></div>
-						<div class="usuario-libreta-boton"><a href="#" class="usuario-cuenta-editar" rel="tooltip" title="Editá tus datos"><i class="usuario-icon-editar"></i><span class="none">Editar</span></a></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-pass"><i class="usuario-icon cuenta-pass"></i><p>Contraseña: <b class="usuario-cedula-data">&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p></b></div>
+						<div class="usuario-libreta-boton"><a href="#" class="usuario-cuenta-editar" rel="tooltip" title="Editá tus datos"><i class="usuario-cedula-editar"></i><span class="none">Editar</span></a></div>
 					</div>
 				</div>
 
