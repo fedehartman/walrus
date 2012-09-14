@@ -77,7 +77,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 	<div class="detalles">
 
-		<div class="papertitle"><div class="triangle"></div><h4>Detalles</h4><i class="icon-info-sign"></i></div>
+		<div class="papertitle"><div class="triangle"></div><h4>Lo que vas a comprar</h4><i class="icon-info-sign"></i></div>
 
 		<div class="column-left">
 			<article class="doce-pts">
@@ -87,11 +87,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 		</div>
 
 		<div class="column-right">
-			<div class="tablita">
-				<div class="tablita-tr">
-					<div class="tablita-td-l-iz">
-						<p><b class="referencia"><strong>Cantidad: </strong></b></p>
-						<div class="compra-ticket-select">
+			<table border="0" cellpadding="0" class="tablita">
+					<tr>
+						<td width="65px" height="24px" align="right"><strong><b class="p-azul">Precio: </b></strong></td>
+						<td width="" height="28px" style="text-align: right"><strong><u>U$S</u>298</strong></td>
+						<td width="" height="28px" align="right" class="cantidad" ><strong><b class="p-azul">Cantidad</b></strong></td>
+						<td width="" height="28px" class="select">
 							<select class="compra-ticket-select">
 								<option>1</option>
 								<option>2</option>
@@ -99,17 +100,17 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 								<option>4</option>
 								<option>5</option>
 							</select>
-						</div>
-					</div>
-					<div class="tablita-td"><p><strong><b class="p-azul">Precio: </b>$15045</strong></p></div>
-				</div>
-				<div class="tablita-tr">
-					<div class="tablita-td"><p><strong><b class="p-azul">Subtotal: </b>$15045</strong></p></div>
-				</div>
-				<div class="tablita-tr">
-					<div class="tablita-td"><p><strong><b class="p-azul">Precio Final: </b><b class="blackpaper">$15045</b></strong></p></div>
-				</div>
-			</div> <!--"tablita"-->
+						</td>
+					</tr>
+					<tr>
+						<td width="65px" height="24px" align="right"><strong><b class="p-azul">Subtotal: </b></strong></td>
+						<td width="" height="28px"><strong><u>U$S</u>42298</strong></td>
+					</td>
+					<tr>
+						<td width="65px" height="24px" align="right"><strong><b class="p-azul">Total: </b></strong></td>
+						<td width="" height="28px"><strong><u>U$S</u>52025</strong></td>
+					</td>
+			</table>
 		</div> <!--"column-right"-->
 
 	</div> <!--"detalles"-->
@@ -123,11 +124,42 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <!--| FACTURA
 ========================================================================================================================= |-->
 
-<div id="compra-factura paper">
+<div id="compra-factura">
+<div class="compa-factura-agujeritos"></div>
+<div class="compra-factura-body">
 
+
+
+<!--| IZQUIERDA
+===================================================================================================== |-->
+
+<div class="compra-factura-izquierda">
+
+	<div class="compra-title"><div class="compra-title-circle">1</div><h3>Ingresá con tu cuenta</h3><i class="compra-title-icon compra-keys"></i></div>
+
+
+</div> <!--"compra-factura-izquierda"-->
+
+
+
+<!--| DERECHA
+===================================================================================================== |-->
+
+<div class="compra-factura-derecha">
+
+	<div class="compra-title"><div class="compra-title-circle">2</div><h3>Formas de pago</h3><i class="compra-title-icon compra-tarjeta"></i></div>
+    
+    
+    <div class="compra-title"><div class="compra-title-circle">3</div><h3>Detalles de tu compra</h3><i class="compra-title-icon compra-compra"></i></div>
+
+</div> <!--"compra-factura-derecha"-->
+
+<!--| =============================================================================================== |-->
+
+
+
+</div> <!--"compra-factura-body"-->
 </div> <!--"compra-factura"-->
-
-
 
 <!--| =================================================================================================================== |-->
 

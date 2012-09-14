@@ -49,6 +49,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <?php include("header.php"); ?>
 
 
+<div class="container">
+
 <div class="main_wrapper"> <!--| main + footer |-->
 
 <div class="main"> <!--| main + footer2 |-->

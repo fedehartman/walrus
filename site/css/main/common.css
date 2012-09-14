@@ -99,64 +99,33 @@ article.doce-pts p a {
 b.p-azul {color: #285f91;}
 
 
+
 /*--| TABLITA
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
-.tablita {margin: 10px 0px 0px 0px;}
+.tablita {
+	margin: 20px 0px 0px 10px;
+	}
 
-.tablita p {
+.tablita tr {
+	height: 34px;
+	vertical-align: middle;
+	border-bottom: 1px solid #bdbfac;
+	}
+
+.tablita td {
+	height: 30px;
+	vertical-align: middle;
+	margin: 2px 0px 0px 0px;
+	padding: 0px 7px 0px 7px;
 	font: normal 1.5em/2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #4a4f45;
+	border-right: 1px solid #d6d4b6;
 	}
-
-.tablita-tr {
-	height: 29px;
-	vertical-align: middle;
-	border-bottom: 1px solid #c5c7b3;
-	}
-
-.tablita-td {
-	height: 24px;
-	margin: 2px 0px 0px 0px;
-	padding: 0px 10px 0px 10px;
-	}
-
-.tablita-td-l-iz {
-	height: 24px;
-	float: left;
-	margin: 2px 0px 0px 0px;
-	border-right: 1px solid #c5c7b3;
-	width: 50%;
-	}
-
-
-
-	
 	
 
+u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: central;}
 
-
-/*div class="tablita">
-				<div class="tablita-tr">
-					<div class="tablita-td-l-der">
-						<p><b class="referencia">Cantidad: </b>
-						<div class="compra-ticket-select">
-							<select class="compra-ticket-select">
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-					</p>
-					<div class="tablita-td-l"><b class="referencia">Precio: </b>$15045</div>
-				</div>
-				<div class="tablita-tr">
-					<div class="tablita-td"><b class="referencia">Subtotal: </b>$15045</div>
-				</div>
-				<div class="tablita-tr">
-					<div class="tablit*/
 
 
 

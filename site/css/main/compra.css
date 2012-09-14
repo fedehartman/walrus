@@ -10,7 +10,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 */
 
 
-/*--| COMPRA
+/*--| COMPRA - TICKET
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 #compra-ticket {
@@ -60,32 +60,107 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	height: 130px;
 	}
 
+.tablita td.cantidad {
+	border: none;
+	padding: 0px 0px 0px 7px;
+	}
+
+.tablita td.select {
+	margin: 0px 0px 2px 0px;
+	padding: 0px 7px 0px 7px;
+	border: none;
+	}
+
+.compra-ticket-select {
+	width: 45px;
+	height: 25px;
+	margin: -1px 0px 0px 0px;
+	}
 
 
 
-		/*<div class="column-right">
-			<div class="tablita">
-				<div class="tablita-tr">
-					<div class="tablita-td-l-der">
-						<p><b class="referencia">Cantidad: </b>
-						<div class="compra-ticket-select">
-							<select class="compra-ticket-select">
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5</option>
-							</select>
-						</div>
-					</p>
-					<div class="tablita-td-l"><b class="referencia">Precio: </b>$15045</div>
-				</div>
-				<div class="tablita-tr">
-					<div class="tablita-td"><b class="referencia">Subtotal: </b>$15045</div>
-				</div>
-				<div class="tablita-tr">
-					<div class="tablita-td"><b class="referencia">Precio Final: </b><b class="blackpaper">$15045</b></div>
-				</div>*/
+/*--| COMPRA - FACTURA
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+#compra-factura {
+	width: 975px;
+	height: auto;
+	min-height: 200px;
+	overflow: hidden;
+	background: #dedcbd url(../../img/textures/fanfold.jpg) repeat 0px 0px;
+	margin: 5px;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+	   -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+	        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
+	}
+
+.compa-factura-agujeritos {
+	width: 29px;
+	height: auto;
+	min-height: 200px;
+	overflow: hidden;
+	float: left;
+	background: url(../../img/ticks/agujerito.png) repeat-y 10px 0px;
+	border-right: 1px dashed #b8b9a7;
+	}
+
+.compra-factura-body {
+	width: 905px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	float: right;
+	margin: 15px 30px 0px 0px;
+	}
+
+.compra-factura-izquierda {
+	float: left;
+	width: 390px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	background: #c3c4aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	}
+
+
+
+/*--| TITLES
+----------------------------------------------------------------------------------------- |--*/
+
+.compra-title {
+	width: px;
+	height: 35px;
+	margin: 30px 0px 5px 0px;
+	background-color: #CC9;
+	}
+
+.compra-title-circle {
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+	background: #dedcbd url(../../img/textures/greenpaper.jpg) repeat 0px 0px;
+	float: left;
+	font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #e8e7c6;
+	background-color: #09F;
+	text-align: center;
+	margin: 4px 8px 0px 0px;
+	}
+
+.compra-title h3 {
+	font: 700 2em/2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0c64a7;	
+	}
+
+
+	
+
+
+/*<div class="compra-title"><div class="compra-title-circle">1</div><h3>Ingresá con tu cuenta</h3><i class="compra-title-icon compra-keys"></i></div>*/
 
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/
