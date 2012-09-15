@@ -94,7 +94,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 					</div>
 					<div class="es-carousel">
 						<ul>
-							<li><a href="#"><img src="img/samples/sample.jpg" data-large="img/samples/sample.jpg" alt="image01" /></a></li>
+							<li><a href="#"><img src="img/samples/sample01.jpg" data-large="img/samples/sample01.jpg" alt="image01" /></a></li>
 							<li><a href="#"><img src="img/samples/sample02.jpg" data-large="img/samples/sample02.jpg" alt="image01" /></a></li>
 							<li><a href="#"><img src="img/samples/sample03.jpg" data-large="img/samples/sample03.jpg" alt="image01"  /></a></li>
 							<li><a href="#"><img src="img/samples/sample04.jpg" data-large="img/samples/sample04.jpg" alt="image01" /></a></li>
@@ -120,21 +120,20 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 					<h3>52% de descuento en 1 Roll de vegetales al wok 8 piezas</h3>
                     <div class="slider-controls"></div>
 				</article>
-                <!--<div class="right" style="margin-top: 210px;">-->
 				<div class="precio-oferta">
 					<div class="comprar home-comprar">
 						<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
 						<div class="comprar-action"><p><a href="#">Compralo</a></p></div>
 					</div>
-				</div>
-                <!--</div>-->
 			</div>
 		</div> <!--"data"-->
-	</article> <!--"home-oferta"-->
+
 
 
 
 	<!--| =========================================================================== |-->
+
+	</article> <!--"home-oferta"-->
 
 
 

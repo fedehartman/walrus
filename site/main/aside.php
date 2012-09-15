@@ -17,7 +17,7 @@
 			<ul>
 				<li>
 					<div class="circle-ie7"></div> <!--Para el puto IE7-->
-					<figure class="img"><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+					<figure class="img"><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 					<article class="h4-lineas-tres">
 						<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
 						<div class="comprar aside-comprar">
@@ -28,7 +28,7 @@
 				</li>
 				<li>
                 <div class="circle-ie7"></div> <!--Para el puto IE7-->
-					<figure class="img"><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+					<figure class="img"><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 					<article class="h4-lineas-tres">
 						<h4>Oferta 2<br> en Colonia. <br>2 noches para dos</h4>
 						<div class="comprar aside-comprar">
@@ -39,7 +39,7 @@
 				</li>
 				<li>
                 <div class="circle-ie7"></div> <!--Para el puto IE7-->
-					<figure class="img"><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+					<figure class="img"><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 					<article class="h4-lineas-tres">
 						<h4>Armonía y relax<br> en Colonia. <br>2 noches para dos</h4>
 						<div class="comprar aside-comprar">
@@ -67,7 +67,7 @@
 
 			<li class="oferta">
 				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<div class="circle"></div>
 				<article>
 					<h4>Oferta 1<br> en Colonia.</h4>
@@ -81,7 +81,7 @@
 
 			<li class="oferta">
 				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
@@ -95,7 +95,7 @@
 
 			<li class="oferta">
 				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
@@ -109,7 +109,7 @@
 
 			<li class="oferta">
 				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
@@ -123,7 +123,7 @@
 
 			<li class="oferta">
 				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
+				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
 				<canvas class="circle"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
