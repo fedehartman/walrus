@@ -111,7 +111,7 @@ article.trece-pts dl dd {
 	background: url(../../img/ticks/green.png) no-repeat 0px 1px;
 	}
 
-article.doce-pts p
+article.doce-pts p,
 article.doce-pts dl dt,
 article.doce-pts dl dd {
 	font: normal 1.2em/1.66em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;

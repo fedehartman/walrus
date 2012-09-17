@@ -13,6 +13,14 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| COMPRA - TICKET
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
+/*.opa {
+	width: 570px;
+	height: 140px;
+	}*/
+
+
+
+
 #compra-ticket {
 	width: 985px;
 	height: 220px;
@@ -47,17 +55,22 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	height: 165px;
 	}
 
-#compra-ticket .column-left {
-	float: left;
+.column-left {
+	/*float: left;*/
 	width: 230px;
 	height: 130px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	margin: 0px 15px 0px 15px;
+
 	}
 
-#compra-ticket .column-right {
+.column-right {
 	float: right;
 	width: 310px;
 	height: 130px;
+	margin: -130px 0px 0px 0px;
+
 	}
 
 .tablita td.cantidad {
@@ -87,7 +100,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	height: auto;
 	min-height: 200px;
 	overflow: hidden;
-	background: #dedcbd url(../../img/textures/fanfold.jpg) repeat 0px 0px;
+	background: #ebebc7 url(../../img/textures/paper91.jpg) repeat 0px 0px;
 	margin: 5px;
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
@@ -100,7 +113,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .compa-factura-agujeritos {
 	width: 29px;
 	height: auto;
-	min-height: 200px;
+	min-height: 700px;
 	overflow: hidden;
 	float: left;
 	background: url(../../img/ticks/agujerito.png) repeat-y 10px 0px;
@@ -118,12 +131,24 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 .compra-factura-izquierda {
 	float: left;
-	width: 390px;
+	width: 350px;
+	height: auto;
+	min-height: 700px;
+	overflow: hidden;
+	padding: 0px 20px 15px 10px;
+	margin: 0px 0px 0px 0px;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;
+	}
+
+.compra-factura-derecha {
+	width: 505px;
 	height: auto;
 	min-height: 20px;
 	overflow: hidden;
-	background: #c3c4aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	float: right;
+	padding: 0px 0px 50px 0px;
 	}
+
 
 
 
@@ -134,7 +159,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	width: px;
 	height: 35px;
 	margin: 30px 0px 5px 0px;
-	background-color: #CC9;
 	}
 
 .compra-title-circle {
@@ -143,11 +167,10 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	-webkit-border-radius: 15px;
 	   -moz-border-radius: 15px;
 	        border-radius: 15px;
-	background: #dedcbd url(../../img/textures/greenpaper.jpg) repeat 0px 0px;
+	background: #6b802d url(../../img/textures/papergreen.jpg) repeat 0px 0px;
 	float: left;
 	font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #e8e7c6;
-	background-color: #09F;
 	text-align: center;
 	margin: 4px 8px 0px 0px;
 	}
@@ -155,7 +178,104 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .compra-title h3 {
 	font: 700 2em/2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #0c64a7;	
+	float: left;
 	}
+
+.compra-title-icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: right;
+	vertical-align: text-top;
+	}
+
+.compra-login-form {
+	width: 315px;
+	height: 95px;
+	margin: 10px 0px 0px 35px;
+	}
+
+.compra-login-email {width: 275px;}
+.compra-login-pass {width: 195px; }
+
+.boton-compra-login a {
+	height: 26px;
+	font: 700 1.5em/1.73em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	padding: 0px 8px 0px 8px;
+	margin: 0px 3px 0px 0px;
+	}
+
+label.checkbox {
+	clear: both;
+	font: normal 1.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4a4f45;
+	float: left;
+	margin: 3px 0px 0px 0px;
+	}
+
+p.olvide a {
+	font: normal 1.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #878874;
+	float: right;
+	margin: 3px 0px 0px 0px;
+	}
+
+.compra-tarjetas-texto {
+	margin: 2px 0px 0px 4px;
+	float: left;
+	}
+
+input.compra-tarjetas {float: left;}
+
+a.compra-tarjetas-info {
+	font: normal 0.86em/3.46em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #4a4f45;
+	}
+
+.compra-visa {
+	background: url(../../img/main/main.png) no-repeat -291px -430px;
+	width: 41px;
+	height: 25px;
+	}
+
+.compra-master {
+	background: url(../../img/main/main.png) no-repeat -332px -430px;
+	width: 27px;
+	height: 25px;
+	}
+
+.compra-oca {
+	background: url(../../img/main/main.png) no-repeat -360px -430px;
+	width: 46px;
+	height: 25px;
+	}
+
+.compra-santander {
+	background: url(../../img/main/main.png) no-repeat -585px -430px;
+	width: 30px;
+	height: 25px;
+	}
+
+.compra-debito {
+	background: url(../../img/main/main.png) no-repeat -525px -465px;
+	width: 115px;
+	height: 25px;
+	}
+
+.compra-abitab {
+	background: url(../../img/main/main.png) no-repeat -525px -430px;
+	width: 58px;
+	height: 25px;
+	}
+
+.compra-confirmar a {
+	font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	heigh: 30px;
+	padding: 0px 10px 0px 10px;
+	}
+
 
 
 	
