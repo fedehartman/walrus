@@ -23,28 +23,39 @@
 				<canvas class="top-left-back"></canvas>
 				<form id="popup-form">
 					<fieldset>
+
 						<div class="popup-form-step1">
 							<div class="input-prepend">
 								<span class="add-on"><i class="icon-envelope"></i></span>
-								<input class="span2" id="prependedInput" size="16" type="text" placeholder="Email:">
+								<input class="popup-long" id="prependedInput" type="text" placeholder="Email:">
 							</div>
-							<select>
-								<option>Categoria</option>
-								<option>Gastronomía</option>
-								<option>Estética</option>
-								<option>Turismo</option>
-								<option>Store</option>
-							</select>
-							<div id="popup-button" class="form-step1 left"><i class="lupa"></i><span class="none">Buscar</span></div>
+							<div class="input-prepend"><span class="add-on left"><i class="icon-map-marker"></i></span>
+								<select class="popup-select">
+									<option>Ciudad: </option>
+									<option>Montevideo</option>
+									<option>Salto</option>
+									<option>Maldonado</option>
+									<option>Minas</option>
+								</select>
+							</div>
+							<div class="boton boton-pop right"><a id="popup-button" href="#">Registrarme</a></div>
 						</div>
-						<div class="popup-form-step2 none">
-                        <div class="input-prepend">
-								<span class="add-on"><i class="icon-envelope"></i></span>
-								<input class="span2" id="prependedInput" size="16" type="text" placeholder="Email:">
-							</div>
-                            <button type="submit" class="form_search"><i class="lupa"></i><span class="none">Buscar</span></button>
 
+						<div class="popup-form-step2 none">
+							<div class="input-prepend">
+								<span class="add-on"><i class="icon-torta"></i></span>
+								<input class="popup-long" id="prependedInput" size="16" type="text" placeholder="Fecha de Nacimiento:">
+							</div>
+							<div class="input-prepend"><span class="add-on left"><i class="icon-sexo"></i></span>
+								<select class="popup-select-2">
+									<option>Sexo:</option>
+									<option>Masculino</option>
+									<option>Femenino</option>
+								</select>
+							</div>
+							<div class="boton boton-pop right"><a class="popup-close" href="#">Ingresar</a></div>
 						</div>
+
 					</fieldset>
 				</form>
 			</div>

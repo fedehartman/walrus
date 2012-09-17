@@ -56,12 +56,22 @@ h1 a {
 
 .header-usuario-avatar {margin: 4px 0px 0px 0px; background-color: #FFC;}
 
+.width-240 {width: 270px;}
 
+p.activa {letter-spacing: -1px;}
 
-/*--| ASIDE
------------------------------------------------------------------------------------------------------------------------------------------------------ |--*/
+.store-minor_num-comprar {
+	width: 445px;
+	height: 45px;
+	margin-left: 0px;
+	}
+.store-num {margin: 0px 0px 0px 0px;}
+.store-num p.num-ref {margin: 0px 5px 5px 10px;}
 
+.listado-comprar .comprar-precio,
+.listado-comprar .comprar-action {padding: 0px 6px 0px 6px;}
 
+.listado-num p.num-ref {margin: 0px 6px 5px 6px;}
 
-
+select.popup-select {width: 170px;}
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

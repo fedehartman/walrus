@@ -16,7 +16,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 section.home {
 	width: 710px;
 	height: auto;
-	min-height: 50px;
+	min-height: 20px;
 	overflow: hidden;
 	margin: 10px 10px 0px 0px;
 	float: left;
@@ -24,14 +24,13 @@ section.home {
 
 
 /*--| LA OFERTA
-------------------------------------------------------------------------------------------------------------- |--*/
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 article#home-oferta {
 	width: 700px;
 	height: 350px;
 	margin: 5px 5px 5px 5px;
 	background-color: #fff;
-	/*overflow: hidden;*/
 	position: absolute;
 	z-index: 5;
 	-webkit-border-radius: 3px;
@@ -279,7 +278,7 @@ article#home-oferta .oferta-home-precio b.moneda {margin: -5px 2px 0px 0px; padd
 
 
 /*--| DETALLES
-------------------------------------------------------------------------------------------------------------- |--*/
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 #home-detalles {
 	width: 695px;
@@ -307,7 +306,7 @@ article.home-detalles-body {
 	min-height: 400px;
 	overflow: hidden;
 	padding: 0px 30px 0px 40px;
-	background: url(../../img/main/home/detalles-back.jpg) repeat-y 0px 0px;
+	background: #dedebd url(../../img/main/home/detalles-back.jpg) repeat-y 0px 0px;
 	}
 
 
@@ -356,34 +355,29 @@ article.home-detalles-body {
 /*--| PRECIO
 ------------------------------------------------ |--*/
 
-#home-detalles p.precio {
+p.precio {
 	font: bold 1.6em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #202520;
+	color: #1a1c18;
 	letter-spacing: -1px;
 	margin: 10px 0px 7px 4px;
 	width: 194px;
 	}
+	b.tachado {text-decoration: line-through;}
 
-#home-detalles p.precio i.precio {
+i.precio {
 	width: 15px;
 	height: 15px;
 	display: inline-block;
-	background: url(../../img/main/main.png) no-repeat -510px -65px;
+	background: url(../../img/icons/blue.png) no-repeat -144px -168px;
 	vertical-align: text-top;
-	margin: 1px 2px 0px 0px;
-	padding: 0px 0px 0px 3px;
+	margin: 4px 0px 0px 0px;
 	}
 
-#home-detalles p.precio b.moneda {
+b.referencia {
 	font-size: 0.6875em;
+	color: #095992;
 	letter-spacing: 0px;
-	vertical-align: middle;
-	}
-
-#home-detalles p.precio b.referencia {
-	font-size: 0.6875em;
-	color: #02497a;
-	letter-spacing: 0px;
+	margin-left: 2px;
 	}
 
 
@@ -393,34 +387,27 @@ article.home-detalles-body {
 
 #home-detalles p.porcentaje {
 	font: bold 2.7em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #202520;
+	color: #1a1c18;
 	letter-spacing: -1px;
 	display: block;
 	}
 
 #home-detalles p.porcentaje i.porcentaje {
 	width: 15px;
-	height: 13px;
+	height: 15px;
 	display: inline-block;
-	background: url(../../img/main/main.png) no-repeat -510px -80px;
-	vertical-align: middle;
-	margin: 0px 5px 0px 0px;
-	padding: 0px 0px 2px 3px;
-	}
-
-#home-detalles p.porcentaje b.porcentaje {
-	font-size: 0.666em;
-	color: #02497a;
-	letter-spacing: 0px;
+	background: url(../../img/icons/med-blue.png) no-repeat -30px 0px;
+	vertical-align: text-top;
+	margin: 8px 3px 0px 0px;
 	}
 
 #home-detalles p.porcentaje b.referencia {
 	font-size: 0.555em;
-	color: #02497a;
+	color: #095992;
 	letter-spacing: 0px;
 	vertical-align: middle;
 	word-spacing: -2px;
-	margin-left: -1px;
+	margin-left: 0px;
 	}
 
 canvas.data-1-linea {
@@ -448,7 +435,7 @@ canvas.data-1-linea {
 
 #home-detalles p.comprados {
 	font: bold 2.8em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #202520;
+	color: #1a1c18;
 	letter-spacing: -1px;
 	margin: 0px 0px 7px 16px;
 	width: 210px;
@@ -465,7 +452,7 @@ canvas.data-1-linea {
 
 #home-detalles p.comprados b.referencia {
 	font-size: 0.46em;
-	color: #02497a;
+	color: #095992;
 	letter-spacing: 0px;
 	vertical-align: middle;
 	}
@@ -478,7 +465,7 @@ canvas.data-1-linea {
 #home-detalles p.activa,
 #home-detalles p.desactivada  {
 	font: bold 1.9em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #202520;
+	color: #1a1c18;
 	margin: 2px 0px 0px 3px;
 	width: 160px;
 	border-top: 1px solid #c6c9b9;
@@ -488,7 +475,7 @@ canvas.data-1-linea {
 
 #home-detalles p.desactivada {
 	font: bold 1.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #4b4f45;
+	color: #4a4f45;
 	margin: 8px 0px 0px 4px;
 	padding: 12px 8px 0px 5px;
 	text-indent: 12px;
@@ -499,11 +486,11 @@ canvas.data-1-linea {
 	width: 20px;
 	height: 20px;
 	display: inline-block;
-	vertical-align: middle;
-	margin: 0px 6px 0px 0px;
+	vertical-align: text-top;
+	margin: 1px 4px 0px 0px;
 	}
-	          #home-detalles p.activa i.activa {background: url(../../img/main/main.png) no-repeat -510px -115px;}
-	#home-detalles p.desactivada i.desactivada {background: url(../../img/main/main.png) no-repeat -535px -115px; margin-right: 1px; }
+	          #home-detalles p.activa i.activa {background: url(../../img/icons/big-green.png) no-repeat -20px 0px;}
+	#home-detalles p.desactivada i.desactivada {background: url(../../img/icons/paper41.png) no-repeat -312px 0px; width: 15px; height: 15px;}
 
 
 
@@ -513,7 +500,7 @@ canvas.data-1-linea {
 #home-detalles .data-3-wrapper {
 	width: 160px;
 	height: 75px;
-	margin: 30px 0px 0px 25px;
+	margin: 20px 0px 0px 25px;
 	}
 
 
@@ -523,7 +510,7 @@ canvas.data-1-linea {
 
 #home-detalles p.finaliza {
 	font: bold 1.3em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #02497a;
+	color: #095992;
 	display: block;
 	margin: 0px 0px 6px 4px;
 	}
@@ -537,15 +524,15 @@ canvas.data-1-linea {
 	width: 20px;
 	height: 20px;
 	display: inline-block;
-	background: url(../../img/main/main.png) no-repeat -530px -95px;
+	background: url(../../img/icons/big-blue.png) repeat 0px 0px;
 	vertical-align: text-top;
-	margin: 5px 5px 0px 0px;
+	margin: 6px 5px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	}
 
 #home-detalles p.tiempo {
 	font: bold 2.8em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #202520;
+	color: #1a1c18;
 	display: block;
 	margin: 0px 0px 0px 0px;
 	word-spacing: -4px;
@@ -559,10 +546,18 @@ canvas.data-3-linea {
 	float: right;
 	}
 
+/*
+				<div class="data-3">
+					<div class="data-3-wrapper">
+						<p class="finaliza">la oferta finaliza en:</p>
+						<p class="tiempo"><i class="tiempo"></i><time class="horas">23</time> : <time class="minutos">05</time> : <time class="segundos">08</time></p>
+					</div>
+					<canvas class="data-3-linea"></canvas>
+				</div>
+*/
 
-
-/*--| DETALLES
------------------------------------------------------------------------------------------ |--*/
+/*--| TEXTOS
+------------------------------------------------------------------------------------------------------------- |--*/
 
 section#detalles {
 	width: 625px;
@@ -583,79 +578,29 @@ section#detalles {
 
 
 
-/*--| TITULO
+/*--| TEXTOS
 ------------------------------------------------ |--*/
 
-.detalles-title {
-	height: 30px;
-	margin: 0px 0px 10px 0px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+article.detalles-home {
+	width: 275px;
+	margin-left: 15px;
 	}
 
-.detalles-title .triangle {
-	width: 0px;
-	height: 0px;
-	display: inline-block;
-	float: left;
-	margin-right: 10px;
-	border-top: 14px solid transparent;
-	border-left: 5px solid #dedcbd;
-	border-bottom: 16px solid transparent;
+article.descripcion-home {
+	width: 375px;
+	margin-left: 15px;
 	}
 
-h4.home-detalles {
-	font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2b6294;
-	margin: 0px 0px 10px 0px;
-	padding: 0px 0px 0px 15px;
+article.compania-home {
+	width: 190px;
+	margin-left: -5px;
 	}
+	article.compania-home p {margin-bottom: 0.76em; background: none; padding-left: 5px;}
+	article.compania-home p i {
+		margin-right: 5px;
+		background-image: url(../../img/icons/green.png);
+		}
 
-
-section#detalles h4 i {
-	width: 15px;
-	height: 15px;
-	display: inline-block;
-	vertical-align: text-top;
-	float: right;
-	margin: 7px 10px 0px 0px;
-	}
-
-
-
-/*--| TEXTO
------------------------------------------------- |--*/
-
-.detalles-txt p,
-.detalles-txt dl dt,
-.detalles-txt dl dd {
-	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #494d45;
-	margin: 0px 0px 0.4166em 0px;
-	padding: 0px 0px 0px 12px;
-	background: url(../../img/main/main.png) no-repeat -230px -190px;
-	}
-
-.detalles-txt dl dd {
-	margin: 0px 0px 0.45em 10px;
-	padding: 0px 0px 0px 12px;
-	background: url(../../img/main/home/tick-blue.png) no-repeat 0px 0px;
-	}
-
-.detalles-txt p a,
-.detalles-txt dl dt a,
-.detalles-txt dl dd a {
-	font-weight: bold;
-	color: #316083;
-	padding: 1px 3px 1px 3px;
-	margin: 0px -3px 0px -3px;
-	}
-
-.detalles-txt p a:hover,
-.detalles-txt dl dd a:hover {
-	font-weight: bold;
-	color: #e0dec5;
-	background-color: #316083;
-	}
 
 
 
@@ -663,130 +608,52 @@ section#detalles h4 i {
 ------------------------------------------------ |--*/
 
 figure.detalles-img {
-	margin: 10px 0px 0px 14px;
+	width: 286px;
+	height: 144px;
+	margin: 10px 0px 10px 14px;
 	opacity: 0.90;
-	border: 1px solid #d6d6bc;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
 	}
 
 figure.detalles-img img {
 	width: 284px;
 	height: 142px;
 	padding: 0px 0px 0px 0px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
+	border: 1px solid #b5b59a;
 	}
 
 figure.detalles-img:hover {opacity: 1.0;}
 
 
 
-/*--| DETALLES
+/*--| DETALLES - CONDICIONES -DESCRIPCIÓN - LA COMPAÑÍA
 -------------------------------------------------------------------- |--*/
 
-section#detalles article.detalles {
-	width: 300px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	float: left;
-	background: none;
-	margin: 0px 0px 0px 5px;
-	padding: 0px;
-	}
-
-section#detalles h4 i.detalles {background: url(../../img/main/main.png) no-repeat -555px -65px;}
-
-section#detalles article.detalles .detalles-txt {
-	width: 270px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	margin: 0px 0px 0px 15px;
-	}
-
-
-
-/*--| CONDICIONES
--------------------------------------------------------------------- |--*/
-
-section#detalles article.condiciones {
-	width: 300px;
-	height: 100%;
-	min-height: 20px;
-	overflow: hidden;
-	float: right;
-	background: none;
-	margin: 0px;
-	padding: 0px;
-	}
-
-section#detalles h4 i.condiciones {background: url(../../img/main/main.png) no-repeat -570px -65px;}
-
-section#detalles article.condiciones .detalles-txt {
-	width: 270px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	margin: 0px 0px 0px 15px;
-	}
-
-
-
-/*--| DESCRIPCIÓN
--------------------------------------------------------------------- |--*/
-
-section#detalles article.descripcion {
-	width: 405px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	float: left;
-	background: none;
-	margin: 0px 0px 0px 5px;
-	padding: 0px;
-	}
-
-section#detalles h4 i.descripcion {background: url(../../img/main/main.png) no-repeat -555px -80px;}
-
-section#detalles article.descripcion .detalles-txt {
-	width: 375px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	margin: 0px 0px 0px 15px;
-	}
-
-section#detalles article.descripcion .detalles-txt p {margin: 0px 0px 0.83333em 0px;}
-
-
-
-/*--| COMPAÑÍA
--------------------------------------------------------------------- |--*/
-
+section#detalles article.detalles,
+section#detalles article.condiciones,
+section#detalles article.descripcion,
 section#detalles article.compania {
-	width: 195px;
+	width: 300px;
 	height: auto;
 	min-height: 20px;
 	overflow: hidden;
-	float: right;
 	background: none;
-	margin: 0px;
+	margin: 0px 0px 0px 5px;
 	padding: 0px;
 	}
+	section#detalles article.descripcion {width: 405px;}
+	section#detalles article.compania {width: 195px;}
 
-section#detalles h4 i.compania {background: url(../../img/main/main.png) no-repeat -570px -80px;}
 
-section#detalles article.compania .detalles-txt {
-	width: 190px;
-	height: auto;
-	min-height: 20px;
+.relleno-top-left,
+.relleno-top-right,
+.relleno-bot-left,
+.relleno-bot-right {
 	overflow: hidden;
-	margin: 0px 0px 0px 5px;
+	margin: 0px 5px 0px 15px;
+	background: #cfcfb0 url(../../img/textures/paper81.jpg) repeat 0px 0px;
+	background: url(../../img/textures/rayas-left-light.png)  repeat 0px 0px, #cfcfb0 url(../../img/textures/paper81.jpg) repeat 0px 0px;
 	}
+	.relleno-bot-right {margin: 0px 5px 0px 0px;}
 
 
 
@@ -798,6 +665,7 @@ figure.detalles-logo {
 	height: 95px;
 	margin: -2px 0px 10px 3px;
 	border: 1px solid #d6d6bc;
+	opacity: 0.9;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 	        border-radius: 3px;
@@ -811,24 +679,6 @@ figure.detalles-logo img {
 	   -moz-border-radius: 3px;
 	        border-radius: 3px;
 	}
-
-
-
-/*--| ADDRESS
------------------------------------------------- |--*/
-
-section#detalles article.compania .detalles-txt p {
-	font: normal 1.3em/1.9233em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin: 0px 0px 0.4166em 0px;
-	padding: 0px 0px 0px 17px;
-	background: none;
-	}
-
-section#detalles article.compania .detalles-txt p.direccion {background: url(../../img/main/main.png) no-repeat -664px 3px;}
-    section#detalles article.compania .detalles-txt p.sitio {background: url(../../img/main/main.png) no-repeat -665px -62px;}
-   section#detalles article.compania .detalles-txt p.correo {background: url(../../img/main/main.png) no-repeat -665px -92px;}
-  section#detalles article.compania .detalles-txt p.horario {background: url(../../img/main/main.png) no-repeat -665px -122px;}
- section#detalles article.compania .detalles-txt p.telefono {background: url(../../img/main/main.png) no-repeat -665px -152px;}
 
 
 
@@ -871,47 +721,40 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 /*--| REGALA + RECOMENDA
 -------------------------------------------------------------------- |--*/
 
-#home-detalles .social-tarjetas {
+.social-tarjetas {
 	width: 295px;
 	height: 149px;
 	margin-top: 1px;
 	float: right;
-	margin: 5px 5px 0px 0px;
+	margin: 10px 5px 0px 0px;
 	}
 
-#home-detalles p.regala,
-#home-detalles p.recomenda {
-	font: 700 1.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+.social-regala {
 	height: 20px;
 	margin: 0px 0px 5px 0px;
-	padding: 3px 0px 0px 0px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
+	padding: 0px 15px 0px 0px;
 	}
-	   #home-detalles p.regala {width: 164px;}
-	#home-detalles p.recomenda {width: 234px;}
 
-#home-detalles p.regala:hover,
-#home-detalles p.recomenda:hover {background: url(../../img/textures/paper71.jpg) repeat 0px 0px;}
-
-#home-detalles p.regala a,
-#home-detalles p.recomenda a {	
-	display: inline-block;
+.social-regala p a {
+	font: 700 1.3em/1.54em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #095992;
+	display: block;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;
 	}
+	.social-regala p a:hover {background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;}
 
-#home-detalles p.regala i.regala,
-#home-detalles p.recomenda i.recomenda {
+.social-regala p i {
 	width: 15px;
 	height: 15px;
 	display: inline-block;
 	vertical-align: text-top;
-	margin: 0px 3px 0px 6px;
+	margin: 1px 3px 0px 6px;
+	background-repeat: no-repeat;
+	background-image: url(../../img/icons/green.png);
 	}
-          #home-detalles p.regala i.regala {background: url(../../img/main/main.png) no-repeat -665px -185px;}
-	#home-detalles p.recomenda i.recomenda {background: url(../../img/main/main.png) no-repeat -665px -210px;}
+
+.width-170 {width: 170px;}
+.width-240 {width: 240px;}
 
 
 
@@ -938,10 +781,6 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 	width: 295px;
 	height: 60px;
 	margin: 0px 0px 0px 0px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
 	}
 
 #home-detalles .tarjetas .tarjetas-txt {
@@ -997,57 +836,52 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 /*--| COMPRALO
 ----------------------------------------------------------------------------------------- |--*/
 
-#home-detalles section.compralo {
+section.compralo {
 	width: 625px;
 	height: 55px;
 	padding: 14px 0px 0px 0px;
 	border-top: 1px solid #b6baa6;
 	}
 
-#home-detalles .final-data {
-	width: 310px;
+
+/*--| NÚMEROS
+--------------------------------------------------------------------- |--*/
+
+.num-home {
 	height: 45px;
-	float: left;
-	margin: 5px 0px 0px 0px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
-	}
-
-#home-detalles .final-data_precio,
-#home-detalles .final-data_descuento,
-#home-detalles .final-data_preciofinal {
-	float: left;
-	height: 45px;
-	}
-
-#home-detalles .final-data_precio {
-	width: 87px;
-	border-right: 1px solid #d7d8c6;
-	}
-
-#home-detalles .final-data_precio p.precio {
-	margin: 13px 0px 0px 0px;
-	text-align: right;
-	width: 80px;
-	}
-
-#home-detalles .final-data_descuento {
-	width: 77px;
-	border-right: 1px solid #d7d8c6;
-	}
-
-#home-detalles .final-data_descuento p.porcentaje {margin: 7px 0px 0px 5px;}
-
-#home-detalles .final-data_preciofinal p.tiempo {
-	font: bold 2.5em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin: 7px 0px 0px 7px;
-	}
-
-#home-detalles .boton-precio {
 	float: right;
 	margin: 5px 5px 0px 0px;
 	}
 
-#home-detalles .oferta-home-precio {
+.num-home p.num-precio,
+.num-home p.num-porcen,
+.num-home p.num-tiempo {
+	float: left;
+	border: none;
+	font: 700 1.8em/2.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1a1c18;
+	margin: 0px 10px 0px 10px;
+	}
+	.num-home p.num-precio {text-decoration: line-through; font: 700 1.6em/2.8125em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.num-home p.num-tiempo {font: 700 2em/2.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0px 13px 0px 13px;}
+
+.num-home i.icon-precio,
+.num-home i.icon-porce,
+.num-home i.icon-tiempo {margin: 14px 3px 0px 0px;}
+
+.num-home i.icon-tiempo {background: url(../../img/icons/big-blue.png) repeat 0px 0px; width: 20px; height: 20px; margin-top: 12px;}
+
+
+
+/*--| COMPRALO
+--------------------------------------------------------------------- |--*/
+
+.boton-precio {
+	float: right;
+	margin: 5px 5px 0px 0px;
+	}
+
+.oferta-home-precio {
 	font: bold 3em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #eaecec;
 	text-shadow: none;
@@ -1056,72 +890,16 @@ section#detalles article.compania .detalles-txt p.direccion {background: url(../
 	}
 
 
-
-
-/*--| OFERTA FINALIZADA - OFERTA SIMILIAR
+/*--| OCA
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
-
-#oferta-similar {
-	width: 665px;
-	height: 205px;
-	margin: 5px 5px 20px 5px;
-	padding: 15px 10px 15px 15px;
-	background: #e3e4d2 url(../../img/textures/paper.jpg) repeat 0px 0px;
+.home-oca {
+	width: 610px;
+	height: 60px;
+	margin: 0px 0px 20px 10px;
+	background: url(../../img/main/home/oca.png) no-repeat 0px 0px;
 	}
 
-#oferta-similar figure {
-	width: 410px;
-	height: 205px;
-	float: left;
-	margin: 0px 0px 0px 0px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	}
 
-#oferta-similar figure img {
-	width: 410px;
-	height: 205px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	}
-
-#oferta-similar article {
-	width: 255px;
-	height: 190px;
-	float: right;
-	margin: 15px 0px 0px 0px;
-	}
-
-#oferta-similar  h3 {
-	width: 255px;
-	height: 55px;
-	margin: 0px 0px 0px 0px;
-	font: 700 1.8em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #ffffee;
-	display: table-cell;
-	vertical-align: middle;
-	padding: 0px 15px 0px 9px;
-	background: url(../../img/main/store/store.png) no-repeat 0px -125px;
-	}
-
-#oferta-similar .txt {
-	width: 245px;
-	margin: 10px 0px 0px 20px;
-	}
-
-#oferta-similar .final-data {
-	width: 235px;
-	height: 35px;
-	margin: 10px 0px 0px 15px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
-	}
-
-#oferta-similar .txt p {background: url(../../img/main/main.png) no-repeat -230px -190px;}
 
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

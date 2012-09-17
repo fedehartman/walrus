@@ -33,7 +33,7 @@
 		<!--| NOTIFICACIONES
 		===================================================== |-->
 
-			<?php /*?><div class="header-news_wrapper">
+			<div class="header-news_wrapper">
 				<div class="header-news-counter"><p>8</p></div>
 				<div class="header-news_icon">
 					<div class="header-news none">
@@ -48,7 +48,7 @@
 				</div> <!--"header-news_icon"-->
 			</div> <!--"header-news_wrapper"-->
 
-			<div class="leftside-top_divider"></div><?php */?>
+			<div class="leftside-top_divider"></div>
 
 
 
@@ -91,19 +91,19 @@
 		<!--| SIN LOGUEAR
 		================================= |-->
 
-			<div class="header-usuario-sinloguear">
+			<?php /*?><div class="header-usuario-sinloguear">
 				<div class="header-usuario-ingresar">
 					<p><a href="#"><i class="header-ingresar"></i>Ingresar</a></p>
 				</div>
 				<div class="header-usuario-registrarse">
 					<p><a href="#"><i class="header-registrarse"></i>Registrarse</a></p>
 				</div>
-			</div>
+			</div><?php */?>
 
 
 		<!--| LOGUEADO
 		================================= |-->
-<?php /*?>
+
 			<div class="header-usuario-logueado">
 				<div class="header-usuario-logueado-normal">
 					<figure class="header-usuario-avatar"><img src="img/samples/john.jpg" align="left" width="18" height="18" alt="John Lennon" /></figure>
@@ -120,7 +120,7 @@
 						<li><a href="#"><i class="icon-header-cuenta icon-h-sesion"></i>Cerrar Sesión</a></li>
 					</ul>
 				</div>
-			</div><?php */?>
+			</div>
 
 		<!--| =========================== |-->
 

@@ -10,13 +10,13 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 */
 
 
-/*--| STORE
+/*--| STORE - MAIN
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 #store-main {
 	width: 930px;
 	height: 295px;
-	margin: 20px 0px 20px 10px;
+	margin: 20px 0px 0px 10px;
 	background: #e3e4d2 url(../../img/textures/paper.jpg) repeat 0px 0px;
 	padding: 20px 15px 20px 20px;
 	-webkit-border-radius: 3px;
@@ -32,7 +32,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	height: 295px;
 	float: left;
 	margin: 0px 0px 0px 0px;
-	/*border: 1px solid #b3b7a3;*/
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 	        border-radius: 3px;
@@ -49,117 +48,90 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	        border-radius: 3px;
 	}
 	
-#store-main article {
+#store-main .data {
 	width: 340px;
 	height: 280px;
 	float: right;
 	margin: 15px 0px 0px 0px;
 	}
 
-#store-main h3 {
-	width: 326px;
-	height: 74px;
+
+/*--| TITLE
+--------------------------------------------------------------------- |--*/
+
+#store-main .storetitle {
+	width: 340px;
+	height: 85px;
 	margin: 0px 0px 0px 0px;
-	font: 700 2.75em/1.1818em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #ffffee;
-	padding: 11px 0px 0px 14px;
-	background: url(../../img/main/store/store.png) no-repeat 0px 0px;
+	background: #0f5499 url(../../img/textures/paperblue.jpg) repeat 0px 0px;
+	} 
+
+#store-main .triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	border-top: 42px solid transparent;
+	border-right: 10px solid #dedebd;
+	border-bottom: 43px solid transparent;
+	border-left: none;
 	}
 
-#store-main .txt {
-	width: 310px;
-	height: 75px;
-	margin: 15px 0px 10px 20px;
-	}
-
-#store-main article .txt p,
-#store-minor_wrapper article .txt p {
-	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #494d45;
-	margin: 0px 0px 0.4166em 0px;
-	padding: 0px 0px 0px 12px;
-	background: url(../../img/main/home/home.png) no-repeat -230px -190px;
-	}
-
-#store-main .final-data {
-	width: 315px;
-	height: 35px;
-	margin: 0px 0px 15px 20px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
-	}
-
-#store-main .final-data_precio,
-#store-main .final-data_descuento,
-#store-main .final-data_comprados {
+#store-main .storetitle h3 {
+	font: 700 2.75em/1.18em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ebebc7;
+	width: 320px;
 	float: left;
-	height: 35px;
+	margin: 10px 0px 0px 10px;
 	}
 
-#store-main .final-data_precio {
-	width: 85px;
-	border-right: 1px solid #d7d8c6;
+#store-main .trece-pts p {margin-left: 15px;}
+
+.store-main_num {
+	max-width: 320px;
+	height: 45px;
+	margin: 0px 0px 10px 15px;
 	}
 
-#store-main .final-data_precio p.precio {
-	font: 700 1.6em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2c362f;
-	margin: 4px 0px 0px 0px;
-	text-align: right;
-	width: 65px;
-	background: none;
+.store-main_num p.num-precio,
+.store-main_num p.num-porcen,
+.store-main_num p.num-comprados {
+	float: left;
+	border: none;
+	font: 700 1.8em/2.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1a1c18;
+	margin: 0px 15px 0px 15px;
 	}
+	.num-home p.num-precio {text-decoration: line-through; font: 700 1.6em/2.8125em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
 
-#store-main .final-data_descuento {
-	width: 73px;
-	border-right: 1px solid #d7d8c6;
-	}
-
-#store-main .final-data_descuento p.porcentaje {
-	font: 700 2.1em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2c362f;
-	margin: 1px 0px 0px 3px;
-	background: none;
-	}
-
-#store-main .final-data_comprados {width: 150px;}
-
-#store-main .final-data_comprados p.comprados {
-	font: 700 2.1em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2c362f;
-	margin: 1px 0px 0px 3px;
-	background: none;
-	}
-
-#store-main .final-data_comprados p.comprados b.referencia {
-	font: 700 0.6em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #02497a;
-	margin: 1px 0px 0px 3px;
-	background: none;
-	}
+.store-main_num i.icon-precio,
+.store-main_num i.icon-porce,
+.store-main_num i.icon-comprados {margin: 14px 3px 0px 0px;}
 
 
 
 
 
-
-
-
+/*--| STORE - MINOR
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 #store-minor_wrapper {
 	width: 990px;
 	height: auto;
 	min-height: 20px;
 	overflow: hidden;
-	margin: 0px 0px 0px 5px;
+	margin: 20px 0px 0px 5px;
 	}
-
 
 #store-minor_wrapper section.store-minor {
 	width: 440px;
-	height: 375px;
-	margin: 5px 20px 20px 5px;
+	height: auto;
+	min-height: 20px;
+	overflow: hidden;
+	margin: 5px 20px 15px 5px;
 	float: left;
-	background: #e3e4d2 url(../../img/textures/paper.jpg) repeat 0px 0px;
+	background: #dedebd url(../../img/textures/paper.jpg) repeat 0px 0px;
 	padding: 20px 20px 20px 10px;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
@@ -189,88 +161,71 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	        border-radius: 3px;
 	}
 
-#store-minor_wrapper article {
+
+
+/*--| TITLE
+--------------------------------------------------------------------- |--*/
+
+.storetitle {
 	width: 440px;
-	height: 155px;
-	margin: 0px 0px 0px 0px;
+	height: 40px;
+	margin: 10px 0px 10px 0px;
+	background: #0f5499 url(../../img/textures/paperblue.jpg) repeat 0px 0px;
 	}
 
-#store-minor_wrapper h3 {
-	width: 424px;
-	height: 32px;
-	margin: 10px 0px 0px 0px;
-	font: 700 2.15em/1.2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #ffffee;
-	padding: 8px 0px 0px 16px;
-	background: url(../../img/main/store/store.png) no-repeat 0px -85px;
-	word-spacing: -1px;
-	}
-
-#store-minor_wrapper .txt {
-	width: 420px;
-	height: 45px;
-	margin: 10px 0px 10px 15px;
-	overflow: hidden;
-	}
-
-#store-minor_wrapper .final-data {
-	width: 195px;
-	height: 45px;
-	margin: 0px 0px 0px 0px;
+.storetitle .triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
 	float: left;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	margin-right: 10px;
+	border-top: 20px solid transparent;
+	border-left: 5px solid #dedebd;
+	border-bottom: 20px solid transparent;
 	}
 
-#store-minor_wrapper .final-data_precio,
-#store-minor_wrapper .final-data_descuento,
-#store-minor_wrapper .final-data_comprados {
-	float: left;
+.storetitle h3 {
+	font: 700 2em/2em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ebebc7;
+	}
+
+#store-minor_wrapper .trece-pts {margin: 0px 0px 0px 13px;}
+
+.store-minor_num-comprar {
+	width: 440px;
 	height: 45px;
+	margin-left: 5px;
 	}
 
-#store-minor_wrapper .boton-precio {
-	float: right;
-	margin: 0px 0px 0px 0px;
+
+
+/*--| NÚMEROS
+--------------------------------------------------------------------- |--*/
+
+.store-comprar {float: right; margin-top: 3px;}
+
+.store-minor_num-comprar {height: 45px;}
+
+.store-num {heigh: 45px; margin: 0px 5px 0px 0px; float: left;}
+
+.store-num p.num-precio,
+.store-num p.num-porcen,
+.store-num p.num-comprados {
+	float: left;
+	border: none;
+	font: 700 1.8em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1a1c18;
+	margin: 8px 10px 0px 10px;
+	}
+	.store-num p.num-precio {text-decoration: line-through; font: 700 1.6em/1.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.store-num p.num-ref {
+	font: 700 1em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #095992;
+	margin: 0px 10px 5px 10px;
+	display: block;
 	}
 
-#store-minor_wrapper .final-data_precio {
-	width: 75px;
-	border-right: 1px solid #d7d8c6;
-	}
 
-#store-minor_wrapper .final-data_precio p.precio {
-	font: 700 1.6em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2c362f;
-	margin: 9px 0px 0px 0px;
-	text-align: right;
-	width: 50px;
-	background: none;
-	}
 
-#store-minor_wrapper .final-data_descuento {
-	width: 50px;
-	border-right: 1px solid #d7d8c6;
-	}
-
-#store-minor_wrapper .final-data_descuento p.porcentaje {
-	font: 700 2.1em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2c362f;
-	margin: 7px 0px 0px -6px;
-	background: none;
-	}
-
-#store-minor_wrapper .final-data_comprados {width: 65px;}
-
-#store-minor_wrapper .final-data_comprados p.comprados {
-	font: 700 2.1em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #2c362f;
-	margin: 7px 0px 0px 0px;
-	background: none;
-	}
-
-/*#store-minor_wrapper .final-data_comprados p.comprados b.referencia {
-	font: 700 0.6em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #02497a;
-	margin: 1px 0px 0px 3px;
-	background: none;
-	}*/
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

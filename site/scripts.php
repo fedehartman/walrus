@@ -11,8 +11,6 @@
 	<script src="js/libs/easyslider.js"></script>
 	<script src="js/libs/cycle.js"></script>
 
-	<script src="js/libs/smart-gallery.js"></script>
-
 	<script src="js/libs/oferta_slider/gallery.js"></script>
 	<script src="js/libs/oferta_slider/jquery.tmpl.min.js"></script>
 	<script src="js/libs/oferta_slider/jquery.easing.1.3.js"></script>

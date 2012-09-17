@@ -23,7 +23,6 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 .aside-back {
 	width: 252px;
-	height: auto;
 	margin: 15px 1px 0px 5px;
 	border: 1px solid #ccd1d3;
 	background-color: #cfd3d7;
@@ -45,8 +44,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| TITULO
 ----------------------------------------------------------------------------------------- |--*/
 
-#home-aside-store h3,
-#home-aside-ofertas h3 {
+#aside-store h3,
+#aside-ofertas h3 {
 	width: 300px;
 	height: 45px;
 	position: absolute;
@@ -58,9 +57,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	padding: 0px 0px 0px 10px;
 	background: url(../../img/main/main.png) no-repeat -355px 0px;
 	}
-	#home-aside-store h3 {margin-left: -10px;}
+	#aside-store h3 {margin-left: -10px;}
 
-#home-aside-store canvas.label {
+#aside-store canvas.label {
 	width: 40px;
 	height: 50px;
 	position: absolute;
@@ -75,49 +74,35 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| STORE
 ------------------------------------------------------------------------------------------------------------- |--*/
 
-#home-aside-store {
+#aside-store {
 	width: 255px;
 	height: 175px;
 	margin: 5px 5px 15px 5px;
 	overflow: hidden;
-	background: url(../../img/textures/blue.jpg) repeat 0px 0px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 	}
-
 
 
 
 /*--| SLIDER
 ----------------------------------------------------------------------------------------- |--*/
 
-#home-aside-store .slider  {
+#aside-store .slider  {
 	width: 244px;
 	height: 122px;
 	margin: 30px 0px 0px 5px;
 	background-color: #d0d6d9;
 	overflow: hidden;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.65);
-	        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.65);
 	}
 
-#home-aside-store .slider ul {
+#aside-store .slider ul {
 	width: 244px;
 	height: 122px;
 	overflow: hidden;
 	}
 
-#home-aside-store .slider ul li {width: 244px; height: 122px;}
+#aside-store .slider ul li {width: 244px; height: 122px;}
 
-#home-aside-store .ol_controls_position {
+#aside-store .ol_controls_position {
 	width: 200px;
 	height: 4px;
 	position: absolute;
@@ -125,12 +110,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	margin: 0px 0px 0px 70px;	
 	}
 	
-#home-aside-store ol#controls {
+#aside-store ol#controls {
 	float: right;
 	margin: -137px 0px 0px 0px;
 	}
 
-#home-aside-store ol#controls li {
+#aside-store ol#controls li {
 	float: left;
 	width: 10px;
 	height: 10px;
@@ -140,7 +125,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	cursor: pointer;
 	}
 
-#home-aside-store ol#controls li {
+#aside-store ol#controls li {
 	width: 10px;
 	height: 10px;
 	-webkit-border-radius: 5px;
@@ -152,7 +137,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
 	}
 
-#home-aside-store ol#controls li.current {
+#aside-store ol#controls li.current {
 	background-color: #fbfcfa;
 	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
 	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
@@ -164,11 +149,11 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| SLIDER - CONTENIDO
 -------------------------------------------------------------------- |--*/
 
-#home-aside-store figure,
-#home-aside-ofertas figure {width: 244px; height: 122px; overflow: hidden; }
+#aside-store figure,
+#aside-ofertas figure {width: 244px; height: 122px; overflow: hidden; }
 
-#home-aside-store .circle,
-#home-aside-ofertas .circle {
+#aside-store .circle,
+#aside-ofertas .circle {
 	width: 125px;
 	height: 125px;
 	background: url(../../img/main/main.png) no-repeat -230px 0px;
@@ -176,12 +161,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	z-index: 10;
 	overflow: hidden;
 	}
-	#home-aside-store .circle {margin: 0px 0px 0px 0px;}
-	#home-aside-ofertas .circle {margin: -122px 0px 0px 0px;}
+	#aside-store .circle {margin: 1px 0px 0px 0px;}
+	#aside-ofertas .circle {margin: -122px 0px 0px 0px;}
 	.circle-ie7 {display: none;}
 
-#home-aside-store article,
-#home-aside-ofertas article {
+#aside-store article,
+#aside-ofertas article {
 	width: 212px;
 	height: 90px;
 	position: relative;
@@ -190,9 +175,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	margin: -94px 0px 0px 5px;
 	}
 
-#home-aside-store article h4,
-#home-aside-ofertas article h4 {
-	width: 100px;
+#aside-store article h4,
+#aside-ofertas article h4 {
+	width: 120px;
 	height: 55px;
 	font: normal 1.2em/1.4583em asap;
 	color: #fff;
@@ -206,20 +191,20 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 /*--| LINE
 ----------------------------------------------------------------------------------------- |--*/
 
-#home-aside-store .line,
-#home-aside-ofertas .line {
+#aside-store .line,
+#aside-ofertas .line {
 	width: 245px;
 	height: 15px;
 	background: url(../../img/main/main.png) no-repeat -357px -50px;
 	}
-	#home-aside-store .line {margin-left: 5px;}
+	#aside-store .line {margin-left: 5px;}
 
 
 
 /*--| OFERTAS
 ------------------------------------------------------------------------------------------------------------- |--*/
 
-#home-aside-ofertas {
+#aside-ofertas {
 	width: 255px;
 	height: auto;
 	min-height: 20px;
@@ -227,7 +212,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	margin: 0px 0px 0px 5px;
 	}
 
-#home-aside-ofertas .oferta  {
+#aside-ofertas .oferta  {
 	width: 245px;
 	height: auto;
 	min-height: 45px;
@@ -235,22 +220,15 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	margin: 0px 0px 5px 0px;
 	overflow: hidden;
 	padding: 5px 5px 0px 5px;
-	background: url(../../img/textures/blue.jpg) repeat 0px 0px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.65);
 	}
 
-#home-aside-ofertas ul {
+#aside-ofertas ul {
 	width: 255px;
 	height: auto;
 	min-height: 50px;
 	overflow: hidden;
 	}
-	#home-aside-ofertas li.oferta {height: 145px;}
+	#aside-ofertas li.oferta {height: 145px;}
 
 
 

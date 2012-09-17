@@ -4,7 +4,7 @@ Site Name: Woow
 Site URI: http://woow.com.uy
 Version: 2.0
 Design Date: May 24 - Aug 2 | 2012
-Coding Date: Aug 3 - Sep | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
 Design: IUGO | http://iugo.com.uy - @iugo_uruguay
 HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
 Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
@@ -24,13 +24,13 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Woow</title>
+	<title>Woow!</title>
 
-	<meta name="description" content="Woow" />
+	<meta name="description" content="Woow!" />
 	<meta name="author" content="Woow | http://www.woow.com.uy" />
 	<meta name="keywords" content="" /> 
 	<meta name="robots" content="all" /> 
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -43,6 +43,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 	<?php include("main/home_oferta_slider.php"); ?>
 
+
 <!--| ================================================================================================================================================ |-->
 
 </head>
@@ -50,8 +51,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 <body id="home">
 
+<?php include("menu-provisorio.php"); ?>
 
-<?php /*?><?php include("popup.php"); ?><?php */?>
+<?php include("popup.php"); ?>
 
 <?php /*?><?php include("modales.php"); ?><?php */?>
 
@@ -94,7 +96,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 					</div>
 					<div class="es-carousel">
 						<ul>
-							<li><a href="#"><img src="img/samples/sample01.jpg" data-large="img/samples/sample01.jpg" alt="image01" /></a></li>
+							<li><a href="#"><img src="img/samples/sample.jpg" data-large="img/samples/sample.jpg" alt="image01" /></a></li>
 							<li><a href="#"><img src="img/samples/sample02.jpg" data-large="img/samples/sample02.jpg" alt="image01" /></a></li>
 							<li><a href="#"><img src="img/samples/sample03.jpg" data-large="img/samples/sample03.jpg" alt="image01"  /></a></li>
 							<li><a href="#"><img src="img/samples/sample04.jpg" data-large="img/samples/sample04.jpg" alt="image01" /></a></li>
@@ -122,18 +124,17 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 				</article>
 				<div class="precio-oferta">
 					<div class="comprar home-comprar">
-						<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+						<div class="comprar-precio"><p><u>U$S</u>25980</p></div>
 						<div class="comprar-action"><p><a href="#">Compralo</a></p></div>
 					</div>
+				</div>
 			</div>
 		</div> <!--"data"-->
-
+	</article> <!--"home-oferta"-->
 
 
 
 	<!--| =========================================================================== |-->
-
-	</article> <!--"home-oferta"-->
 
 
 
@@ -157,8 +158,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 				<div class="data-1">
 					<div class="data-1-wrapper">
-						<p class="precio"><i class="precio"></i><b class="moneda">$</b>250 <b class="referencia">precio original</b></p>
-						<p class="porcentaje"><i class="porcentaje"></i>57<b class="porcentaje">%</b> <b class="referencia">de descuento</b></p>
+						<p class="precio"><i class="precio"></i><u>$</u><b class="tachado">250</b><b class="referencia">precio original</b></p>
+						<p class="porcentaje"><i class="porcentaje"></i>57<u>%</u><b class="referencia">de descuento</b></p>
 					</div>
 					<canvas class="data-1-linea"></canvas>
 				</div>
@@ -174,7 +175,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 				<div class="data-3">
 					<div class="data-3-wrapper">
 						<p class="finaliza">la oferta finaliza en:</p>
-						<p class="tiempo"><i class="tiempo"></i><b class="hora">23</b> : <b class="minutos">05</b> : <b class="segundos">08</b></p>
+						<p class="tiempo"><i class="tiempo"></i><time class="horas">23</time> : <time class="minutos">05</time> : <time class="segundos">08</time></p>
 					</div>
 					<canvas class="data-3-linea"></canvas>
 				</div>
@@ -183,7 +184,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-		<!--| DETALLES
+		<!--| TEXTOS
 		================================================================================= |-->
 
 			<section id="detalles">
@@ -195,12 +196,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			<!--| DETALLES
 			===================================================== |-->
 
-					<article class="detalles">
-						<div class="detalles-title">
-							<div class="triangle"></div>
-							<h4 class="home-detalles">Detalles<i class="detalles"></i></h4>
-						</div>
-						<div class="detalles-txt">
+					<article class="detalles left">
+						<div class="papertitle papertitle30"><div class="triangle"></div><h4>Detalles</h4><i class="icon-info-sign"></i></div>
+						<article class="trece-pts detalles-home">
 							<dl>
 								<dt><strong>El Menú incluye:</strong></dt>
 									<dd>1 Roll de vegetales al wok, 8 piezas</dd>
@@ -213,7 +211,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 							<p>Envíos sin costo en Centro y Ciudad Vieja.</p>
 							<p>Barrios Aguada, Cordón, Barrio Sur: costo $40.</p>
 							<p>Otras zonas: <a href="#">consultar</a>.</p>
-						</div>
+						</article>
 						<figure class="detalles-img">
 							<img src="img/samples/sample.jpg" width="284" height="142" class="active">
 							<img src="img/samples/sample02.jpg" width="284" height="142" class="none">
@@ -222,6 +220,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 							<img src="img/samples/sample05.jpg" width="284" height="142" class="none">
 							<img src="img/samples/sample06.jpg" width="284" height="142" class="none">
 						</figure>
+						<div class="relleno-top-left corners"></div>
 					</article>
 
 
@@ -229,12 +228,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			<!--| CONDICIONES
 			===================================================== |-->
 
-					<article class="condiciones">
-						<div class="detalles-title">
-							<div class="triangle"></div>
-							<h4 class="home-detalles">Condiciones<i class="condiciones"></i></h4>
-						</div>
-						<div class="detalles-txt">
+					<article class="condiciones right">
+						<div class="papertitle papertitle30"><div class="triangle"></div><h4>Condiciones</h4><i class="icon-exclamation-sign"></i></div>
+						<article class="trece-pts detalles-home">
 							<p>Lo podrás retirar o lo recibirás entre el 30 de julio y el 3 de agosto de 2012.</p>
 							<p>En caso de elegir la opción que incluye envío, recordá leer las condiciones de envío.</p>
 							<p>Deberás presentar tu <strong>documento de identidad</strong> al momento de retirar el producto.</p>
@@ -244,7 +240,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 							<p>Por tratarse de una oferta, no estamos aptos para efectuar devoluciones.</p>
 							<p>Pagá con tarjeta de crédito Visa, Master, Oca o débito bancario online hasta en 3 cuotas. Hasta en 6 cuotas vía Call Center.</p>
 							<p>Pagá con Abitab después de pulsar comprar y completar tus datos.</p>
-						</div>
+						</article>
 						<!--<figure class="detalles-img">
 							<img src="img/samples/sample.jpg" width="284" height="142" class="active">
 							<img src="img/samples/sample02.jpg" width="284" height="142" class="none">
@@ -253,6 +249,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 							<img src="img/samples/sample05.jpg" width="284" height="142" class="none">
 							<img src="img/samples/sample06.jpg" width="284" height="142" class="none">
 						</figure>-->
+						<div class="relleno-top-right corners"></div>
 					</article>
 
 
@@ -269,18 +266,16 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			<!--| DESCRIPCION
 			===================================================== |-->
 
-					<article class="descripcion">
-						<div class="detalles-title">
-							<div class="triangle"></div>
-							<h4 class="home-detalles">Descripción<i class="descripcion"></i></h4>
-						</div>
-						<div class="detalles-txt">
+					<article class="descripcion left">
+						<div class="papertitle papertitle30"><div class="triangle"></div><h4>Descripción</h4><i class="icon-th-list"></i></div>
+						<article class="trece-pts descripcion-home">
 							<p>En Tsunami Sushi Lounge se combinan técnicas japonesas con productos regionales de alta calidad, logrando una perfecta armonía entre lo tradicional y los sabores de su vanguardia gastronómica más actual.</p>
 							<p>El mejor maridaje no tiene porque ser regional. Los mariscos cocidos y el pescado crudo combinan increíblemente con la cerveza.</p>
 							<p>Por la presencia de las semillas de sésamo tostado en nuestra cocina, sugerimos cervezas de trigo como Schofferhofer, con jugo de pomelo para darle un toque fresco y frutal a la comida.</p>
 							<p>El sushi se pude incluir en una dieta sana por sus ingredientes, que poseen la cantidad justa de proteínas, hidratos de carbono, fibras, vitaminas y minerales. Es libre de grasas, contiene una gran cantidad de omega 3 y omega 6, sin dejar de mencionar que es delicioso.</p>
 							<p>Con el cupón de hoy vas a poder disfrutar de un 56% de descuento en 1 Roll de vegetales al wok 8 piezas + 1 Philadelphia roll de 8 piezas + 1 Ebi roll de 8 piezas + 4 Niguiris + 2 Cervezas de trigo.</p>
-						</div>
+						</article>
+						<div class="relleno-bot-left corners"></div>
 					</article>
 
 
@@ -288,21 +283,19 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 			<!--| LA COMPAÑÍA
 			===================================================== |-->
 
-					<article class="compania">
-						<div class="detalles-title">
-							<div class="triangle"></div>
-							<h4 class="home-detalles">La Compañía<i class="compania"></i></h4>
-						</div>
+					<article class="compania right">
+						<div class="papertitle papertitle30"><div class="triangle"></div><h4>La Compañía</h4><i class="icon-map-marker"></i></div>
 						<figure class="detalles-logo"><img src="img/samples/logo.png" width="190" height="95"></figure>
-						<div class="detalles-txt">
+						<article class="trece-pts compania-home">
 							<address class="detalles">
-								<p class="direccion">Boulevar Artigas 1283/701</p>
-								<p class="sitio"><a href="#">tsunamisushi.com.uy</a></p>
-								<p class="correo"><a href="mailto:">info@tsunamisushi.com.uy</a></p>
-								<p class="horario">9:00 - 18:00</p>
-								<p class="telefono">2 408 55 55</p>
+								<p><i class="icon-map-marker"></i>Boulevar Artigas 1283/701</p>
+								<p><i class="icon-link"></i><a href="#">tsunamisushi.com.uy</a></p>
+								<p><i class="icon-envelope"></i><a href="mailto:">info@tsunamisushi.com.uy</a></p>
+								<p><i class="icon-time"></i>9:00 - 18:00</p>
+								<p><i class="icon-cel"></i>2 408 55 55</p>
 							</address>
-						</div>
+						</article>
+						<div class="relleno-bot-right corners"></div>
 					</article>
 
 			<!--| =============================================== |-->
@@ -333,8 +326,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	
 				<div class="social-tarjetas">
 
- 					<p class="regala"><i class="regala"></i><a href="#">Regaláselo a un amigo</a></p>
- 					<p class="recomenda"><i class="recomenda"></i><a href="#">Recomendá esta oferta y ganá $100</a></p>
+ 					<div class="social-regala"><p class="width-170 corners"><a href="#"><i class="icon-gift"></i>Regaláselo a un amigo</a></p></div>
+ 					<div class="social-regala"><p class="width-240 corners"><a href="#"><i class="icon-bullhorn"></i>Recomendá esta oferta y ganá $100</a></p></div>
 
 					<div class="social">
 
@@ -369,7 +362,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 					</div>
 
-					<div class="tarjetas">
+					<div class="tarjetas paper71">
 						<dl>
 							<div class="tarjetas-txt"><dt>Tu Compra Segura con:</dt></div>
 							<div class="tarjetas-logos">
@@ -398,23 +391,17 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 			<section class="compralo">
 
-				<div class="final-data">
-					<div class="final-data_precio">
-						<p class="precio"><!--<i class="precio"></i>--><b class="moneda">$</b>150</p>
-					</div>
-					<div class="final-data_descuento">
-						<p class="porcentaje"><i class="porcentaje"></i>57<b class="porcentaje">%</b></p>
-					</div>
-					<div class="final-data_preciofinal">
-						<p class="tiempo"><i class="tiempo"></i><b class="hora">23</b> : <b class="minutos">05</b> : <b class="segundos">08</b></p>
-					</div>
-				</div>
-
 				<div class="comprar home-comprar right">
-					<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+					<div class="comprar-precio"><p><u>$</u>590</p></div>
 					<div class="comprar-action"><p><a href="#">Compralo</a></p></div>
 				</div>
-	
+
+				<div class="num num-home">
+					<div class="num-precio"><p class="num-precio"><i class="icon-precio"></i><u>$</u>790</p></div>
+					<div class="num-porcen"><p class="num-porcen"><i class="icon-porce"></i>58<u>%</u></p></div>
+					<div class="num-tiempo"><p class="num-tiempo"><i class="icon-tiempo"></i><time class="horas">28</time>:<time class="minutos">30</time>:<time class="segundos">45</time></p></div>
+				</div>
+
 			</section>
 
 

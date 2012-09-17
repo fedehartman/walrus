@@ -50,24 +50,15 @@ html.popup {overflow: hidden;}
 	-webkit-box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.35);
 	   -moz-box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.35);
 	        box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.35);
-	/*background-color: #94b929;
-	background-image: url(../../img/textures/raya.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #86a924), color-stop(1, #5a7512));
-	                                     background-image: -ms-linear-gradient(top, #86a924 0%,             #5a7512 100%);
-	                                    background-image: -moz-linear-gradient(top, #86a924 0%,             #5a7512 100%);   
-	                                      background-image: -o-linear-gradient(top, #86a924 0%,             #5a7512 100%);
-		                             background-image: -webkit-linear-gradient(top, #86a924 0%,             #5a7512 100%);
-	                                   background-image: linear-gradient(to bottom, #86a924 0%,             #5a7512 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #86a924), color-stop(1, #5a7512));
-	*/
-	
-	background: #86a924;
-	/*background: -moz-linear-gradient(top,  #86a924 0%, #8fb228 35%, #81a320 100%);*/
-	background-image: url(../../img/textures/raya.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#86a924), color-stop(35%,#8fb228), color-stop(100%,#81a320));
-	/*background: -webkit-linear-gradient(top,  #86a924 0%,#8fb228 35%,#81a320 100%);
-	background: -o-linear-gradient(top,  #86a924 0%,#8fb228 35%,#81a320 100%);
-	background: -ms-linear-gradient(top,  #86a924 0%,#8fb228 35%,#81a320 100%);
-	background: linear-gradient(to bottom,  #86a924 0%,#8fb228 35%,#81a320 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86a924', endColorstr='#81a320',GradientType=0 );*/
+	background-color: #6f8d17;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-image: url(../../img/textures/rayas-left-light.png), -webkit-linear-gradient(top,                                  #799b13 0%,             #7fa308 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -moz-linear-gradient(top,                                     #799b13 0%,             #7fa308 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -ms-linear-gradient(top,                                      #799b13 0%,             #7fa308 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -o-linear-gradient(top,                                       #799b13 0%,             #7fa308 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), linear-gradient(to bottom,                                    #799b13 0%,             #7fa308 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #799b13), color-stop(1, #7fa308 ));
 	}
 
 .popup-content {
@@ -161,44 +152,72 @@ html.popup {overflow: hidden;}
 	margin: 5px 0px 0px 0px;
 	}
 
-.form-step1 {
-	width: 25px;
-	height: 25px;
-	background-color: #09F;
-	cursor: pointer;
+input.popup-long {width: 270px; margin-left: -1px;}
+
+select.popup-select {
+	width: 175px;
+	float: left;
+	}
+
+select.popup-select-2 {
+	width: 200px;
+	float: left;
+	}
+
+.boton-pop a {
+	text-shadow: none;
+	border: 1px solid #004881;
+	background-color: #005c9f;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-linear-gradient(top,                                  #0062a9 0%,             #00599a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -moz-linear-gradient(top,                                     #0062a9 0%,             #00599a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -ms-linear-gradient(top,                                      #0062a9 0%,             #00599a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -o-linear-gradient(top,                                       #0062a9 0%,             #00599a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), linear-gradient(to bottom,                                    #0062a9 0%,             #00599a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #0062a9), color-stop(1, #00599a ));
+	}
+
+.boton-pop a:hover {
+	color: #f8f9f9;
+	background-color: #005491;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-linear-gradient(top,                                  #0061a8 0%,             #00447a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -moz-linear-gradient(top,                                     #0061a8 0%,             #00447a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -ms-linear-gradient(top,                                      #0061a8 0%,             #00447a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -o-linear-gradient(top,                                       #0061a8 0%,             #00447a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), linear-gradient(to bottom,                                    #0061a8 0%,             #00447a 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #0061a8), color-stop(1, #00447a ));
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	   -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+	        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
 	}
 
 
+.boton-pop a:active {
+	text-shadow: none;
+	background-color: #004678;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-linear-gradient(top,                                  #00447a 0%,             #0061a8 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -moz-linear-gradient(top,                                     #00447a 0%,             #0061a8 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -ms-linear-gradient(top,                                      #00447a 0%,             #0061a8 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -o-linear-gradient(top,                                       #00447a 0%,             #0061a8 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), linear-gradient(to bottom,                                    #00447a 0%,             #0061a8 100%);
+	background-image: url(../../img/textures/rayas-left-extralight.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #00447a), color-stop(1, #0061a8 ));
+	-webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+	   -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+	        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.25);
+	}
 
-
-	/*<article>
-
-		<div class="top">
-
-			<div class="popup-top-left">
-				<form id="popup-uno">
-					<fieldset>
-						<div class="input-prepend">
-							<span class="add-on"><i class="icon-envelope"></i></span>
-							<input class="span2" id="prependedInput" size="16" type="text" placeholder="Email:">
-						</div>
-						<select>
-							<option>Categoria</option>
-							<option>Gastronomía</option>
-							<option>Estética</option>
-							<option>Turismo</option>
-							<option>Store</option>
-						</select>
-					</fieldset>
-				</form>
-			</div>
-
-			<div class="popup-top-right">
-				<h3>Descuentos en spas, restaurantes, peluquerías, bares, espectáculos y mucho más.</h3>
-			</div>*/
-
-
-
+.boton-pop a {
+	height: 26px;
+	font: 700 1.5em/1.73em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #eaecec;
+	padding: 0px 8px 0px 8px;
+	margin: 0px 3px 0px 0px;
+	}
 
 
 #popup .line {
@@ -272,3 +291,5 @@ html.popup {overflow: hidden;}
 	        box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
 	}
 
+.icon-torta {background: url(../../img/icons/icon-boot.png) no-repeat -168px -168px;}
+.icon-sexo {background: url(../../img/icons/icon-boot.png) no-repeat -192px -168px;}	

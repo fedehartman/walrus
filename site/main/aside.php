@@ -4,131 +4,130 @@
 
 <aside class="home">
 
-<div class="aside-total">
 
 	<!--| STORE
 	================================================================================= |-->
 	
-	<div id="home-aside-store">
+	<div id="aside-store" class="tela volumen">
 		<h3>Store</h3>
 		<canvas class="label"></canvas>
-		<div class="slider">
-			<canvas class="circle"></canvas>
+		<div class="slider volumen">
+			<canvas class="circle corners"></canvas>
 			<ul>
 				<li>
-					<div class="circle-ie7"></div> <!--Para el puto IE7-->
-					<figure class="img"><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-					<article class="h4-lineas-tres">
+					<div class="circle-ie7"></div> <!--Para IE7-->
+					<figure class="img corners"><img src="img/samples/sample.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+					<article>
 						<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
 						<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>U$S</u>25980</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 					</article>
 				</li>
 				<li>
-                <div class="circle-ie7"></div> <!--Para el puto IE7-->
-					<figure class="img"><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-					<article class="h4-lineas-tres">
-						<h4>Oferta 2<br> en Colonia. <br>2 noches para dos</h4>
+                <div class="circle-ie7"></div>
+					<figure class="img corners"><img src="img/samples/sample04.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+					<article>
+						<h4>Oferta 2<br> en Colonia</h4>
 						<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>$</u>2540</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 					</article>
 				</li>
 				<li>
-                <div class="circle-ie7"></div> <!--Para el puto IE7-->
-					<figure class="img"><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-					<article class="h4-lineas-tres">
+                <div class="circle-ie7"></div>
+					<figure class="img corners"><img src="img/samples/sample06.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+					<article>
 						<h4>Armonía y relax<br> en Colonia. <br>2 noches para dos</h4>
 						<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>U$S</u>80</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 					</article>
 				</li>
 			</ul>
-		</div> <!--"home-aside-store-slider"-->
+		</div> <!--"aside-store-slider"-->
 		<div class="ol_controls_position"></div>
 		<div class="line"></div>
-	</div> <!--"home-aside-store"-->
+	</div> <!--"aside-store"-->
 
 
 
 	<!--| OFERTAS
 	================================================================================= |-->
 
-	<div id="home-aside-ofertas">
+	<div id="aside-ofertas">
     
-		<div class="oferta"><h3>Más Ofertas</h3></div>
+		<div class="oferta tela volumen"><h3>Más Ofertas</h3></div>
 
 		<ul>
 
-			<li class="oferta">
-				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-				<div class="circle"></div>
+			<li class="oferta tela volumen">
+				<div class="circle-ie7"></div> <!--Para IE7-->
+				<figure class="corners"><img src="img/samples/sample.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+				<div class="circle corners"></div>
 				<article>
 					<h4>Oferta 1<br> en Colonia.</h4>
 					<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>$</u>590</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 				</article>
 				<div class="line"></div>
 			</li>
 
-			<li class="oferta">
-				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-				<canvas class="circle"></canvas>
+			<li class="oferta tela volumen">
+				<div class="circle-ie7"></div>
+				<figure class="corners"><img src="img/samples/sample03.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+				<canvas class="circle corners"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
 					<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>$</u>680</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 				</article>
 				<canvas class="line"></canvas>
 			</li>
 
-			<li class="oferta">
-				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-				<canvas class="circle"></canvas>
+			<li class="oferta tela volumen">
+				<div class="circle-ie7"></div>
+				<figure class="corners"><img src="img/samples/sample05.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+				<canvas class="circle corners"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
 					<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>U$S</u>980</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 				</article>
 				<canvas class="line"></canvas>
 			</li>
 
-			<li class="oferta">
-				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-				<canvas class="circle"></canvas>
+			<li class="oferta tela volumen">
+				<div class="circle-ie7"></div>
+				<figure class="corners"><img src="img/samples/sample06.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+				<canvas class="circle corners"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
 					<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>$</u>2580</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 				</article>
 				<canvas class="line"></canvas>
 			</li>
 
-			<li class="oferta">
-				<div class="circle-ie7"></div> <!--Para el puto IE7-->
-				<figure><img src="img/samples/sample01.jpg" width="244" height="122" alt="Woow - Sushi"></figure>
-				<canvas class="circle"></canvas>
+			<li class="oferta tela volumen">
+				<div class="circle-ie7"></div>
+				<figure class="corners"><img src="img/samples/sample01.jpg" class="corners" width="244" height="122" alt="Woow - Sushi"></figure>
+				<canvas class="circle corners"></canvas>
 				<article>
 					<h4>Oferta 1<br> en Colonia. <br>2 noches para dos</h4>
 					<div class="comprar aside-comprar">
-							<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
+							<div class="comprar-precio"><p><u>U$S</u>250</p></div>
 							<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
 						</div>
 				</article>
@@ -138,7 +137,7 @@
 		</ul>
 	</div>
 
-</div>
+
 
 	<!--| BACK
 	================================================================================= |-->

@@ -26,12 +26,23 @@ $(document).ready(function () {
         completeAnimation: "grow"
     });*/
 
-/*--| HOME - ASIDE
+
+/*--| HOME - EQUAL COLUMNS
 ------------------------------------------------------------------------------------------------------------- |--*/
 
-var total = $('section.home').height();		
-var totalAside = $('.aside-total').height();		
-$('.aside-back').height(total-totalAside-27);
+var hometotal = $('section.home').height();		
+var totalaside = $('aside.home').height();		
+$(".aside-back").height(hometotal-totalaside-60);
+
+var DetallesTotal = $('article.detalles').height();		
+var DetallesColumna = $('article.condiciones').height();		
+$('.relleno-top-right').height(DetallesTotal-DetallesColumna-10);
+$('.relleno-top-left').height(DetallesColumna-DetallesTotal-10);
+
+var DescripcionTotal = $('article.descripcion').height();		
+var DescripcionColumna = $('article.compania').height();		
+$('.relleno-bot-right').height(DescripcionTotal-DescripcionColumna-40);
+$('.relleno-bot-left').height(DescripcionColumna-DescripcionTotal);
 
 
 
@@ -83,11 +94,12 @@ $(".main-nav_categorias").click(function(e){
     e.stopPropagation();
 	});
 
+
 /*--| TOOLTIP
 ------------------------------------------------------------------------------------------------------------- |--*/
 
 $("[rel=tooltip]").tooltip();
-$("#example").tooltip({'placement':'top', 'trigger' : 'hover'});
+
 
 
 
@@ -101,7 +113,7 @@ $("#modal_footer_youtube").modal('hide');
 /*--| SLIDER STORE ASIDE
 ------------------------------------------------------------------------------------------------------------- |--*/
 
-$('#home-aside-store .slider').easySlider({
+$('#aside-store .slider').easySlider({
 		auto: true,
 		continuous: true,
 		pause: 3600,
@@ -116,9 +128,13 @@ $('#home-aside-store .slider').easySlider({
 $('figure.detalles-img').cycle({ 
     fx:    'fade', 
     speed:  2500 
- });
+	});
 
-$('#popup-button').click(function(){
+
+/*--| POP-UP
+------------------------------------------------------------------------------------------------------------- |--*/
+
+$('a#popup-button').click(function(){
 	$("#popup h2").addClass('none');
 	$("#popup .popup-form-step1").addClass('none');
 	$("#popup .popup-form-step2").removeClass('none');
@@ -130,5 +146,6 @@ $('a.popup-close').click(function(){
 	$("html").removeClass('popup');
 	$("#popup").addClass('none');
 	});
+
 
 });

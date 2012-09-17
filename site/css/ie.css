@@ -30,8 +30,12 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 #recientes li.main-nav_recientes a:hover {background: url(../img/header/menu-item-back.png) repeat-x 0px -60px;}
 
 
+.store-num p.num-precio,
+.store-num p.num-porcen,
+.store-num p.num-comprados {float: none;}
 
-
-
+.listado-num p.num-precio,
+.listado-num p.num-porcen,
+.listado-num p.num-comprados {float: none;}
 
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

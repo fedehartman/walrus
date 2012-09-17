@@ -262,7 +262,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	height: 94px;
 	float: left;
 	padding: 10px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius:    5px;
 	border-radius:         5px;
@@ -276,7 +276,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 .usuario-cuenta-nombre {
 	font: 700 3.1em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #026da3;
+	color: #095992;
 	letter-spacing: -1px;
 	width: 280px;
 	float: right;
@@ -295,7 +295,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	margin: 0px 5px 0px 0px;
 	float: left;
 	height: 25px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;
 	}
 
 .usuario-cuenta-row-fecha {width: 155px;}
@@ -304,26 +304,38 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 .usuario-cuenta-row-lugar {width: 405px;}
 .usuario-cuenta-row-correo {width: 265px;}
 .usuario-cuenta-row-ci {width: 135px;}
-.usuario-cuenta-row-pass {width: 372px;}
+.usuario-cuenta-row-pass {width: 342px;}
 
 .usuario-cuenta-rows p {
-	font: normal 1.3em/1.93em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font: 700 1.3em/1.93em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #5d625a;
 	text-indent: 8px;
 	}
 
 .usuario-cuenta-rows p b.usuario-cedula-data,
-.usuario-cuenta-rows p b.usuario-cedula-data a {color: #026da3; font-weight: 700;}
+.usuario-cuenta-rows p b.usuario-cedula-data a {color: #095992; font-weight: 700; margin-left: 3px;}
 
 i.cuenta-hombre {
-	background: url(../../img/icons/icon-paperdark.png) repeat -120px -168px;
+	background: url(../../img/icons/blue.png) repeat -120px -168px;
 	float: right;
 	display: inline-block;
 	width: 15px;
 	height: 15px;
-	margin: -20px 25px 0px 0px;
+	vertical-align: text-top;
+	margin: 6px 25px 0px 0px;
 	}
 
+.usuario-cedula-boton a {
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin: 0px 5px 0px 0px;
+	display: inline-block;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	}
+
+.usuario-cedula-boton a:hover {background: #b5b59a url(../../img/textures/green.jpg) repeat 0px 0px;}
+.usuario-cedula-boton a.cedula-editar:hover {background: #6b802d url(../../img/textures/green.jpg) repeat 0px 0px;}
 
 /*--| DIRECCIONES
 ----------------------------------------------------------------------------------------- |--*/
@@ -344,14 +356,14 @@ i.cuenta-hombre {
 	width: 310px;
 	height: 25px;
 	margin: 0px 0px 10px 0px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
 .usuario-cuenta-title-2 {
 	width: 410px;
 	height: 25px;
 	margin: 0px 0px 10px 0px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
 .usuario-pedidos-triangle {
@@ -537,7 +549,7 @@ i.usuario-icon-small {
 	width: 760px;
 	height: 25px;
 	margin: 0px 0px 10px 0px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
 .usuario-pedidos-triangle {
@@ -558,7 +570,7 @@ i.usuario-icon-small {
 	width: 745px;
 	}
 
-.usuario-pedidos-item i.usuario-pedidos-title {float: right; margin-right: 8px; background: url(../../img/icons/icon-paperdark.png) repeat -72px -96px;}
+.usuario-pedidos-item i.usuario-pedidos-title {float: right; margin-right: 8px; background: url(../../img/icons/paper41.png) repeat -72px -96px;}
 
 
 
@@ -618,19 +630,19 @@ i.usuario-icon-small {
 	margin: 0px 0px 0px -3px;
 	padding: 1px 3px 1px 3px;
 	}
-	.usuario-pedidos-columna1 p a:hover {background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;}
+	.usuario-pedidos-columna1 p a:hover {background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;}
 
-i.usuario-check {background: url(../../img/icons/icon-greenpaper.png) repeat -288px 0px;}
-i.usuario-uncheck {background: url(../../img/icons/icon-paperdark.png) repeat -312px 1px;}
-i.usuario-descargar {background: url(../../img/icons/icon-paperdark.png) repeat -96px -24px;}
-i.usuario-ver {background: url(../../img/icons/icon-paperdark.png) repeat -96px -120px;}
-i.usuario-archivar {background: url(../../img/icons/icon-paperdark.png) repeat -408px -120px;}
+i.usuario-check {background: url(../../img/icons/green.png) repeat -288px 0px;}
+i.usuario-uncheck {background: url(../../img/icons/paper41.png) repeat -312px 1px;}
+i.usuario-descargar {background: url(../../img/icons/paper41.png) repeat -96px -24px;}
+i.usuario-ver {background: url(../../img/icons/paper41.png) repeat -96px -120px;}
+i.usuario-archivar {background: url(../../img/icons/paper41.png) repeat -408px -120px;}
 i.usuario-star {
 	cursor: pointer;
-	background: url(../../img/icons/icon-paperdark.png) repeat -120px 0px;
+	background: url(../../img/icons/paper41.png) repeat -120px 0px;
 	}
 i.usuario-star:hover,
-i.usuario-star-active {background: url(../../img/icons/icon-greenpaper.png) repeat -120px 0px;}
+i.usuario-star-active {background: url(../../img/icons/green.png) repeat -120px 0px;}
 
 
 
@@ -669,7 +681,7 @@ i.usuario-star-active {background: url(../../img/icons/icon-greenpaper.png) repe
 	padding: 0px 25px 0px 5px;
 	line-height: 1.5em;
 	width: 60px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
 
@@ -696,7 +708,7 @@ i.usuario-star-active {background: url(../../img/icons/icon-greenpaper.png) repe
 	float: left;
 	padding: 0px 6px 0px 6px;
 	}
-.usuario-pedidos-footer-archivados p a:hover {background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;}
+.usuario-pedidos-footer-archivados p a:hover {background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;}
 
 .usuario-pedidos-footer-paginación {
 	width: 400px;
@@ -724,7 +736,7 @@ i.usuario-star-active {background: url(../../img/icons/icon-greenpaper.png) repe
 	width: 25px;
 	height: 25px;
 	display: block;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
 .usuario-pedidos-footer-paginación nav.paginacion ul li a:hover {background: #e3e4d2 url(../../img/textures/paper81.jpg) repeat 0px 0px;}
@@ -802,7 +814,7 @@ i.usuario-amigos-check {
 	height: 15px;
 	display: inline-block;
 	margin: 10px 0px 0px 0px;
-	background: url(../../img/icons/icon-greenpaper.png) repeat -288px 0px;
+	background: url(../../img/icons/green.png) repeat -288px 0px;
 	}
 
 
@@ -849,7 +861,7 @@ i.usuario-amigos-check {
 	float: left;
 	margin: 0px 15px 15px 0px;
 	padding: 30px 10px 15px 10px;
-	background: #dedcbd url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;
 	}
 
 h4.usuario-h4-25 {
@@ -864,7 +876,7 @@ h4.usuario-h4-25 {
 	width: 345px;
 	height: 25px;
 	margin: 5px 0px 0px 0px;
-	background: #dedcbd url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
 .usuario-libreta-row-doble {
@@ -885,11 +897,12 @@ h4.usuario-h4-25 {
 	height: 25px;
 	margin: 0px 5px 0px 0px;
 	float: left;
-	background: #dedcbd url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 	.usuario-libreta-row-small-tel {width: 100px;}
 
-.usuario-libreta-botones {
+.usuario-libreta-botones,
+.usuario-cedula-boton {
 	width: 54px;
 	height: 25px;
 	float: right;
@@ -901,14 +914,14 @@ h4.usuario-h4-25 {
 	float: left;
 	margin: 0px 0px 0px 2px;
 	display: inline-block;
-	background: #dedcbd url(../../img/textures/paper71.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
-.usuario-libreta-boton a.libreta-editar:hover {background: #748c31 url(../../img/textures/greenpaper.jpg) repeat 0px 0px;}
-.usuario-libreta-boton a.libreta-eliminar:hover {background: #748c31 url(../../img/textures/redpaper.jpg) repeat 0px 0px;}
-.usuario-libreta-boton a:hover i.usuario-icon-editar {background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
-.usuario-libreta-boton a:hover i.usuario-cedula-editar {background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
-.usuario-libreta-boton a:hover i.usuario-icon-eliminar {background: url(../../img/icons/icon-paper.png) repeat -312px   0px;}
+.usuario-libreta-boton a.libreta-editar:hover {background: #6b802d url(../../img/textures/green.jpg) repeat 0px 0px;}
+.usuario-libreta-boton a.libreta-eliminar:hover {background: #802d2d url(../../img/textures/paperred.jpg) repeat 0px 0px;}
+.usuario-libreta-boton a:hover i.usuario-icon-editar {background: url(../../img/icons/paper.png) repeat 0px -72px;}
+.usuario-libreta-boton a:hover i.usuario-cedula-editar {background: url(../../img/icons/paper.png) repeat 0px -72px;}
+.usuario-libreta-boton a:hover i.usuario-icon-eliminar {background: url(../../img/icons/paper.png) repeat -312px 0px;}
 
 .usuario-libreta-item i,
 i.usuario-cedula-editar  {
@@ -918,7 +931,7 @@ i.usuario-cedula-editar  {
 	margin: 6px 5px 0px 5px;
 	float: left;
 	}
-i.usuario-cedula-editar {/*margin-top: -25px*/; background: url(../../img/icons/icon-paper.png) repeat    0px -72px;}
+i.usuario-cedula-editar {background: url(../../img/icons/paper.png) repeat 0px -72px;}
 .usuario-libreta-item p {
 	font: normal 1.3em/2.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #424740;
@@ -926,13 +939,13 @@ i.usuario-cedula-editar {/*margin-top: -25px*/; background: url(../../img/icons/
 	float: left;
 	}
 
- .usuario-libreta-item i.usuario-icon-usuario {background: url(../../img/icons/icon-paperdark.png) repeat -168px   0px;}
-    .usuario-libreta-item i.usuario-icon-home {background: url(../../img/icons/icon-paperdark.png) repeat    0px -24px;}
-   .usuario-libreta-item i.usuario-icon-lugar {background: url(../../img/icons/icon-paperdark.png) repeat  -24px -72px;}
-.usuario-libreta-item i.usuario-icon-usuarios {background: url(../../img/icons/icon-paperdark.png) repeat   0px -168px;}
-     .usuario-libreta-item i.usuario-icon-cel {background: url(../../img/icons/icon-paperdark.png) repeat -24px -168px;}
-  .usuario-libreta-item i.usuario-icon-editar {background: url(../../img/icons/icon-paperdark.png) repeat    0px -72px;}
-.usuario-libreta-item i.usuario-icon-eliminar {background: url(../../img/icons/icon-paperdark.png) repeat -312px   0px;}
+ .usuario-libreta-item i.usuario-icon-usuario {background: url(../../img/icons/paper41.png) repeat -168px   0px;}
+    .usuario-libreta-item i.usuario-icon-home {background: url(../../img/icons/paper41.png) repeat    0px -24px;}
+   .usuario-libreta-item i.usuario-icon-lugar {background: url(../../img/icons/paper41.png) repeat  -24px -72px;}
+.usuario-libreta-item i.usuario-icon-usuarios {background: url(../../img/icons/paper41.png) repeat   0px -168px;}
+     .usuario-libreta-item i.usuario-icon-cel {background: url(../../img/icons/paper41.png) repeat -24px -168px;}
+  .usuario-libreta-item i.usuario-icon-editar {background: url(../../img/icons/paper41.png) repeat    0px -72px;}
+.usuario-libreta-item i.usuario-icon-eliminar {background: url(../../img/icons/paper41.png) repeat -312px   0px;}
 
 
 
@@ -943,7 +956,7 @@ i.usuario-cedula-editar {/*margin-top: -25px*/; background: url(../../img/icons/
 	width: 745px;
 	height: 30px;
 	margin: 0px 5px 5px 0px;
-	background: #e3e4d2 url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;
 	}
 
 .usuario-libreta-agregar {

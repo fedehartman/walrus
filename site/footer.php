@@ -7,9 +7,9 @@
 
 <div id="footer2">
 
-	<canvas class="footer2_bar"></canvas>
+	<canvas class="footer2_bar volumen"></canvas>
 
-	<div class="footer2_social">
+	<div class="footer2_social tela volumen">
 
 		<div class="footer2_wrapper">
 

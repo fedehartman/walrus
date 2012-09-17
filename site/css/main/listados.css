@@ -24,7 +24,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 #listados .listado-linea {
 	width: 980px;
 	height: 10px;
-	margin: 435px 0px 0px -5px;
+	margin: 462px 0px 0px -5px;
 	z-index: 11;
 	position: absolute;
 	background-color: #121b23;
@@ -126,52 +126,30 @@ button.form_search i.lupa {
 /*--| ITEMS
 ------------------------------------------------------------------------------------------------------------- |--*/
 
-.listado {
-	width: 995px;
-	height: auto;
-	min-height: 20px;
-	overflow: hidden;
-	margin: 50px 0px 0px 7px;
-	}
-
-#listados .item {
-	width: 205px;
-	height: 325px;
-	margin: 0px 10px 50px 0px;
-	padding: 55px 15px 15px 15px;
-	background: url(../../img/main/listados/listados.jpg) no-repeat 0px 0px;
-	float: left;
-	}
-
-#listados h3 {
-	width: 198px;
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 7px;
-	font: 700 1.6em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #ffffee;
-	background: url(../../img/main/store/store.png) no-repeat 0px -10px;
-	}
-
-#listados figure {
-	width: 205px;
-	height: 102px;
-	margin: 5px 0px 7px 0px;
-	}
-
-#listados figure img {
-	width: 205px;
-	height: 102px;
-	margin: 0px 0px 0px 0px;
-	}
-
-#listados .data-final {
-	width: 205px;
-	height: 40px;
+.listado-num {
+	max-width: 320px;
+	height: 43px;
 	margin: 0px 0px 5px 0px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
 	}
+
+.listado-num p.num-precio,
+.listado-num p.num-porcen,
+.listado-num p.num-comprados {
+	float: left;
+	border: none;
+	font: 700 1.8em/1.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1a1c18;
+	margin: 8px 10px 0px 10px;
+	}
+	.listado-num p.num-precio {text-decoration: line-through; font: 700 1.6em/1.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.listado-num p.num-ref {
+	font: 700 1em/1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #095992;
+	margin: 0px 8px 5px 8px;
+	}
+
+
 
 
 

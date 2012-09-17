@@ -11,13 +11,51 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
+/*--| TEXTURAS
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.sombra {
+	margin: 5px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+.corners {
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+.volumen { /*| .sombra + .corners |*/
+	margin: 5px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+.tela {background: #0260a3 url(../../img/textures/tela.jpg) repeat 0px 0px;}
+.paper {background: #dedebd url(../../img/textures/paper.jpg) repeat 0px 0px;}
+.paper71 {background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;}
+.paper77 {background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;}
+.paper81 {background: #cfcfb0 url(../../img/textures/paper81.jpg) repeat 0px 0px;}
+.paper91 {background: #ebebc7 url(../../img/textures/paper91.jpg) repeat 0px 0px;}
+.paperblue {background: #0f5499 url(../../img/textures/paperblue.jpg) repeat 0px 0px;}
+.papergreen {background: #6b802d url(../../img/textures/papergreen.jpg) repeat 0px 0px;}
+.paperred {background: #802d2d url(../../img/textures/paperred.jpg) repeat 0px 0px;}
+
+
+
 /*--| PAPER-TITLE
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 .papertitle {
 	height: 25px;
 	width: auto;
-	background: #c6c6aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;;
 	}
 
 .papertitle .triangle {
@@ -27,13 +65,13 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	float: left;
 	margin-right: 7px;
 	border-top: 12px solid transparent;
-	border-left: 5px solid #dedcbd;
+	border-left: 5px solid #dedebd;
 	border-bottom: 13px solid transparent;
 	}
 
 .papertitle h4 {
 	font: 700 1.4em/1.7857em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #285f91;
+	color: #095992;
 	float: left;
 	margin-top: 1px;
 	padding-right: 30px;
@@ -46,27 +84,36 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	float: right;
 	vertical-align: text-top;
 	margin: 5px 6px 0px 0px;
-	background-image: url(../../img/icons/icon-paperdark.png);
+	background-image: url(../../img/icons/paper41.png);
 	background-repeat: no-repeat;
 	}
 
+.papertitle30 {height: 30px; margin-bottom: 10px;}
+.papertitle30 .triangle {border-top-width: 15px; border-bottom-width: 15px;}
+.papertitle30 h4 {font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif; margin-top: 0px;}
+.papertitle30 i {margin: 9px 8px 0px 0px;}
 
 
-/*--| TEXTO
+
+/*--| TEXTO - LISTA
 ----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
 article.trece-pts,
 article.doce-pts {margin: 10px 0px 20px 0px;}
 
-article.trece-pts p {
+article.trece-pts p,
+article.trece-pts dl dt,
+article.trece-pts dl dd {
 	font: normal 1.3em/1.538em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #4a4f45;
-	margin: 0px 0px 0.4166em 0px;
+	margin: 0px 0px 0.384em 0px;
 	padding-left: 13px;
-	background: url(../../img/ticks/green.png) no-repeat 0px 0px;
+	background: url(../../img/ticks/green.png) no-repeat 0px 1px;
 	}
 
-article.doce-pts p {
+article.doce-pts p
+article.doce-pts dl dt,
+article.doce-pts dl dd {
 	font: normal 1.2em/1.66em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #4a4f45;
 	margin: 0px 0px 0.4166em 0px;
@@ -74,22 +121,26 @@ article.doce-pts p {
 	background: url(../../img/ticks/green.png) no-repeat 0px 0px;
 	}
 
-article.trece-pts p strong,
-article.doce-pts p strong {
-	font-weight: normal;
-	margin: 0px -3px 0px -3px;
-	padding: 1px 3px 1px 3px;
-	background: #c6c6aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+article.trece-pts dl dd,
+article.doce-pts dl dd {
+	margin: 0px 0px 0.45em 10px;
+	padding: 0px 0px 0px 12px;
+	background: url(../../img/ticks/blue.png) no-repeat 0px 0px;
 	}
 
 article.trece-pts p a,
-article.doce-pts p a {
+article.doce-pts p a,
+article.trece-pts dd a,
+article.doce-pts dd a {
+	font-weight: 700;
 	color: #285f91;
 	margin: 0px -3px 0px -3px;
 	padding: 1px 3px 1px 3px;
 	}
 	article.trece-pts p a:hover,
-	article.doce-pts p a:hover {background: #c6c6aa url(../../img/textures/darkpaper.jpg) repeat 0px 0px;}
+	article.doce-pts p a:hover,
+	article.trece-pts dl a:hover,
+	article.doce-pts dl a:hover {background: #c4c4a7 url(../../img/textures/paper77.jpg) repeat 0px 0px;}
 
 #listados .txt p {
 	font: normal 1.2em/1.458em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -97,6 +148,7 @@ article.doce-pts p a {
 	}
 
 b.p-azul {color: #285f91;}
+
 
 
 
@@ -126,43 +178,6 @@ b.p-azul {color: #285f91;}
 
 u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: central;}
 
-
-
-
-/*--| PAPER
------------------------------------------------------------------------------------------------------------------------------------------------------ |--*/
-
-.paper {
-	background: #dedcbd url(../../img/textures/paper.jpg) repeat 0px 0px;
-	margin: 5px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	}
-
-.blue {
-	background: #0060a3 url(../../img/textures/blue.jpg) repeat 0px 0px;
-	margin: 5px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	}
-
-.sombra {
-	margin: 5px;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-	}
 
 
 
@@ -206,12 +221,6 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 	vertical-align: middle;
 	}
 
-.comprar-precio p b.moneda {
-	font-size: 0.666em;
-	vertical-align: middle;
-	margin-right: 2px;
-	}
-
 
 
 /*--| ACTION
@@ -249,6 +258,9 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 	letter-spacing: -1px;
 	text-shadow: 1px 1px 2px #5d7812;
 	}
+
+
+
 
 
 
@@ -291,7 +303,17 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 
 .comprar-action:active p a {text-shadow: none;}
 
-
+.gris, gris:hover, gris:active {
+	background-color: #777f72;
+	background-position: 0px 0px;
+	background-repeat: repeat;
+	background-image: url(../../img/textures/rayas-left-light.png), -webkit-linear-gradient(top,                                  #80877c 0%,             #6a7168 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -moz-linear-gradient(top,                                     #80877c 0%,             #6a7168 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -ms-linear-gradient(top,                                      #80877c 0%,             #6a7168 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -o-linear-gradient(top,                                       #80877c 0%,             #6a7168 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), linear-gradient(to bottom,                                    #80877c 0%,             #6a7168 100%);
+	background-image: url(../../img/textures/rayas-left-light.png), -webkit-gradient(linear, left top, left bottom, color-stop(0, #80877c), color-stop(1, #6a7168 ));
+	}
 
 
 /*--| HOME
@@ -333,7 +355,7 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 .store-comprar .comprar-action {height: 35px;}
 
 .store-comprar .comprar-precio,
-.store-comprar .comprar-action {padding: 0px 14px 0px 14px;}
+.store-comprar .comprar-action {padding: 0px 10px 0px 10px;}
 
 .store-comprar .comprar-precio p,
 .store-comprar .comprar-action p a {font: 700 2.3em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
@@ -365,7 +387,7 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 .lista-comprar .comprar-precio p,
 .lista-comprar .comprar-action p a {font: 700 2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
 
-.lista-comprar {margin-right: 20px;}
+.lista-comprar {margin-right: 15px;}
 
 
 
@@ -398,48 +420,47 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 	height: auto;
 	min-height: 20px;
 	overflow: hidden;
-	margin: 0px auto 0px auto;
+	margin: 45px auto 0px auto;
 	}
 
-.lista .lista-item {
+.lista-item {
 	width: 235px;
 	height: auto;
 	min-height: 20px;
 	overflow: hidden;
-	margin: -5px 5px 0px 5px;
+	margin: 0px 5px 40px 5px;
 	float: left;
 	}
 
-.lista .lista-item-top {
+.lista-item-top {
 	width: 235px;
 	height: 55px;
-	background: url(../../img/main/home/home.png) no-repeat 0px -460px;
+	background: url(../../img/main/main.png) no-repeat 0px -460px;
 	}
 
 .lista .lista-item-body {
-	width: 225px;
+	width: 205px;
 	height: auto;
 	min-height: 150px;
 	overflow: hidden;
-	padding: 5px 15px 0px 15px;
-	background: url(../../img/main/home/lista-body.jpg) repeat-y 0px 0px;
+	padding: 0px 15px 0px 15px;
+	background: #dedebd url(../../img/main/listados/itemback.jpg) repeat-y 0px 0px;
 	}
 
 .lista .lista-item-bot {
 	width: 235px;
 	height: 15px;
-	background: url(../../img/main/home/home.png) no-repeat 0px -515px;
+	background: url(../../img/main/main.png) no-repeat 0px -515px;
 	}
 
 .lista .lista-item-body h3 {
 	width: 198px;
-	height: 50px;
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 7px;
+	height: 45px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 7px;
 	font: 700 1.6em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #ffffee;
-	background: url(../../img/main/store/store.png) no-repeat 0px -10px;
+	color: #ebebc7;
+	background: #0f5499 url(../../img/textures/paperblue.jpg) repeat 0px 0px;
 	}
 
 .lista .lista-item-body figure {
@@ -448,12 +469,6 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 	margin: 5px 0px 7px 0px;
 	}
 
-.lista-item-body .data-final {
-	width: 205px;
-	height: 40px;
-	margin: 0px 0px 5px 0px;
-	background: url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
-	}
 
 
 
@@ -548,84 +563,52 @@ u {margin-right: 2px; text-decoration: none; font-size: 0.85em; vertical-align: 
 .num {
 	min-width: 205px;
 	min-height: 35px;
-	background: #dedcbd url(../../img/textures/darkpaper.jpg) repeat 0px 0px;
+	background: #b5b59a url(../../img/textures/paper71.jpg) repeat 0px 0px;
 	}
 
-.num-inicial-wrapper,
-.num-porcen-wrapper,
-.num-comprados-wrapper {float: left; d}
+.num-precio,
+.num-porcen,
+.num-comprados,
+.num-tiempo {float: left; border-right: 1px solid #dedebd;}
 
-.num-inicial-wrapper,
-.num-porcen-wrapper {border-right: 1px solid #deddbe;}
+.num-comprados, .num-tiempo {border: none;}
 
-i.num-inicial-icon,
-i.num-porcen-icon,
-i.num-comprados-icon {
+p.num-precio,
+p.num-porcen,
+p.num-comprados,
+p.num-tiempo {
+	float: left;
+	border: none;
+	font: 700 1.3em/2.7em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1a1c18;
+	margin: 0px 10px 0px 10px;
+	}
+	p.num-precio {text-decoration: line-through; color: #3e423a;}
+
+p.ajuste-precio {font-size: 0.8em;}
+
+
+i.icon-precio,
+i.icon-porce,
+i.icon-comprados,
+i.icon-tiempo {
 	display: inline-block;
-	margin: 0px 3px 0px 0px;
+	margin: 9px 3px 0px 0px;
 	width: 15px;
 	vertical-align: text-top;
 	height: 15px;
 	float: left;
-	background-color: #93F;
 	}
-	i.num-comprados-icon {width: 20px; height: 20px;}
-
-  i.num-inicial-icon {background: url(../../img/main/main.png) repeat -515px -65px;}
-   i.num-porcen-icon {background: url(../../img/main/main.png) repeat -515px -80px;}
-i.num-comprados-icon {background: url(../../img/main/main.png) repeat -510px -95px;}
-
-p.num-inicial-cifra,
-p.num-porcen-cifra,
-p.num-comprados-cifra {
-	float: left;
-	}
+	i.icon-precio {background: url(../../img/icons/med-blue.png) repeat -45px 0px;}
+	i.icon-porce {background: url(../../img/icons/med-blue.png) repeat -30px 0px;}
+	i.icon-comprados {background: url(../../img/icons/med-green.png) repeat -15px 0px;}
+	i.icon-tiempo {background: url(../../img/icons/med-blue.png) repeat 0px 0px;}
 
 
 
-/*--| STORE - MAIN
------------------------------------------------------------------------------------------ |--*/
 
-.num-store-main {
-	max-width: 315px;
-	height: 35px;
-	margin: 0px 5px 15px 0px;
-	}
+/*--| NUEVOS ICONOS
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
 
-.num-store-main .num-inicial-wrapper,
-.num-store-main .num-porcen-wrapper,
-.num-store-main .num-comprados-wrapper {height: 27px; margin: 5px 7px 0px 7px;}
-
-.num-store-main i.num-inicial-icon {margin-top: 4px;}
-.num-store-main p.num-inicial-cifra {
-	font: 700 1.3em/2.07em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #222722;
-	text-decoration: line-through;
-	margin: 1px 9px 0px 0px;
-	}
-
-.num-store-main .num-porcen-wrapper {margin-left: 3px;}
-.num-store-main i.num-porcen-icon {margin-top: 6px;}
-.num-store-main p.num-porcen-cifra {
-	font: 700 2.1em/1.28em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #222722;
-	margin-right: 11px;
-	}
-	.num-store-main p.num-porcen-cifra b.num-porcen-sign {font: 700 0.761em/1.92em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
-
-.num-store-main .num-comprados-wrapper {margin-left: 2px;}
-.num-store-main i.num-comprados-icon {margin: 2px 4px 0px 0px;}
-.num-store-main p.num-comprados-cifra {
-	font: 700 2.1em/1.28em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #222722;
-	margin-left: 0px;
-	margin-right: 7px;
-	}
-	.num-store-main p.num-comprados-cifra b.num-comprados-sign {
-		font: 700 0.619em/1.92em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
-		color: #074f7f;
-		letter-spacing: -1px;
-		vertical-align: middle;
-		}
-
-
+.icon-link {background-position: -96px -168px;}
+.icon-cel {background-position: -24px -168px;}

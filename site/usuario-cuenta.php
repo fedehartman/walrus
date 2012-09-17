@@ -24,19 +24,19 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Woow</title>
+	<title>Amigos Referidos | Woow!</title>
 
-	<meta name="description" content="Woow | Store" />
+	<meta name="description" content="Amigos Referidos | Woow!" />
 	<meta name="author" content="Woow | http://www.woow.com.uy" />
 	<meta name="keywords" content="" /> 
 	<meta name="robots" content="all" /> 
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--[if IE]><link href="css/ie.css" rel="stylesheet"><![endif]-->
 	<!--[if lt IE 9]><link href="css/ie8-7.css" rel="stylesheet"><![endif]-->
 	<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
@@ -48,6 +48,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 <body>
+
+<?php include("menu-provisorio.php"); ?>
 
 <?php include("header.php"); ?>
 
@@ -68,8 +70,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <div class="usuario-wrapper">
 	
 	<div class="usuario-blue">
-	    <div class="usuario-blue-left blue"></div>
-	    <div class="usuario-blue-right blue"></div>
+	    <div class="usuario-blue-left tela volumen"></div>
+	    <div class="usuario-blue-right tela volumen"></div>
 	</div>
 
 	<div class="usuario-menu-back">
@@ -92,7 +94,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<!--| CUENTA - BODY
 	========================================================================================================================= |-->
 
-	<div class="usuario paper">
+	<div class="usuario paper volumen">
 
 
 		<!--| TITLE
@@ -123,18 +125,18 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 					<div class="usuario-cuenta-rows">
 						<div class="usuario-cuenta-row usuario-cuenta-row-fecha"><i class="usuario-icon cuenta-cumple"></i><p>Nací el: <b class="usuario-cedula-data">09/10/1940</b></p></div>
 						<div class="usuario-cuenta-row usuario-cuenta-row-cel"><i class="usuario-icon cuenta-cel"></i><p>Celular: <b class="usuario-cedula-data">099589345</b></p></div>
-						<div class="usuario-cuenta-row usuario-cuenta-row-sexo"><p>Sexo: </p><i class="cuenta-hombre"></i></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-sexo"><p>Sexo: <i class="cuenta-hombre"></i></p></div>
 					</div>
                     <div class="usuario-cuenta-rows">
 						<div class="usuario-cuenta-row usuario-cuenta-row-lugar"><i class="usuario-icon cuenta-luegar"></i><p>Vivo en: <b class="usuario-cedula-data">Woolton, Liverpool</b></p></div>
                     </div>
 					<div class="usuario-cuenta-rows">
 						<div class="usuario-cuenta-row usuario-cuenta-row-correo"><i class="usuario-icon cuenta-correo"></i><p>Email: <b class="usuario-cedula-data"><a href="john@thebeatles.com">john@thebeatles.com</a></b></p></div>
-						<div class="usuario-cuenta-row usuario-cuenta-row-ci"><i class="usuario-icon cuenta-ci"></i><p>CI: <b class="usuario-cedula-data">4356458-3</b></p>></div>
+						<div class="usuario-cuenta-row usuario-cuenta-row-ci"><i class="usuario-icon cuenta-ci"></i><p>CI: <b class="usuario-cedula-data">4356458-3</b></p></div>
 					</div>
 					<div class="usuario-cuenta-rows">
 						<div class="usuario-cuenta-row usuario-cuenta-row-pass"><i class="usuario-icon cuenta-pass"></i><p>Contraseña: <b class="usuario-cedula-data">&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</p></b></div>
-						<div class="usuario-libreta-boton"><a href="#" class="usuario-cuenta-editar" rel="tooltip" title="Editá tus datos"><i class="usuario-cedula-editar"></i><span class="none">Editar</span></a></div>
+						<div class="usuario-cedula-boton"><a href="#" class="cedula-editar" rel="tooltip" title="Editá tus datos"><i class="usuario-cedula-editar"></i><span class="none">Editar</span></a></div>
 					</div>
 				</div>
 

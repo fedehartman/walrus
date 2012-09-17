@@ -24,19 +24,19 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Woow | Mis Pedidos</title>
+	<title>Mis Pedidos | Woow!</title>
 
-	<meta name="description" content="Woow | Mis Pedidos" />
+	<meta name="description" content="Mis Pedidos | Woow!" />
 	<meta name="author" content="Woow | http://www.woow.com.uy" />
 	<meta name="keywords" content="" /> 
 	<meta name="robots" content="all" /> 
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--[if IE]><link href="css/ie.css" rel="stylesheet"><![endif]-->
 	<!--[if lt IE 9]><link href="css/ie8-7.css" rel="stylesheet"><![endif]-->
 	<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
@@ -48,6 +48,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 <body>
+
+<?php include("menu-provisorio.php"); ?>
 
 <?php include("header.php"); ?>
 
@@ -68,8 +70,8 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <div class="usuario-wrapper">
 	
 	<div class="usuario-blue">
-	    <div class="usuario-blue-left blue"></div>
-	    <div class="usuario-blue-right blue"></div>
+	    <div class="usuario-blue-left tela volumen"></div>
+	    <div class="usuario-blue-right tela volumen"></div>
 	</div>
 
 	<div class="usuario-menu-back">
@@ -92,7 +94,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<!--| MIS PEDIDOS - BODY
 	========================================================================================================================= |-->
 
-	<div class="usuario paper">
+	<div class="usuario paper volumen">
 
 
 		<!--| TITLE

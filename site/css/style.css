@@ -22,6 +22,7 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
+
 /*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/
 
 
@@ -37,3 +38,29 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	   -moz-border-radius: 15px;
 	        border-radius: 15px;
 	}
+	
+#menu-provisional {
+	background-color: #1c1c1c;
+	position: fixed;
+	z-index: 9999999999999999999999999;
+	bottom: 10px;
+	right: 10px;
+	padding: 10px;
+	
+	}
+
+#menu-provisional li a {
+	font: 700 1.2em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #97bf1d;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 10px 5px 10px;
+	border-bottom: 1px solid #363636;
+	}
+
+#menu-provisional li a.falta {
+	font: normal 1.1em/1.5em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #667380;
+	}
+
+

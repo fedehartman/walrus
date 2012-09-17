@@ -24,18 +24,22 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>Woow</title>
+	<title>Turismo | Woow!</title>
 
-	<meta name="description" content="Woow | Ofertas Recientes" />
+	<meta name="description" content="Turismo | Woow!" />
 	<meta name="author" content="Woow | http://www.woow.com.uy" />
 	<meta name="keywords" content="" /> 
 	<meta name="robots" content="all" /> 
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><link href="css/ie.css" rel="stylesheet"><![endif]-->
+	<!--[if lt IE 9]><link href="css/ie8-7.css" rel="stylesheet"><![endif]-->
+	<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet"><![endif]-->
 
 
 
@@ -44,7 +48,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 </head>
 
 
-<body id="ofertas">
+<body id="categorías">
+
+<?php include("menu-provisorio.php"); ?>
 
 <?php include("header.php"); ?>
 
@@ -56,14 +62,14 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 
 
 
-<!--| OFERTAS
+<!--| OFERTAS RECIENTES
 ====================================================================================================================================================== |-->
 
 <div class="content">
 
 
 
-<!--| OFERTA PRINCIPAL
+<!--| CATEGORÍAS
 ========================================================================================================================= |-->
 
 <section id="listados">
@@ -103,131 +109,259 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 	<!--| LISTADO
 	================================================================================= |-->
 
-	<div class="listado">
+	<div class="lista">
 
 		<canvas class="listado-linea sombra"></canvas>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="/img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-		<div class="item">
-			<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
-			<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
-			<div class="txt listado-txt">
-				<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
-				<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
-			</div>
-			<div class="data-final">
-			</div>
-			<div class="comprar listado-comprar right">
-				<div class="comprar-precio"><p><b class="moneda">U$S</b>25980</p></div>
-				<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
-			</div>
+		<div class="lista-item">
+			<div class="lista-item-top"></div>
+				<div class="lista-item-body">
+				<h3>Celular LG Optimus 2X Android 2.3 - WiFi</h3>
+				<figure><img src="img/samples/sample.jpg" width="205" height="102"></figure>
+				<article class="trece-pts">
+					<p>Sed ut orci eu massa auctor sollicitudin sed hendrerit libero.</p>
+					<p>Vestibulum odio tortor, hendrerit eu tempus nec.</p>
+				</article>
+				<div class="num listado-num">
+					<div class="num-precio">
+						<p class="num-precio"><u>U$S</u>2783</p>
+						<p class="num-ref">precio</p>
+					</div>
+					<div class="num-porcen">
+						<p class="num-porcen">58<u>%</u></p>
+						<p class="num-ref">ahorro</p>
+					</div>
+					<div class="num-comprados">
+						<p class="num-comprados">1829</p>
+						<p class="num-ref">comprados</p>
+					</div>
+				</div>
+				<div class="comprar listado-comprar right">
+					<div class="comprar-precio"><p><b class="moneda">U$S</b>2590</p></div>
+					<div class="comprar-action"><p><a href="#">Ver Oferta</a></p></div>
+				</div>
+				</div>
+			<div class="lista-item-bot"></div>
 		</div>
 
-	</div> <!--"listado"-->
+	</div> <!--"lista"-->
 
 
 

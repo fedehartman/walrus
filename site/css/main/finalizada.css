@@ -1,0 +1,111 @@
+/*
+Theme Name: Woow | MAIN - OFERTA FINALIZADA
+Site URI: http://woow.com.uy
+Version: 2.0
+Design Date: May 24 - Aug 2 | 2012
+Coding Date: Aug 3 - Sep 17 | 2012
+Design: IUGO | http://iugo.com.uy - @iugo_uruguay
+HTML/CSS, jQuery: IUGO | http://iugo.com.uy - @iugo_uruguay
+Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
+*/
+
+
+/*--| OFERTA FINALIZADA - OFERTA SIMILIAR
+----------------------------------------------------------------------------------------------------------------------------------------------------- |--*/
+
+.lista-home {margin: -5px 0px 0px 0px;}
+
+.lista-home .lista-item {margin-bottom: 5px;}
+
+#oferta-similar {
+	width: 665px;
+	height: 205px;
+	margin: 5px 5px 20px 5px;
+	padding: 15px 10px 15px 15px;
+	background: #dedebd url(../../img/textures/paper.jpg) repeat 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+#oferta-similar figure {
+	width: 410px;
+	height: 205px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+	}
+
+#oferta-similar figure img {
+	width: 410px;
+	height: 205px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	}
+
+#oferta-similar .data {
+	width: 255px;
+	height: 190px;
+	float: right;
+	margin: 15px 0px 0px 0px;
+	}
+
+#oferta-similar .finalizada-title {
+	width: 255px;
+	height: 55px;
+	margin: 0px 0px 0px 0px;
+	background: #0f5499 url(../../img/textures/paperblue.jpg) repeat 0px 0px;
+	} 
+
+#oferta-similar .triangle {
+	width: 0px;
+	height: 0px;
+	display: inline-block;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	border-top: 27px solid transparent;
+	border-right: 5px solid #dedebd;
+	border-bottom: 28px solid transparent;
+	border-left: none;
+	}
+
+#oferta-similar .finalizada-title h3 {
+	font: 700 1.8em/1.25em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #ebebc7;
+	width: 210px;
+	float: left;
+	margin: 4px 0px 0px 5px;
+	}
+
+#oferta-similar .trece-pts p {margin-left: 10px;}
+
+
+
+.num-finalizada{
+	height: 35px;
+	margin: -15px 0px 5px 0px;
+	}
+
+.num-finalizada p.num-precio,
+.num-finalizada p.num-porcen,
+.num-finalizada p.num-comprados {
+	float: left;
+	border: none;
+	font: 700 1.5em/2.33em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #1a1c18;
+	margin: 0px 10px 0px 10px;
+	}
+	.num-finalizadap.num-precio {text-decoration: line-through; font: 700 1.6em/1.1em "Asap", "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+#home-detalles.finalizada {margin: 370px 0px 0px 5px;}
+
+/*--| ----------------------------------------------------------------------------------------------------------------------------------| iugo.com.uy |--*/

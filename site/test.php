@@ -113,18 +113,9 @@ Based on CSS Framework: Bootstrap | http://twitter.github.com/bootstrap/
 <div class="test">
 
 <div class="num">
-	<div class="num-inicial-wrapper">
-		<i class="num-inicial-icon"></i>
-		<p class="num-inicial-cifra"><b class="num-inicial-sign">U$S</b> 27839</p>
-	</div>
-	<div class="num-porcen-wrapper">
-		<i class="num-porcen-icon"></i>
-		<p class="num-porcen-cifra">58<b class="num-porcen-sign">%</b></p>
-	</div>
-	<div class="num-comprados-wrapper">
-		<i class="num-comprados-icon"></i>
-		<p class="num-comprados-cifra">18293</p>
-	</div>
+	<div class="num-precio"><p class="num-precio"><i class="icon-precio"></i><u>U$S</u>27839</p></div>
+	<div class="num-porcen"><p class="num-porcen"><i class="icon-porce"></i>58<u>%</u></p></div>
+	<div class="num-comprados"><p class="num-comprados"><i class="icon-comprados"></i>18293</p></div>
 </div>
 
 </div>
